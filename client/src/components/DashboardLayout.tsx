@@ -221,7 +221,7 @@ function DashboardLayoutContent({
               <DropdownMenuContent align="end" className="w-48">
                 <DropdownMenuItem
                   onClick={logout}
-                  className="cursor-pointer text-destructive focus:text-destructive"
+                  className="cursor-pointer text-muted-foreground focus:bg-accent/50 focus:text-foreground"
                 >
                   <LogOut className="mr-2 h-4 w-4" />
                   <span>Sign out</span>

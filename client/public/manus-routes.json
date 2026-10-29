@@ -1,1 +1,1 @@
-{"routes":[{"path":"/","title":"Gym Workout Planner"},{"path":"/admin","title":"Admin dashboard"},{"path":"/404","title":"Not found"}]}
+{"routes":[{"path":"/","title":"Gym Workout Planner"},{"path":"/admin","title":"Admin dashboard"}]}

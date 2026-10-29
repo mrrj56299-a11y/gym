@@ -7679,6 +7679,1926 @@
         "Losing trunk or joint stability."
       ],
       "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-01",
+      "name_ar": "ثني المطرقة باتجاه الكتف المقابل",
+      "name_en": "Cross-body hammer curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة باتجاه الكتف المقابل لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cross-body hammer curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-02",
+      "name_ar": "ثني المطرقة بحبل الكابل",
+      "name_en": "Rope hammer curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بحبل الكابل لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled rope hammer curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-03",
+      "name_ar": "ثني الذراع بقبضة عكسية على بار EZ",
+      "name_en": "Reverse EZ-bar curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الذراع بقبضة عكسية على بار EZ لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled reverse ez-bar curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-04",
+      "name_ar": "ثني الذراع على مسند بقبضة محايدة",
+      "name_en": "Neutral-grip preacher curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الذراع على مسند بقبضة محايدة لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled neutral-grip preacher curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-05",
+      "name_ar": "ثني المطرقة بالكابل بذراع واحدة",
+      "name_en": "Single-arm cable hammer curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بالكابل بذراع واحدة لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled single-arm cable hammer curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-06",
+      "name_ar": "ثني زوتمان للذراع",
+      "name_en": "Zottman curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني زوتمان للذراع لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled zottman curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-07",
+      "name_ar": "ثني المطرقة على مقعد مائل",
+      "name_en": "Incline hammer curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة على مقعد مائل لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled incline hammer curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "biceps-biceps-brachialis-08",
+      "name_ar": "ثني المطرقة بالتناوب واقفًا",
+      "name_en": "Alternating standing hammer curl",
+      "muscle_slug": "biceps",
+      "sub_muscle_slug": "biceps-brachialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بالتناوب واقفًا لتدريب العضلة العضدية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled alternating standing hammer curl variation for the Brachialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-01",
+      "name_ar": "ثني الرسغ بالدمبل جلوسًا",
+      "name_en": "Seated dumbbell wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الرسغ بالدمبل جلوسًا لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled seated dumbbell wrist curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-02",
+      "name_ar": "ثني الرسغ بالبار",
+      "name_en": "Barbell wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "barbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الرسغ بالبار لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled barbell wrist curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-03",
+      "name_ar": "ثني الرسغ بالكابل",
+      "name_en": "Cable wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الرسغ بالكابل لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cable wrist curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-04",
+      "name_ar": "ثني الرسغ بالبار خلف الجسم",
+      "name_en": "Behind-the-back wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الرسغ بالبار خلف الجسم لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled behind-the-back wrist curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-05",
+      "name_ar": "ثني الأصابع بالبار",
+      "name_en": "Barbell finger curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الأصابع بالبار لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled barbell finger curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-06",
+      "name_ar": "لفّ حبل الرسغ باتجاه الثني",
+      "name_en": "Rope wrist-roller flexion",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "cable",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين لفّ حبل الرسغ باتجاه الثني لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled rope wrist-roller flexion variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-07",
+      "name_ar": "ثبات ثني الرسغ بالدمبل",
+      "name_en": "Dumbbell wrist-flexion hold",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثبات ثني الرسغ بالدمبل لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled dumbbell wrist-flexion hold variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-flexors-08",
+      "name_ar": "ثني الرسغ بذراع واحدة مع دعم الساعد",
+      "name_en": "Supported single-arm wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-flexors",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الرسغ بذراع واحدة مع دعم الساعد لتدريب مثنيات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled supported single-arm wrist curl variation for the Wrist flexors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-01",
+      "name_ar": "مدّ الرسغ العكسي بالدمبل جلوسًا",
+      "name_en": "Seated reverse wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ العكسي بالدمبل جلوسًا لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled seated reverse wrist curl variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-02",
+      "name_ar": "مدّ الرسغ العكسي بالبار",
+      "name_en": "Reverse barbell wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ العكسي بالبار لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled reverse barbell wrist curl variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-03",
+      "name_ar": "مدّ الرسغ بالكابل",
+      "name_en": "Cable wrist extension",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ بالكابل لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cable wrist extension variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-04",
+      "name_ar": "مدّ الرسغ على الجهاز",
+      "name_en": "Machine wrist extension",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ على الجهاز لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled machine wrist extension variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-05",
+      "name_ar": "ثبات مدّ الرسغ بالدمبل",
+      "name_en": "Dumbbell wrist-extension hold",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثبات مدّ الرسغ بالدمبل لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled dumbbell wrist-extension hold variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-06",
+      "name_ar": "مدّ الرسغ العكسي مع توقف",
+      "name_en": "Paused reverse wrist curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ العكسي مع توقف لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled paused reverse wrist curl variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-07",
+      "name_ar": "مدّ الرسغ بالكابل بذراع واحدة",
+      "name_en": "Single-arm cable wrist extension",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الرسغ بالكابل بذراع واحدة لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled single-arm cable wrist extension variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-extensors-08",
+      "name_ar": "رفع الرسغ بالدمبل بقبضة مقلوبة",
+      "name_en": "Pronated dumbbell wrist raise",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-extensors",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين رفع الرسغ بالدمبل بقبضة مقلوبة لتدريب باسطات الرسغ مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled pronated dumbbell wrist raise variation for the Wrist extensors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-01",
+      "name_ar": "ثني المطرقة بقبضة محايدة",
+      "name_en": "Neutral-grip hammer curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بقبضة محايدة لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled neutral-grip hammer curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-02",
+      "name_ar": "ثني المطرقة باتجاه الكتف المقابل",
+      "name_en": "Cross-body hammer curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة باتجاه الكتف المقابل لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cross-body hammer curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-03",
+      "name_ar": "ثني الذراع بقبضة عكسية على بار EZ",
+      "name_en": "EZ-bar reverse curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الذراع بقبضة عكسية على بار EZ لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled ez-bar reverse curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-04",
+      "name_ar": "ثني المطرقة بحبل الكابل",
+      "name_en": "Rope hammer cable curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بحبل الكابل لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled rope hammer cable curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-05",
+      "name_ar": "ثني عكسي بالكابل بذراع واحدة",
+      "name_en": "Single-arm cable reverse curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "cable",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني عكسي بالكابل بذراع واحدة لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled single-arm cable reverse curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-06",
+      "name_ar": "ثني الدمبل قطريًا عبر الجسم",
+      "name_en": "Cross-body dumbbell curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الدمبل قطريًا عبر الجسم لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cross-body dumbbell curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-07",
+      "name_ar": "ثني عكسي للذراع على المسند",
+      "name_en": "Reverse preacher curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "machine",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني عكسي للذراع على المسند لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled reverse preacher curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "forearms-forearm-brachioradialis-08",
+      "name_ar": "ثني المطرقة بالتناوب",
+      "name_en": "Alternating hammer curl",
+      "muscle_slug": "forearms",
+      "sub_muscle_slug": "forearm-brachioradialis",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني المطرقة بالتناوب لتدريب العضدية الكعبرية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled alternating hammer curl variation for the Brachioradialis, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "قف أو اجلس باستقامة، وثبّت المرفق قرب الجذع واختر قبضة محايدة أو عكسية مريحة.",
+        "اثنِ الذراع بسلاسة من دون تأرجح الكتف، وحافظ على استقامة الرسغ مع المقبض.",
+        "توقف لحظة ثم اخفض الحمل ببطء حتى يمتد المرفق ضمن مدى مريح."
+      ],
+      "steps_en": [
+        "Stand or sit tall, keep the elbow close to your side, and set a comfortable neutral or reverse grip.",
+        "Curl smoothly without swinging the shoulder; keep the wrist aligned with the handle.",
+        "Pause briefly, then lower the load slowly until the elbow is comfortably extended."
+      ],
+      "mistakes_ar": [
+        "استخدام اندفاع الجذع لبدء الثني",
+        "ثني الرسغ أو دفع المرفق إلى الأمام"
+      ],
+      "mistakes_en": [
+        "Using body swing to start the curl",
+        "Bending the wrist or letting the elbow drift forward"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-01",
+      "name_ar": "ثني الساق جلوسًا على الجهاز",
+      "name_en": "Seated leg curl",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الساق جلوسًا على الجهاز لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled seated leg curl variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-02",
+      "name_ar": "ثني الساق منبطحًا على الجهاز",
+      "name_en": "Lying leg curl",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الساق منبطحًا على الجهاز لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled lying leg curl variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-03",
+      "name_ar": "الرفعة الرومانية بالدمبل على ساق واحدة",
+      "name_en": "Single-leg dumbbell Romanian deadlift",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين الرفعة الرومانية بالدمبل على ساق واحدة لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled single-leg dumbbell romanian deadlift variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-04",
+      "name_ar": "الرفعة الرومانية بالبار",
+      "name_en": "Barbell Romanian deadlift",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين الرفعة الرومانية بالبار لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled barbell romanian deadlift variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-05",
+      "name_ar": "ثني الساق بالانزلاق",
+      "name_en": "Slider leg curl",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثني الساق بالانزلاق لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled slider leg curl variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-06",
+      "name_ar": "مدّ الظهر بحركة مفصل الورك",
+      "name_en": "Hip-hinge back extension",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "bodyweight",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين مدّ الظهر بحركة مفصل الورك لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled hip-hinge back extension variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-07",
+      "name_ar": "سحب الكابل بين الساقين",
+      "name_en": "Cable pull-through",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين سحب الكابل بين الساقين لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cable pull-through variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "hamstrings-hamstrings-semimembranosus-08",
+      "name_ar": "انحناء صباحي بالدمبل",
+      "name_en": "Dumbbell good morning",
+      "muscle_slug": "hamstrings",
+      "sub_muscle_slug": "hamstrings-semimembranosus",
+      "equipment": "dumbbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين انحناء صباحي بالدمبل لتدريب نصف الغشائية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled dumbbell good morning variation for the Semimembranosus, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "شدّ الجذع برفق وثبّت الحوض قبل البدء، واجعل الركبتين تتحركان براحة.",
+        "اثنِ الركبة أو حرّك الورك بحسب التمرين، مع تحكم بالحركة وظهر محايد.",
+        "عد ببطء من دون ارتداد أو فقدان ثبات الحوض، وتوقف عند أي ألم حاد."
+      ],
+      "steps_en": [
+        "Brace gently and position the pelvis before beginning; keep the knees tracking comfortably.",
+        "Flex the knee or hinge at the hip as the exercise requires, keeping the motion controlled and the back neutral.",
+        "Return slowly without bouncing or losing pelvic position; stop if you feel sharp pain."
+      ],
+      "mistakes_ar": [
+        "تقويس الظهر أو المبالغة في تقويس أسفله",
+        "ترك الوزن يهبط أو تحريك الوركين فجأة"
+      ],
+      "mistakes_en": [
+        "Rounding the back or overextending the lower back",
+        "Letting the weight drop or the hips shift abruptly"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-01",
+      "name_ar": "تقريب الورك واقفًا بكابل مرتفع",
+      "name_en": "High-cable standing hip adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك واقفًا بكابل مرتفع لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled high-cable standing hip adduction variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-02",
+      "name_ar": "قرفصاء واسعة بالدمبل أمام الصدر",
+      "name_en": "Wide-stance goblet squat",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين قرفصاء واسعة بالدمبل أمام الصدر لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled wide-stance goblet squat variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-03",
+      "name_ar": "تقريب الورك جلوسًا بمدى قصير",
+      "name_en": "Short-range seated adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك جلوسًا بمدى قصير لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled short-range seated adduction variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-04",
+      "name_ar": "اندفاع جانبي بخطوة مرتفعة",
+      "name_en": "High-step lateral lunge",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين اندفاع جانبي بخطوة مرتفعة لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled high-step lateral lunge variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-05",
+      "name_ar": "قرفصاء واسعة بالبار",
+      "name_en": "Wide-stance barbell squat",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين قرفصاء واسعة بالبار لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled wide-stance barbell squat variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-06",
+      "name_ar": "بلانك كوبنهاغن برافعة قصيرة",
+      "name_en": "Short-lever Copenhagen plank",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين بلانك كوبنهاغن برافعة قصيرة لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled short-lever copenhagen plank variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-07",
+      "name_ar": "تقريب الورك بالاستلقاء الجانبي",
+      "name_en": "Side-lying hip adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "bodyweight",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك بالاستلقاء الجانبي لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled side-lying hip adduction variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-upper-08",
+      "name_ar": "تقريب الورك بالكابل من أعلى إلى أسفل",
+      "name_en": "High-to-low cable adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-upper",
+      "equipment": "cable",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك بالكابل من أعلى إلى أسفل لتدريب مقربات الفخذ العلوية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled high-to-low cable adduction variation for the Upper adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-01",
+      "name_ar": "تقريب الورك على الجهاز جلوسًا",
+      "name_en": "Seated hip-adduction machine",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك على الجهاز جلوسًا لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled seated hip-adduction machine variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-02",
+      "name_ar": "تقريب الورك بكابل منخفض واقفًا",
+      "name_en": "Standing low-cable hip adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك بكابل منخفض واقفًا لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled standing low-cable hip adduction variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-03",
+      "name_ar": "اندفاع جانبي بالدمبل",
+      "name_en": "Dumbbell lateral lunge",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "dumbbell",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين اندفاع جانبي بالدمبل لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled dumbbell lateral lunge variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-04",
+      "name_ar": "قرفصاء القوزاق الجانبية",
+      "name_en": "Cossack squat",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين قرفصاء القوزاق الجانبية لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cossack squat variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-05",
+      "name_ar": "خطوة جانبية مع تقريب الفخذ بالكابل",
+      "name_en": "Side-step band adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين خطوة جانبية مع تقريب الفخذ بالكابل لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled side-step band adduction variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-06",
+      "name_ar": "رفعة سومو واسعة بالبار",
+      "name_en": "Wide-stance sumo deadlift",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "barbell",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين رفعة سومو واسعة بالبار لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled wide-stance sumo deadlift variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-07",
+      "name_ar": "ثبات كوبنهاغن برافعة قصيرة",
+      "name_en": "Short-lever Copenhagen hold",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين ثبات كوبنهاغن برافعة قصيرة لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled short-lever copenhagen hold variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-middle-08",
+      "name_ar": "تقريب الورك بالكابل مع توقف",
+      "name_en": "Cable hip adduction with pause",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-middle",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك بالكابل مع توقف لتدريب مقربات الفخذ الوسطى مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled cable hip adduction with pause variation for the Middle adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-01",
+      "name_ar": "تقريب الورك جلوسًا بمدى طويل",
+      "name_en": "Long-range seated hip adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك جلوسًا بمدى طويل لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled long-range seated hip adduction variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-02",
+      "name_ar": "اندفاع جانبي عميق",
+      "name_en": "Deep lateral lunge",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين اندفاع جانبي عميق لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled deep lateral lunge variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-03",
+      "name_ar": "بلانك كوبنهاغن برافعة طويلة",
+      "name_en": "Long-lever Copenhagen plank",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين بلانك كوبنهاغن برافعة طويلة لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled long-lever copenhagen plank variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-04",
+      "name_ar": "تقريب الورك بكابل منخفض",
+      "name_en": "Low-cable hip adduction",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "cable",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك بكابل منخفض لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled low-cable hip adduction variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-05",
+      "name_ar": "قرفصاء قوزاق عميقة",
+      "name_en": "Deep Cossack squat",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "bodyweight",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين قرفصاء قوزاق عميقة لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled deep cossack squat variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-06",
+      "name_ar": "ضغط الأرجل بوقفة واسعة",
+      "name_en": "Wide-stance leg press",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "machine",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين ضغط الأرجل بوقفة واسعة لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled wide-stance leg press variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-07",
+      "name_ar": "تقريب الورك على الجهاز بمدى طويل",
+      "name_en": "Long-range adductor machine",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "machine",
+      "level": "intermediate",
+      "description_ar": "نسخة مضبوطة من تمرين تقريب الورك على الجهاز بمدى طويل لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled long-range adductor machine variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "adductors-adductors-lower-08",
+      "name_ar": "قرفصاء جانبية مع دعم",
+      "name_en": "Supported lateral squat",
+      "muscle_slug": "adductors",
+      "sub_muscle_slug": "adductors-lower",
+      "equipment": "bodyweight",
+      "level": "beginner",
+      "description_ar": "نسخة مضبوطة من تمرين قرفصاء جانبية مع دعم لتدريب مقربات الفخذ السفلية مع مدى مريح وثبات بقية الجسم. تسمية الجزء تعبر عن تركيز تدريبي لا عن عزل كامل.",
+      "description_en": "A controlled supported lateral squat variation for the Lower adductors, using a comfortable range while the rest of the body stays stable. The region label is a training emphasis, not complete isolation.",
+      "steps_ar": [
+        "اتخذ وضعية جلوس أو وقوف ثابتة، وحافظ على توازن الحوض واجعل الركبتين باتجاه أصابع القدم.",
+        "قرّب الفخذ العامل نحو منتصف الجسم ضمن مدى مريح، مع ثبات الجذع.",
+        "توقف من دون إجبار الإطالة ثم عد بتحكم؛ تسمية الجزء تركيز تدريبي وليست عزلاً تشريحياً."
+      ],
+      "steps_en": [
+        "Set a stable stance or seat, keep the pelvis level, and let the knees follow the line of the toes.",
+        "Bring the working thigh toward the midline through a comfortable range while keeping the torso steady.",
+        "Pause without forcing the stretch, then return under control; the label is a training emphasis, not isolated anatomy."
+      ],
+      "mistakes_ar": [
+        "لفّ الحوض أو انهيار الركبة إلى الداخل",
+        "فرض مدى مبالغ فيه أو استخدام الاندفاع"
+      ],
+      "mistakes_en": [
+        "Twisting the pelvis or collapsing the knee inward",
+        "Forcing an extreme range or using momentum"
+      ],
+      "status": "published"
     }
   ]
 }

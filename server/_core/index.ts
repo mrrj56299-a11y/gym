@@ -12,9 +12,6 @@ import { serveStatic, setupVite } from "./vite";
 async function startServer() {
   const app = express();
   const server = createServer(app);
-  // Configure body parser with larger size limit for file uploads
-  app.use(express.json({ limit: "50mb" }));
-  app.use(express.urlencoded({ limit: "50mb", extended: true }));
   app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
   app.get("/api/platform/config.js", (_req, res) => {
     res.set("Cache-Control", "no-store").type("application/javascript").send(publicPlatformScript());
@@ -26,21 +23,30 @@ async function startServer() {
     const user = await resolveUserFromRequest(req);
     if (!user || user.role !== "admin") { res.status(user ? 403 : 401).json({ error: "Administrator access required." }); return; }
     if (!(await checkAdminRateLimit(req, user.id))) { res.status(429).json({ error: "Too many admin requests. Try again shortly." }); return; }
-    const chunks: Buffer[] = []; let bytes = 0;
-    req.on("data", (chunk: Buffer) => { bytes += chunk.length; if (bytes <= 25 * 1024 * 1024) chunks.push(chunk); });
-    req.on("end", async () => {
+    const contentType = String(req.headers["content-type"] ?? "");
+    const name = String(req.headers["x-file-name"] ?? "exercise-media");
+    const save = async (buffer: Buffer) => {
       try {
-        if (bytes > 25 * 1024 * 1024) { res.status(413).json({ error: "The file exceeds the 25 MB upload limit." }); return; }
-        const contentType = String(req.headers["content-type"] ?? "");
-        const buffer = chunks.length ? Buffer.concat(chunks) : contentType.toLowerCase().includes("application/json") && req.body && typeof req.body === "object" ? Buffer.from(JSON.stringify(req.body)) : Buffer.alloc(0);
-        const name = String(req.headers["x-file-name"] ?? "exercise-media");
-        const { validateMediaBuffer, uploadExerciseMedia } = await import("../media"); const check = validateMediaBuffer(buffer, contentType, name);
+        if (buffer.byteLength > 25 * 1024 * 1024) { res.status(413).json({ error: "The file exceeds the 25 MB upload limit." }); return; }
+        const { validateMediaBuffer, uploadExerciseMedia } = await import("../media");
+        const check = validateMediaBuffer(buffer, contentType, name);
         if (!check.ok) { res.status(400).json({ error: check.reason }); return; }
         const uploaded = await uploadExerciseMedia(buffer, check.contentType, check.extension);
         res.status(201).json({ url: uploaded.url, mediaType: check.mediaType, posterUrl: uploaded.posterUrl ?? null });
       } catch { res.status(500).json({ error: "Media upload failed. Check project storage configuration." }); }
-    });
+    };
+    // express.json consumes Lottie JSON before this route; handle its parsed body directly.
+    if (contentType.toLowerCase().includes("application/json") && req.body && typeof req.body === "object") {
+      void save(Buffer.from(JSON.stringify(req.body)));
+      return;
+    }
+    const chunks: Buffer[] = []; let bytes = 0;
+    req.on("data", (chunk: Buffer) => { bytes += chunk.length; if (bytes <= 25 * 1024 * 1024) chunks.push(chunk); });
+    req.on("end", () => { if (bytes > 25 * 1024 * 1024) { res.status(413).json({ error: "The file exceeds the 25 MB upload limit." }); return; } void save(Buffer.concat(chunks)); });
   });
+  // Keep upload authorization and the 25 MB raw-body limit ahead of general parsers.
+  app.use(express.json({ limit: "50mb" }));
+  app.use(express.urlencoded({ limit: "50mb", extended: true }));
   // tRPC API
   app.use(
     "/api/trpc",

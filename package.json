@@ -15,7 +15,8 @@
     "dev:static": "vite --host 0.0.0.0 --port ${PORT:-3000} --strictPort",
     "build:static": "vite build",
     "admin:bootstrap": "tsx server/admin-bootstrap.ts",
-    "db:seed": "tsx server/seed-cli.ts"
+    "db:seed": "tsx server/seed-cli.ts",
+    "db:seed-exercises": "tsx server/seed-exercises-cli.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.693.0",
@@ -68,6 +69,7 @@
     "input-otp": "^1.4.2",
     "jose": "6.1.0",
     "jspdf": "^4.2.1",
+    "lottie-react": "^3.1.2",
     "lucide-react": "^0.453.0",
     "mysql2": "^3.15.0",
     "nanoid": "^5.1.5",
@@ -84,6 +86,7 @@
     "superjson": "^1.13.3",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
+    "three": "^0.186.1",
     "vaul": "^1.1.2",
     "wouter": "^3.3.5",
     "zod": "^4.1.12"
@@ -98,6 +101,7 @@
     "@types/papaparse": "^5.5.2",
     "@types/react": "^19.2.1",
     "@types/react-dom": "^19.2.1",
+    "@types/three": "^0.186.0",
     "@vitejs/plugin-react": "^5.0.4",
     "add": "^2.0.6",
     "autoprefixer": "^10.4.20",

@@ -296,7 +296,7 @@ export default function ComponentsShowcase() {
                       <p className="text-sm text-muted-foreground mb-1">
                         Destructive
                       </p>
-                      <p className="text-destructive text-lg font-medium">
+                      <p className="text-muted-foreground text-lg font-medium">
                         Error or destructive action text
                       </p>
                     </div>
@@ -352,7 +352,7 @@ export default function ComponentsShowcase() {
                       Accent background with foreground text
                     </p>
                   </div>
-                  <div className="bg-destructive text-destructive-foreground rounded-lg p-4">
+                  <div className="bg-[#2A2A2E] text-[#F2F2F2] rounded-lg p-4">
                     <p className="font-medium mb-1">Destructive</p>
                     <p className="text-sm opacity-90">
                       Destructive background with foreground text
