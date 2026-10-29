@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
-import { mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { useReducedMotion } from "framer-motion";
 import { gsap } from "gsap";
 
@@ -33,6 +31,53 @@ function buildMannequin(scene: THREE.Scene) {
   scene.add(root);
   const sphere = new THREE.SphereGeometry(1, 28, 20);
   const zones: Zone[] = [];
+
+  // Restore the earlier stylized, neutral anatomical mannequin instead of the imported OBJ.
+  const bodyMaterial = makeStandard(new THREE.Color("#d8d3cb"), 0.76);
+  const shortsMaterial = makeStandard(new THREE.Color("#303035"), 0.86);
+  const bodySphere = new THREE.SphereGeometry(1, 32, 24);
+  const ellipsoid = (position: [number, number, number], scale: [number, number, number], material = bodyMaterial, rotationZ = 0) => {
+    const mesh = new THREE.Mesh(bodySphere, material);
+    mesh.position.set(...position);
+    mesh.scale.set(...scale);
+    mesh.rotation.z = rotationZ;
+    mesh.castShadow = true;
+    mesh.receiveShadow = true;
+    mesh.userData.role = "body-surface";
+    root.add(mesh);
+    return mesh;
+  };
+  const limb = (a: [number, number, number], b: [number, number, number], radiusA: number, radiusB: number, material = bodyMaterial) => {
+    const start = new THREE.Vector3(...a);
+    const end = new THREE.Vector3(...b);
+    const direction = end.clone().sub(start);
+    const geometry = new THREE.CylinderGeometry(radiusB, radiusA, direction.length(), 20, 1);
+    const mesh = new THREE.Mesh(geometry, material);
+    mesh.position.copy(start).add(end).multiplyScalar(0.5);
+    mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), direction.normalize());
+    mesh.castShadow = true;
+    mesh.receiveShadow = true;
+    mesh.userData.role = "body-surface";
+    root.add(mesh);
+    ellipsoid(a, [radiusA, radiusA, radiusA], material);
+    ellipsoid(b, [radiusB, radiusB, radiusB], material);
+  };
+
+  // Smooth, featureless head; torso, hips, arms and legs. Shorts stay neutral charcoal.
+  ellipsoid([0, 4.88, 0], [0.235, 0.285, 0.22]);
+  ellipsoid([0, 4.53, 0], [0.14, 0.20, 0.145]);
+  ellipsoid([0, 3.98, 0], [0.51, 0.70, 0.275]);
+  ellipsoid([0, 4.27, 0], [0.61, 0.28, 0.265]);
+  ellipsoid([0, 3.47, 0], [0.375, 0.52, 0.225]);
+  ellipsoid([0, 2.89, 0], [0.405, 0.28, 0.235], shortsMaterial);
+  for (const sign of [-1, 1]) {
+    limb([sign * 0.53, 4.24, 0], [sign * 0.79, 3.72, 0], 0.175, 0.125);
+    limb([sign * 0.79, 3.72, 0], [sign * 0.91, 3.18, 0], 0.125, 0.085);
+    ellipsoid([sign * 0.94, 3.00, 0.01], [0.095, 0.17, 0.065]);
+    limb([sign * 0.20, 2.77, 0], [sign * 0.24, 1.73, 0], 0.22, 0.145);
+    limb([sign * 0.24, 1.73, 0], [sign * 0.22, 0.54, 0], 0.145, 0.09);
+    ellipsoid([sign * 0.22, 0.30, 0.08], [0.105, 0.19, 0.19]);
+  }
 
   const addZone = (slug: string, partIndex: number, position: [number, number, number], scale: [number, number, number], rotationZ = 0) => {
     const partSlug = PARTS[slug]?.[partIndex] ?? `${slug}-${partIndex + 1}`;
@@ -114,7 +159,6 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
 }) {
   const host = useRef<HTMLDivElement>(null);
   const [hoveredSlug, setHoveredSlug] = useState<string | null>(null);
-  const [modelState, setModelState] = useState<"loading" | "ready" | "error">("loading");
   const hoveredRef = useRef<string | null>(null);
   const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
   const renderRef = useRef<() => void>(() => {});
@@ -166,47 +210,6 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     const built = buildMannequin(scene);
     modelRef.current = built.root;
     zonesRef.current = built.zones;
-    setModelState("loading");
-    const modelAbort = new AbortController();
-    let disposed = false;
-    fetch("/models/human-body.obj", { signal: modelAbort.signal })
-      .then(response => { if (!response.ok) throw new Error("Human model could not be loaded"); return response.text(); })
-      .then(text => {
-        if (disposed) return;
-        const human = new OBJLoader().parse(text);
-        const skin = new THREE.Color("#e5c6ab");
-        const shorts = new THREE.Color("#303035");
-        human.name = "licensed-human-body";
-        human.traverse(object => {
-          if (!(object instanceof THREE.Mesh)) return;
-          const original = object.geometry;
-          const geometry = mergeVertices(original, 0.00001);
-          const positions = geometry.getAttribute("position");
-          const colors = new Float32Array(positions.count * 3);
-          const smooth = (edge0: number, edge1: number, value: number) => {
-            const x = THREE.MathUtils.clamp((value - edge0) / (edge1 - edge0), 0, 1);
-            return x * x * (3 - 2 * x);
-          };
-          for (let i = 0; i < positions.count; i++) {
-            const x = positions.getX(i);
-            const y = positions.getY(i);
-            const covered = smooth(2.10, 2.22, y) * (1 - smooth(3.02, 3.14, y)) * (1 - smooth(0.48, 0.58, Math.abs(x)));
-            const color = skin.clone().lerp(shorts, covered);
-            color.toArray(colors, i * 3);
-          }
-          geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-          geometry.computeVertexNormals();
-          object.geometry = geometry;
-          object.material = new THREE.MeshStandardMaterial({ color: 0xffffff, vertexColors: true, roughness: 0.72, metalness: 0.01 });
-          object.castShadow = true;
-          object.receiveShadow = true;
-          original.dispose();
-        });
-        built.root.add(human);
-        setModelState("ready");
-        requestRender();
-      })
-      .catch(() => { if (!disposed) setModelState("error"); });
     const render = () => renderer.render(scene, camera);
     renderRef.current = render;
     render();
@@ -263,8 +266,6 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     renderer.domElement.addEventListener("pointercancel", onUp);
     renderer.domElement.addEventListener("pointerleave", onLeave);
     return () => {
-      disposed = true;
-      modelAbort.abort();
       observer.disconnect();
       renderer.domElement.removeEventListener("pointerdown", onDown);
       renderer.domElement.removeEventListener("pointermove", onMove);
@@ -322,7 +323,6 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
 
   return <div ref={host} className="anatomy3d-root" dir={dir}>
     <div className="anatomy3d-badge"><span className="anatomy3d-orb"/><span>{dir === "ar" ? "مجسّم تشريحي تفاعلي" : "INTERACTIVE 3D MODEL"}</span></div>
-    {modelState !== "ready" && <div className={`anatomy3d-loading ${modelState === "error" ? "error" : ""}`} role="status">{modelState === "loading" ? (dir === "ar" ? "جارٍ تحميل المجسّم…" : "Loading human model…") : (dir === "ar" ? "تعذّر تحميل المجسّم" : "Human model could not be loaded")}</div>}
     <div className="anatomy3d-hint">{dir === "ar" ? "اسحب للدوران · اضغط لاختيار العضلة" : "DRAG TO ROTATE · TAP A MUSCLE"}</div>
     <div className={`anatomy3d-hover${hoveredSlug ? " visible" : ""}`} aria-live="polite">{hoveredSlug ? names[hoveredSlug] ?? hoveredSlug : ""}</div>
   </div>;
