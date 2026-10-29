@@ -124,9 +124,9 @@ a { color: inherit; text-decoration: none; }
 .view-toggle button:hover:not(.selected) { color: #fff; }
 
 /* === Body stage (3D) === */
-.body-stage { position: relative; min-height: 440px; display: grid; place-items: center; overflow: hidden; background: radial-gradient(ellipse at 50% 45%, #1a1e2a 0%, #0d0f14 65%); }
+.body-stage { position: relative; min-height: 440px; display: grid; place-items: center; overflow: hidden; background: radial-gradient(ellipse at 50% 65%, #2a1008 0%, #150805 45%, #0a0504 80%); }
 .body-legend { position: absolute; top: 16px; inset-inline-start: 16px; display: flex; gap: 7px; align-items: center; color: var(--muted); font-size: 9px; z-index: 3; pointer-events: none; }
-.legend-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
+.legend-dot { width: 7px; height: 7px; border-radius: 50%; background: #ff6600; box-shadow: 0 0 10px #ff4400; }
 .body-caption { position: absolute; bottom: 13px; inset-inline: 16px; display: flex; justify-content: space-between; color: #5a5f70; font-size: 8px; letter-spacing: .13em; z-index: 3; pointer-events: none; }
 
 /* === 3D Mannequin === */
@@ -135,11 +135,11 @@ a { color: inherit; text-decoration: none; }
 .anatomy3d-root canvas:active { cursor: grabbing; }
 .anatomy3d-loading { position: absolute; z-index: 3; inset: 0; display: grid; place-items: center; background: radial-gradient(ellipse at 50% 48%, #1a1e2a 0%, #0d0f14 67%); color: var(--muted); font-size: 10px; letter-spacing: .08em; pointer-events: none; }
 .anatomy3d-loading.error { color: var(--error); }
-.anatomy3d-badge { position: absolute; z-index: 2; top: 16px; inset-inline-end: 16px; display: flex; align-items: center; gap: 8px; color: #d2d4e0; font-size: 8px; letter-spacing: .14em; pointer-events: none; }
-.anatomy3d-orb { height: 7px; width: 7px; border: 1px solid var(--accent); border-radius: 50%; box-shadow: 0 0 12px var(--accent-glow); animation: pulse 2s ease-in-out infinite; }
+.anatomy3d-badge { position: absolute; z-index: 2; top: 16px; inset-inline-end: 16px; display: flex; align-items: center; gap: 8px; color: #ff8844; font-size: 8px; letter-spacing: .14em; pointer-events: none; text-shadow: 0 0 8px rgba(255,80,20,.4); }
+.anatomy3d-orb { height: 8px; width: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 14px #ff6600, 0 0 6px #ff3300; animation: pulse 1.5s ease-in-out infinite; }
 @keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
-.anatomy3d-hint { position: absolute; z-index: 2; top: 36px; inset-inline-end: 16px; color: #6a6f7e; font-size: 7px; letter-spacing: .09em; pointer-events: none; }
-.anatomy3d-hover { position: absolute; z-index: 2; bottom: 40px; inset-inline: 0; text-align: center; color: #c9ccd8; font: 600 13px 'Barlow Condensed', Cairo, sans-serif; letter-spacing: .04em; pointer-events: none; opacity: 0; transition: opacity .16s ease; }
+.anatomy3d-hint { position: absolute; z-index: 2; top: 36px; inset-inline-end: 16px; color: #aa6655; font-size: 7px; letter-spacing: .09em; pointer-events: none; }
+.anatomy3d-hover { position: absolute; z-index: 2; bottom: 40px; inset-inline: 0; text-align: center; color: #ffaa66; font: 600 13px 'Barlow Condensed', Cairo, sans-serif; letter-spacing: .04em; pointer-events: none; opacity: 0; transition: opacity .16s ease; text-shadow: 0 0 10px rgba(255,80,20,.5); }
 .anatomy3d-hover.visible { opacity: 1; }
 .body-stage { isolation: isolate; }
 

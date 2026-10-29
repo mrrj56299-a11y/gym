@@ -6,8 +6,8 @@ import { gsap } from "gsap";
 type Lang = "ar" | "en";
 type Zone = { mesh: THREE.Mesh; slug: string; part: string; material: THREE.MeshStandardMaterial; base: THREE.Color };
 
-const MUSCLE = new THREE.Color("#e8756f");
-const SELECTED = new THREE.Color("#ff3b30");
+const MUSCLE = new THREE.Color("#ff6a2a");
+const SELECTED = new THREE.Color("#ffeb3b");
 const PARTS: Record<string, string[]> = {
   chest: ["chest-upper", "chest-mid", "chest-lower"],
   shoulders: ["front-delts", "side-delts", "rear-delts"],
@@ -23,8 +23,14 @@ const PARTS: Record<string, string[]> = {
   calves: ["calves-gastrocnemius", "calves-soleus"],
 };
 
-function makeMaterial(color: THREE.Color, roughness = 0.55) {
-  return new THREE.MeshStandardMaterial({ color, roughness, metalness: 0.05 });
+function makeBodyMaterial(color: THREE.Color) {
+  return new THREE.MeshStandardMaterial({
+    color,
+    roughness: 0.35,
+    metalness: 0.15,
+    emissive: new THREE.Color("#ff4a10"),
+    emissiveIntensity: 0.15,
+  });
 }
 
 function buildMannequin(scene: THREE.Scene) {
@@ -33,10 +39,10 @@ function buildMannequin(scene: THREE.Scene) {
   const zones: Zone[] = [];
   const geometries: THREE.BufferGeometry[] = [];
 
-  // --- Body shell (procedural, non-overlapping primitive mannequin) ---
-  const skinMat = makeMaterial(new THREE.Color("#d4a888"), 0.7);
-  const trunkMat = makeMaterial(new THREE.Color("#cfa584"), 0.7);
-  const limbMat = makeMaterial(new THREE.Color("#caa37e"), 0.7);
+  // --- Body shell (fiery glowing primitive mannequin) ---
+  const skinMat = makeBodyMaterial(new THREE.Color("#d44820"));
+  const trunkMat = makeBodyMaterial(new THREE.Color("#cc4a1e"));
+  const limbMat = makeBodyMaterial(new THREE.Color("#c44618"));
 
   const addPart = (geo: THREE.BufferGeometry, mat: THREE.MeshStandardMaterial, pos: [number, number, number], scale: [number, number, number] = [1, 1, 1], rot: [number, number, number] = [0, 0, 0]) => {
     const mesh = new THREE.Mesh(geo, mat);
@@ -54,39 +60,43 @@ function buildMannequin(scene: THREE.Scene) {
   addPart(new THREE.SphereGeometry(0.28, 32, 24), skinMat, [0, 4.82, 0]);
   // Neck
   addPart(new THREE.CylinderGeometry(0.13, 0.15, 0.22, 20), trunkMat, [0, 4.46, 0]);
-  // Torso (tapered cylinder)
+  // Torso
   addPart(new THREE.CylinderGeometry(0.42, 0.36, 1.2, 28), trunkMat, [0, 3.7, 0]);
   // Pelvis
   addPart(new THREE.SphereGeometry(0.38, 28, 20), trunkMat, [0, 2.95, 0], [1, 0.75, 1]);
   // Shoulders
   addPart(new THREE.SphereGeometry(0.24, 24, 18), trunkMat, [0, 4.18, 0], [1.8, 1, 1.1]);
 
-  // Arms (upper + lower) - symmetric
+  // Arms
   for (const sign of [-1, 1]) {
     addPart(new THREE.CylinderGeometry(0.12, 0.1, 0.85, 18), limbMat, [sign * 0.62, 3.85, 0], [1, 1, 1], [0, 0, sign * 0.12]);
     addPart(new THREE.CylinderGeometry(0.1, 0.085, 0.78, 18), limbMat, [sign * 0.72, 3.0, 0], [1, 1, 1], [0, 0, sign * 0.18]);
-    // Hands
     addPart(new THREE.SphereGeometry(0.1, 16, 12), limbMat, [sign * 0.76, 2.58, 0]);
   }
 
-  // Legs (upper + lower) - symmetric
+  // Legs
   for (const sign of [-1, 1]) {
     addPart(new THREE.CylinderGeometry(0.16, 0.13, 1.15, 20), limbMat, [sign * 0.2, 2.15, 0]);
     addPart(new THREE.CylinderGeometry(0.13, 0.1, 1.1, 20), limbMat, [sign * 0.2, 1.0, 0]);
-    // Feet
     addPart(new THREE.BoxGeometry(0.16, 0.1, 0.32), limbMat, [sign * 0.2, 0.4, 0.07]);
   }
 
-  // --- Muscle zones (flat patches on the body surface, minimal overlap) ---
+  // --- Muscle zones (fiery patches) ---
   const zoneGeo = new THREE.SphereGeometry(1, 20, 14);
   geometries.push(zoneGeo);
 
   const addZone = (slug: string, partIndex: number, position: [number, number, number], scale: [number, number, number], rotZ = 0) => {
     const partSlug = PARTS[slug]?.[partIndex] ?? `${slug}-${partIndex + 1}`;
-    const material = makeMaterial(MUSCLE.clone(), 0.45);
-    material.transparent = true;
-    material.opacity = 0;
-    material.depthWrite = false;
+    const material = new THREE.MeshStandardMaterial({
+      color: MUSCLE.clone(),
+      roughness: 0.3,
+      metalness: 0.1,
+      emissive: MUSCLE.clone(),
+      emissiveIntensity: 0,
+      transparent: true,
+      opacity: 0,
+      depthWrite: false,
+    });
     const mesh = new THREE.Mesh(zoneGeo, material);
     mesh.position.set(...position);
     mesh.rotation.z = rotZ;
@@ -147,17 +157,99 @@ function buildMannequin(scene: THREE.Scene) {
   pair("calves", 0, 1.0, 0.22, -0.1, [0.1, 0.24, 0.07]);
   pair("calves", 1, 0.82, 0.22, -0.11, [0.08, 0.22, 0.06]);
 
-  // Ground shadow
+  // Ground shadow (fiery glow disc)
   const shadow = new THREE.Mesh(
-    new THREE.CircleGeometry(0.7, 40),
-    new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.28 })
+    new THREE.CircleGeometry(0.85, 40),
+    new THREE.MeshBasicMaterial({ color: 0xff3300, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending })
   );
   shadow.rotation.x = -Math.PI / 2;
   shadow.position.set(0, 0.32, 0);
-  shadow.scale.set(0.9, 1.2, 1);
+  shadow.scale.set(0.9, 1.3, 1);
   root.add(shadow);
 
   return { root, zones, geometries };
+}
+
+// --- Fire particle system ---
+function buildFireParticles(scene: THREE.Scene, root: THREE.Group) {
+  const count = 120;
+  const positions = new Float32Array(count * 3);
+  const velocities: { x: number; y: number; z: number }[] = [];
+  const lifetimes: number[] = [];
+  const maxLifetimes: number[] = [];
+
+  for (let i = 0; i < count; i++) {
+    const angle = Math.random() * Math.PI * 2;
+    const radius = 0.2 + Math.random() * 0.5;
+    positions[i * 3] = Math.cos(angle) * radius;
+    positions[i * 3 + 1] = 0.4 + Math.random() * 0.3;
+    positions[i * 3 + 2] = Math.sin(angle) * radius;
+    velocities.push({
+      x: (Math.random() - 0.5) * 0.003,
+      y: 0.008 + Math.random() * 0.015,
+      z: (Math.random() - 0.5) * 0.003,
+    });
+    lifetimes.push(Math.random());
+    maxLifetimes.push(0.8 + Math.random() * 0.6);
+  }
+
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+
+  // Fire color texture via vertex colors
+  const colors = new Float32Array(count * 3);
+  for (let i = 0; i < count; i++) {
+    colors[i * 3] = 1;
+    colors[i * 3 + 1] = 0.5 + Math.random() * 0.3;
+    colors[i * 3 + 2] = 0.1;
+  }
+  geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+
+  const material = new THREE.PointsMaterial({
+    size: 0.08,
+    transparent: true,
+    opacity: 0.7,
+    vertexColors: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+  });
+
+  const points = new THREE.Points(geometry, material);
+  root.add(points);
+
+  const update = (delta: number) => {
+    const pos = geometry.getAttribute("position") as THREE.BufferAttribute;
+    const col = geometry.getAttribute("color") as THREE.BufferAttribute;
+    for (let i = 0; i < count; i++) {
+      lifetimes[i] += delta;
+      if (lifetimes[i] > maxLifetimes[i]) {
+        const angle = Math.random() * Math.PI * 2;
+        const radius = 0.2 + Math.random() * 0.5;
+        pos.setXYZ(i, Math.cos(angle) * radius, 0.4, Math.sin(angle) * radius);
+        velocities[i] = {
+          x: (Math.random() - 0.5) * 0.003,
+          y: 0.008 + Math.random() * 0.015,
+          z: (Math.random() - 0.5) * 0.003,
+        };
+        lifetimes[i] = 0;
+        maxLifetimes[i] = 0.8 + Math.random() * 0.6;
+      } else {
+        pos.setXYZ(
+          i,
+          pos.getX(i) + velocities[i].x,
+          pos.getY(i) + velocities[i].y,
+          pos.getZ(i) + velocities[i].z,
+        );
+      }
+      // Color shifts: bright orange -> red -> dark as it rises
+      const t = lifetimes[i] / maxLifetimes[i];
+      col.setXYZ(i, 1, (1 - t) * 0.6 + 0.1, (1 - t) * 0.15);
+    }
+    pos.needsUpdate = true;
+    col.needsUpdate = true;
+  };
+
+  return { points, update, dispose: () => { geometry.dispose(); material.dispose(); } };
 }
 
 export default function Anatomy3D({ side, selected, activePart, onSelect, onHover, dir, names }: {
@@ -178,6 +270,8 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
   const modelRef = useRef<THREE.Group | null>(null);
   const zonesRef = useRef<Zone[]>([]);
   const autoRotateRef = useRef(true);
+  const fireRef = useRef<{ update: (delta: number) => void; dispose: () => void } | null>(null);
+  const pulseRef = useRef(0);
   const callbacks = useRef({ onSelect, onHover, names, dir });
   const reduce = useReducedMotion();
   callbacks.current = { onSelect, onHover, names, dir };
@@ -204,32 +298,42 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     renderer.setSize(element.clientWidth, element.clientHeight);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.05;
+    renderer.toneMappingExposure = 1.15;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-    renderer.domElement.setAttribute("aria-label", dir === "ar" ? "مجسّم ثلاثي الأبعاد للجسم البشري" : "Interactive 3D human mannequin");
+    renderer.domElement.setAttribute("aria-label", dir === "ar" ? "مجسّم ناري ثلاثي الأبعاد" : "Fiery 3D human mannequin");
     renderer.domElement.setAttribute("role", "img");
     renderer.domElement.style.touchAction = "none";
     element.appendChild(renderer.domElement);
     rendererRef.current = renderer;
 
-    // Lighting
-    scene.add(new THREE.HemisphereLight(0xfff5ee, 0x2a2a30, 1.3));
-    const key = new THREE.DirectionalLight(0xfff0e0, 2.0);
+    // Lighting — warm fiery tones
+    scene.add(new THREE.HemisphereLight(0xff8844, 0x1a0a05, 1.4));
+    const key = new THREE.DirectionalLight(0xffaa55, 2.5);
     key.position.set(-3, 6, 4);
     key.castShadow = true;
     key.shadow.mapSize.set(512, 512);
     scene.add(key);
-    const rim = new THREE.DirectionalLight(0x88aacc, 0.8);
+    const rim = new THREE.DirectionalLight(0xff4400, 1.2);
     rim.position.set(3, 4, -3);
     scene.add(rim);
-    const fill = new THREE.PointLight(0xffffff, 0.3, 10);
+    const fill = new THREE.PointLight(0xff6600, 0.6, 12);
     fill.position.set(0, 3, 4);
     scene.add(fill);
+    // Pulsing ember light at the base
+    const emberLight = new THREE.PointLight(0xff3300, 1.5, 6);
+    emberLight.position.set(0, 0.5, 0);
+    scene.add(emberLight);
 
     const built = buildMannequin(scene);
     modelRef.current = built.root;
     zonesRef.current = built.zones;
+
+    // Fire particles
+    if (!reduce) {
+      const fire = buildFireParticles(scene, built.root);
+      fireRef.current = fire;
+    }
 
     const render = () => renderer.render(scene, camera);
     renderRef.current = render;
@@ -238,16 +342,33 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     if (!reduce) gsap.fromTo(renderer.domElement, { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.6, ease: "power2.out" });
     else renderer.domElement.style.opacity = "1";
 
-    // Auto-rotation loop (360°)
+    // Auto-rotation + fire + ember pulse loop
     let raf = 0;
-    const rotate = () => {
+    let lastTime = performance.now();
+    const animate = () => {
+      const now = performance.now();
+      const delta = Math.min((now - lastTime) / 1000, 0.05);
+      lastTime = now;
+
       if (autoRotateRef.current && modelRef.current) {
         modelRef.current.rotation.y += 0.005;
       }
+      if (fireRef.current) fireRef.current.update(delta);
+
+      // Pulsing ember light and emissive body
+      pulseRef.current += delta * 2.5;
+      const pulse = 0.5 + Math.sin(pulseRef.current) * 0.5;
+      emberLight.intensity = 1.0 + pulse * 1.2;
+      built.root.traverse((obj) => {
+        if (obj instanceof THREE.Mesh && obj.material instanceof THREE.MeshStandardMaterial && obj.userData.role !== "muscle-zone") {
+          obj.material.emissiveIntensity = 0.1 + pulse * 0.12;
+        }
+      });
+
       render();
-      raf = requestAnimationFrame(rotate);
+      raf = requestAnimationFrame(animate);
     };
-    if (!reduce) raf = requestAnimationFrame(rotate);
+    if (!reduce) raf = requestAnimationFrame(animate);
     else render();
 
     // Interaction
@@ -334,6 +455,8 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
       renderFrameRef.current = null;
       renderRef.current = () => {};
       gsap.killTweensOf(renderer.domElement);
+      fireRef.current?.dispose();
+      fireRef.current = null;
       scene.traverse(object => {
         if (object instanceof THREE.Mesh) {
           object.geometry.dispose();
@@ -371,21 +494,26 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     }
   }, [side, reduce]);
 
-  // Zone highlighting
+  // Zone highlighting — fiery glow
   useEffect(() => {
     for (const zone of zonesRef.current) {
       const chosen = selected.includes(zone.slug);
       const active = chosen && (!activePart || activePart === zone.part);
       const color = chosen ? SELECTED : zone.base;
-      const opacity = chosen ? (activePart && !active ? 0.4 : 0.85) : hoveredSlug === zone.slug ? 0.3 : 0;
+      const opacity = chosen ? (activePart && !active ? 0.4 : 0.9) : hoveredSlug === zone.slug ? 0.35 : 0;
+      const emissiveIntensity = chosen ? (active ? 1.2 : 0.6) : hoveredSlug === zone.slug ? 0.4 : 0;
       gsap.killTweensOf(zone.material.color);
       gsap.killTweensOf(zone.material);
+      gsap.killTweensOf(zone.material, "emissiveIntensity");
       if (reduce) {
         zone.material.color.copy(color);
         zone.material.opacity = opacity;
+        zone.material.emissive.copy(color);
+        zone.material.emissiveIntensity = emissiveIntensity;
       } else {
         gsap.to(zone.material.color, { r: color.r, g: color.g, b: color.b, duration: 0.3, ease: "power1.out", onUpdate: requestRender });
         gsap.to(zone.material, { opacity, duration: 0.25, ease: "power1.out", onUpdate: requestRender });
+        gsap.to(zone.material, { emissiveIntensity, duration: 0.25, ease: "power1.out", onUpdate: requestRender });
       }
       zone.material.transparent = true;
     }
@@ -395,7 +523,7 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     <div ref={host} className="anatomy3d-root" dir={dir}>
       <div className="anatomy3d-badge">
         <span className="anatomy3d-orb" />
-        <span>{dir === "ar" ? "مجسّم ثلاثي الأبعاد" : "3D MANNEQUIN"}</span>
+        <span>{dir === "ar" ? "مانيكان ناري" : "FIERY MANNEQUIN"}</span>
       </div>
       <div className="anatomy3d-hint">
         {dir === "ar" ? "يلف تلقائيًا · اسحب للتحكم · اضغط لاختيار العضلة" : "AUTO-ROTATING · DRAG TO CONTROL · TAP A MUSCLE"}
