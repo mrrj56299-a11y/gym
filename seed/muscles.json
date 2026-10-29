@@ -1,0 +1,150 @@
+{
+  "muscles": [
+    {
+      "slug": "chest",
+      "name_ar": "الصدر",
+      "name_en": "Chest",
+      "view": "front",
+      "position": 1,
+      "sub_muscles": [
+        { "slug": "chest-upper", "name_ar": "الجزء الترقوي العلوي", "name_en": "Clavicular region", "svg_path_id": "chest:upper" },
+        { "slug": "chest-mid", "name_ar": "الجزء القصّي الأوسط", "name_en": "Sternocostal region", "svg_path_id": "chest:middle" },
+        { "slug": "chest-lower", "name_ar": "الجزء الضلعي السفلي", "name_en": "Lower costal region", "svg_path_id": "chest:lower" }
+      ]
+    },
+    {
+      "slug": "back",
+      "name_ar": "الظهر",
+      "name_en": "Back",
+      "view": "back",
+      "position": 2,
+      "sub_muscles": [
+        { "slug": "back-lats", "name_ar": "العضلات العريضة للظهر", "name_en": "Latissimus dorsi", "svg_path_id": "upper-back" },
+        { "slug": "back-upper", "name_ar": "أعلى الظهر", "name_en": "Upper back", "svg_path_id": "upper-back:upper" },
+        { "slug": "back-mid", "name_ar": "منتصف الظهر", "name_en": "Mid-back", "svg_path_id": "upper-back:middle" },
+        { "slug": "back-lower", "name_ar": "أسفل الظهر", "name_en": "Lower back", "svg_path_id": "lower-back" },
+        { "slug": "back-traps", "name_ar": "العضلة شبه المنحرفة", "name_en": "Trapezius", "svg_path_id": "trapezius" }
+      ]
+    },
+    {
+      "slug": "shoulders",
+      "name_ar": "الكتف",
+      "name_en": "Shoulders",
+      "view": "both",
+      "position": 3,
+      "sub_muscles": [
+        { "slug": "front-delts", "name_ar": "الدالية الأمامية", "name_en": "Anterior deltoid", "svg_path_id": "deltoids:front" },
+        { "slug": "side-delts", "name_ar": "الدالية الجانبية", "name_en": "Lateral deltoid", "svg_path_id": "deltoids:side" },
+        { "slug": "rear-delts", "name_ar": "الدالية الخلفية", "name_en": "Posterior deltoid", "svg_path_id": "deltoids:back" }
+      ]
+    },
+    {
+      "slug": "biceps",
+      "name_ar": "العضلة ذات الرأسين",
+      "name_en": "Biceps",
+      "view": "both",
+      "position": 4,
+      "sub_muscles": [
+        { "slug": "biceps-long", "name_ar": "الرأس الطويل", "name_en": "Long head", "svg_path_id": "biceps" },
+        { "slug": "biceps-short", "name_ar": "الرأس القصير", "name_en": "Short head", "svg_path_id": "biceps" },
+        { "slug": "biceps-brachialis", "name_ar": "العضلة العضدية", "name_en": "Brachialis", "svg_path_id": "biceps" }
+      ]
+    },
+    {
+      "slug": "triceps",
+      "name_ar": "العضلة ثلاثية الرؤوس",
+      "name_en": "Triceps",
+      "view": "back",
+      "position": 5,
+      "sub_muscles": [
+        { "slug": "triceps-long", "name_ar": "الرأس الطويل", "name_en": "Long head", "svg_path_id": "triceps:upper" },
+        { "slug": "triceps-lateral", "name_ar": "الرأس الوحشي", "name_en": "Lateral head", "svg_path_id": "triceps:middle" },
+        { "slug": "triceps-medial", "name_ar": "الرأس الإنسي", "name_en": "Medial head", "svg_path_id": "triceps:lower" }
+      ]
+    },
+    {
+      "slug": "forearms",
+      "name_ar": "الساعدان",
+      "name_en": "Forearms",
+      "view": "both",
+      "position": 6,
+      "sub_muscles": [
+        { "slug": "forearm-flexors", "name_ar": "مثنيات الرسغ", "name_en": "Wrist flexors", "svg_path_id": "forearm:inner" },
+        { "slug": "forearm-extensors", "name_ar": "باسطات الرسغ", "name_en": "Wrist extensors", "svg_path_id": "forearm:outer" },
+        { "slug": "forearm-brachioradialis", "name_ar": "العضدية الكعبرية", "name_en": "Brachioradialis", "svg_path_id": "forearm:center" }
+      ]
+    },
+    {
+      "slug": "quadriceps",
+      "name_ar": "العضلة رباعية الرؤوس",
+      "name_en": "Quadriceps",
+      "view": "front",
+      "position": 7,
+      "sub_muscles": [
+        { "slug": "quads-rectus-femoris", "name_ar": "المستقيمة الفخذية", "name_en": "Rectus femoris", "svg_path_id": "quadriceps:middle" },
+        { "slug": "quads-vastus-lateralis", "name_ar": "المتسعة الوحشية", "name_en": "Vastus lateralis", "svg_path_id": "quadriceps:outer" },
+        { "slug": "quads-vastus-medialis", "name_ar": "المتسعة الإنسية", "name_en": "Vastus medialis", "svg_path_id": "quadriceps:inner" },
+        { "slug": "quads-vastus-intermedius", "name_ar": "المتسعة الوسطى", "name_en": "Vastus intermedius", "svg_path_id": "quadriceps:middle" }
+      ]
+    },
+    {
+      "slug": "hamstrings",
+      "name_ar": "أوتار المأبض",
+      "name_en": "Hamstrings",
+      "view": "back",
+      "position": 8,
+      "sub_muscles": [
+        { "slug": "hamstrings-biceps-femoris", "name_ar": "ذات الرأسين الفخذية", "name_en": "Biceps femoris", "svg_path_id": "hamstring:outer" },
+        { "slug": "hamstrings-semitendinosus", "name_ar": "نصف الوترية", "name_en": "Semitendinosus", "svg_path_id": "hamstring:middle" },
+        { "slug": "hamstrings-semimembranosus", "name_ar": "نصف الغشائية", "name_en": "Semimembranosus", "svg_path_id": "hamstring:inner" }
+      ]
+    },
+    {
+      "slug": "glutes",
+      "name_ar": "العضلات الألوية",
+      "name_en": "Glutes",
+      "view": "back",
+      "position": 9,
+      "sub_muscles": [
+        { "slug": "glute-maximus", "name_ar": "الألوية الكبرى", "name_en": "Gluteus maximus", "svg_path_id": "gluteal:lower" },
+        { "slug": "glute-medius", "name_ar": "الألوية الوسطى", "name_en": "Gluteus medius", "svg_path_id": "gluteal:upper" },
+        { "slug": "glute-minimus", "name_ar": "الألوية الصغرى", "name_en": "Gluteus minimus", "svg_path_id": "gluteal:upper" }
+      ]
+    },
+    {
+      "slug": "calves",
+      "name_ar": "عضلات الساق الخلفية",
+      "name_en": "Calves",
+      "view": "both",
+      "position": 10,
+      "sub_muscles": [
+        { "slug": "calves-gastrocnemius", "name_ar": "التوأمية الساقية", "name_en": "Gastrocnemius", "svg_path_id": "calves:upper" },
+        { "slug": "calves-soleus", "name_ar": "النعلية", "name_en": "Soleus", "svg_path_id": "calves:lower" }
+      ]
+    },
+    {
+      "slug": "abs",
+      "name_ar": "عضلات الجذع الأمامية",
+      "name_en": "Abdominals",
+      "view": "front",
+      "position": 11,
+      "sub_muscles": [
+        { "slug": "abs-rectus", "name_ar": "المستقيمة البطنية", "name_en": "Rectus abdominis", "svg_path_id": "abs:upper" },
+        { "slug": "abs-obliques", "name_ar": "العضلات المائلة", "name_en": "Obliques", "svg_path_id": "obliques" },
+        { "slug": "abs-transverse", "name_ar": "المستعرضة البطنية", "name_en": "Transverse abdominis", "svg_path_id": "abs:lower" }
+      ]
+    },
+    {
+      "slug": "adductors",
+      "name_ar": "مقربات الفخذ",
+      "name_en": "Hip Adductors",
+      "view": "front",
+      "position": 12,
+      "sub_muscles": [
+        { "slug": "adductors-upper", "name_ar": "الجزء العلوي", "name_en": "Upper region", "svg_path_id": "adductors:upper" },
+        { "slug": "adductors-middle", "name_ar": "الجزء الأوسط", "name_en": "Middle region", "svg_path_id": "adductors:middle" },
+        { "slug": "adductors-lower", "name_ar": "الجزء السفلي", "name_en": "Lower region", "svg_path_id": "adductors:lower" }
+      ]
+    }
+  ]
+}

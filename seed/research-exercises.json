@@ -1,0 +1,1927 @@
+[
+  {
+    "caveat": "Pectoralis major is commonly described anatomically as clavicular and sternocostal heads, with subdivisions within the sternocostal fibers; it does not have three independently isolatable gym muscles. The planner uses upper, middle, and lower functional fiber regions because exercise angle can shift relative EMG emphasis, while every listed movement still recruits overlapping chest fibers. These entries are content candidates, not training prescriptions.",
+    "evidence": [
+      {
+        "supports": "Pectoralis major structure, multiple origins converging to one tendon, and differing actions of clavicular versus sternocostal fibers; informs anatomical region labels and the non-isolation caveat.",
+        "title": "Anatomy, Shoulder and Upper Limb, Pectoral Muscles (StatPearls, NCBI Bookshelf)",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545241/"
+      },
+      {
+        "supports": "Peer-reviewed EMG study reports greater upper-portion activity at 30° incline and greater middle/lower activity at flat bench; higher inclines shift demand toward anterior deltoid. Supports relative regional bias, not isolation claims.",
+        "title": "Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major Muscle (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505/"
+      },
+      {
+        "supports": "Research on common bench-press variations and pectoralis major regional EMG; supports treating press variations as options that may alter relative recruitment rather than isolate a chest subdivision.",
+        "title": "Effect of 12 Variations of the Bench Press Exercise on the EMG Activity of the Pectoralis Major (IUSCA Journal)",
+        "url": "https://journal.iusca.org/index.php/Journal/article/download/39/124/"
+      }
+    ],
+    "id": "chest",
+    "muscle_name_ar": "الصدر / العضلات الصدرية",
+    "muscle_name_en": "Chest / pectoral muscles",
+    "parts": [
+      {
+        "anatomy_note": "The clavicular fibers are the pectoralis major's upper region; shoulder flexion is a function they can contribute to, and a modest incline can bias this region without isolating it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر مائل بالبار",
+            "name_en": "Incline barbell bench press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ضغط صدر مائل بالدمبل",
+            "name_en": "Incline dumbbell bench press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط صدر مائل على الجهاز",
+            "name_en": "Incline chest press machine"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر بالكابل من أسفل إلى أعلى",
+            "name_en": "Low-to-high cable chest press"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "تفتيح بالكابل من أسفل إلى أعلى",
+            "name_en": "Low-to-high cable fly"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تفتيح صدر مائل بالدمبل",
+            "name_en": "Incline dumbbell fly"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "ضغط مائل على سطح مرتفع",
+            "name_en": "Incline push-up"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر بالبار بقبضة معكوسة",
+            "name_en": "Reverse-grip barbell bench press"
+          }
+        ],
+        "name_ar": "الجزء العلوي من الصدر (المنطقة الترقوية)",
+        "name_en": "Upper pectoralis (clavicular region)",
+        "slug": "upper-pectoralis"
+      },
+      {
+        "anatomy_note": "Sternal fibers form a substantial part of the sternocostal head; flat pressing and horizontal adduction recruit the pectoralis major broadly, not a separately isolatable middle head.",
+        "exercise_suggestions": [
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر مستوٍ بالبار",
+            "name_en": "Barbell bench press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ضغط صدر مستوٍ بالدمبل",
+            "name_en": "Dumbbell bench press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط صدر جالس على الجهاز",
+            "name_en": "Seated chest press machine"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر بالكابل",
+            "name_en": "Cable chest press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تفتيح صدر بالدمبل",
+            "name_en": "Dumbbell chest fly"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "تفتيح صدر بالكابل",
+            "name_en": "Cable chest fly"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين الضغط التقليدي",
+            "name_en": "Standard push-up"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "تفتيح صدر على الجهاز",
+            "name_en": "Machine chest fly"
+          }
+        ],
+        "name_ar": "الجزء الأوسط من الصدر (المنطقة القصّية)",
+        "name_en": "Mid pectoralis (sternal region)",
+        "slug": "mid-pectoralis"
+      },
+      {
+        "anatomy_note": "Inferior costal fibers are part of the sternocostal portion; decline-angle pressing may relatively emphasize lower fibers, but no exercise cleanly isolates them.",
+        "exercise_suggestions": [
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر مائل لأسفل بالبار",
+            "name_en": "Decline barbell bench press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر مائل لأسفل بالدمبل",
+            "name_en": "Decline dumbbell bench press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط صدر مائل لأسفل على الجهاز",
+            "name_en": "Decline chest press machine"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر بالكابل من أعلى إلى أسفل",
+            "name_en": "High-to-low cable chest press"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "تفتيح بالكابل من أعلى إلى أسفل",
+            "name_en": "High-to-low cable fly"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "غطس للصدر",
+            "name_en": "Chest dip"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ضغط مع رفع القدمين",
+            "name_en": "Feet-elevated push-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تفتيح صدر مائل لأسفل بالدمبل",
+            "name_en": "Decline dumbbell fly"
+          }
+        ],
+        "name_ar": "الجزء السفلي من الصدر (المنطقة الضلعية القصّية)",
+        "name_en": "Lower pectoralis (costal sternocostal region)",
+        "slug": "lower-pectoralis"
+      }
+    ]
+  },
+  {
+    "caveat": "Upper back is a practical movement-region label, not one muscle, and its rowing/reverse-fly options involve overlapping scapular retractors, rear deltoids, and other muscles. The trapezius is one continuous muscle with functionally distinct fiber regions, not separately isolatable heads. Lower-back exercises load spinal extensors alongside hip and trunk musculature; no exercise here should be understood as isolating the lower back. Equipment labels reflect common gym setups; assisted pull-up is categorized as machine and bodyweight-only movements as bodyweight.",
+    "evidence": [
+      {
+        "supports": "Describes latissimus dorsi and erector spinae actions, middle/lower trapezius functions, and reports EMG comparisons for pulldowns, pull-ups, rows, I-Y-T raises, and back extension-related training context. Study findings are limited to its tested exercises and participant sample.",
+        "title": "ACE-sponsored research: What Is the Best Back Exercise?",
+        "url": "https://www.acefitness.org/continuing-education/certified/april-2018/6959/ace-sponsored-research-what-is-the-best-back-exercise/"
+      },
+      {
+        "supports": "Exercise-reference index lists back exercise categories and equipment modalities including barbell, cable, dumbbell, lever/machine, and bodyweight options; supports the practicality of the selected exercise patterns.",
+        "title": "ExRx Back Exercises",
+        "url": "https://exrx.net/Lists/ExList/BackWt"
+      },
+      {
+        "supports": "Anatomy reference describing trapezius actions, including scapular elevation, depression, and retraction; page access was browser-interstitial limited, so claims are used conservatively.",
+        "title": "Anatomy, Back, Trapezius - StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK518994/"
+      }
+    ],
+    "id": "back",
+    "muscle_name_ar": "الظهر",
+    "muscle_name_en": "Back",
+    "parts": [
+      {
+        "anatomy_note": "A broad superficial muscle acting at the shoulder to extend, adduct, and internally rotate the arm; grip and elbow path change emphasis, not isolate separate lat regions.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "السحب العلوي",
+            "name_en": "Lat pulldown"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "السحب العلوي بقبضة محايدة",
+            "name_en": "Neutral-grip lat pulldown"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "العقلة بمساعدة الجهاز",
+            "name_en": "Assisted pull-up"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "العقلة بقبضة علوية",
+            "name_en": "Pull-up"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "العقلة بقبضة سفلية",
+            "name_en": "Chin-up"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل بذراعين مستقيمتين",
+            "name_en": "Straight-arm cable pulldown"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "التجديف بدمبل بذراع واحدة",
+            "name_en": "Single-arm dumbbell row"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "التجديف بالبار مع الانحناء",
+            "name_en": "Barbell bent-over row"
+          }
+        ],
+        "name_ar": "العضلة الظهرية العريضة",
+        "name_en": "Lats (latissimus dorsi)",
+        "slug": "latissimus-dorsi"
+      },
+      {
+        "anatomy_note": "This functional region includes middle trapezius and rhomboids, which assist scapular retraction; rows and reverse-fly patterns train overlapping muscles rather than isolating one structure.",
+        "exercise_suggestions": [
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "التجديف بالكابل جلوساً",
+            "name_en": "Seated cable row"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "التجديف على جهاز مع إسناد الصدر",
+            "name_en": "Chest-supported machine row"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "التجديف بدمبل مع إسناد الصدر",
+            "name_en": "Chest-supported dumbbell row"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "التجديف بالبار مع الانحناء",
+            "name_en": "Bent-over barbell row"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "التجديف بوزن الجسم تحت البار",
+            "name_en": "Inverted row"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل نحو الوجه",
+            "name_en": "Cable face pull"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "الرفرفة الخلفية بالدمبل",
+            "name_en": "Dumbbell reverse fly"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "الرفرفة الخلفية على الجهاز",
+            "name_en": "Machine reverse fly"
+          }
+        ],
+        "name_ar": "مُقَرِّبات لوح الكتف في أعلى الظهر",
+        "name_en": "Upper-back scapular retractors",
+        "slug": "upper-back-retractors"
+      },
+      {
+        "anatomy_note": "The lumbar erector-spinae region helps extend and laterally flex the spine and stabilizes the trunk; hip-hinge exercises load it isometrically or dynamically, not as a single isolated muscle.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "تمديد الظهر على الجهاز",
+            "name_en": "Back extension machine"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمديد الظهر بزاوية ٤٥ درجة",
+            "name_en": "45-degree back extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين الطائر والكلب",
+            "name_en": "Bird dog"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية",
+            "name_en": "Romanian deadlift"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "الرفعة الميتة الرومانية بالدمبل",
+            "name_en": "Dumbbell Romanian deadlift"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة التقليدية",
+            "name_en": "Conventional deadlift"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل من بين الساقين",
+            "name_en": "Cable pull-through"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "تمرين صباح الخير بالبار",
+            "name_en": "Good morning"
+          }
+        ],
+        "name_ar": "باسطات العمود الفقري في أسفل الظهر",
+        "name_en": "Lower-back spinal extensors",
+        "slug": "lower-back-erectors"
+      },
+      {
+        "anatomy_note": "The upper fibers elevate the scapula and contribute to upward rotation; shrug variations emphasize elevation but do not fully isolate these fibers.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "هز الكتفين بالدمبل",
+            "name_en": "Dumbbell shrug"
+          },
+          {
+            "equipment": "barbell",
+            "level": "beginner",
+            "name_ar": "هز الكتفين بالبار",
+            "name_en": "Barbell shrug"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "هز الكتفين على الجهاز",
+            "name_en": "Machine shrug"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "هز الكتفين بالكابل",
+            "name_en": "Cable shrug"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "مشي المزارع بالدمبل",
+            "name_en": "Dumbbell farmer carry"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "مشي المزارع بالبار",
+            "name_en": "Barbell farmer carry"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "السحب العالي بالبار",
+            "name_en": "Barbell high pull"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "التجديف العمودي بالدمبل",
+            "name_en": "Dumbbell upright row"
+          }
+        ],
+        "name_ar": "الجزء العلوي من العضلة شبه المنحرفة",
+        "name_en": "Upper trapezius (upper fibers)",
+        "slug": "upper-trapezius"
+      },
+      {
+        "anatomy_note": "The middle fibers primarily retract the scapula and the lower fibers assist its depression and upward rotation; these are functional fiber regions of one continuous trapezius, not independent muscles.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "رفع الذراعين بوضعيات I وY وT منبطحاً",
+            "name_en": "Prone I-Y-T raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع الذراعين بشكل Y على مقعد مائل",
+            "name_en": "Prone incline Y raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "رفع الذراعين بشكل Y بالكابل",
+            "name_en": "Cable Y raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "التجديف بالكابل جلوساً",
+            "name_en": "Seated cable row"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "التجديف بوزن الجسم تحت البار",
+            "name_en": "Inverted row"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "التجديف بالبار مع الانحناء",
+            "name_en": "Bent-over barbell row"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل نحو الوجه",
+            "name_en": "Cable face pull"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "الرفرفة الخلفية بالدمبل",
+            "name_en": "Dumbbell reverse fly"
+          }
+        ],
+        "name_ar": "الجزآن الأوسط والسفلي من العضلة شبه المنحرفة",
+        "name_en": "Middle and lower trapezius (scapular-control fibers)",
+        "slug": "middle-lower-trapezius"
+      }
+    ]
+  },
+  {
+    "caveat": "The deltoid is commonly organized in workout planners into three broad anatomical regions—anterior, lateral/middle, and posterior—not three perfectly isolated muscles. Research describes finer intramuscular segments, but these are not ordinarily selectable gym-training targets; exercise lists therefore indicate reasonable region emphasis, not exclusive activation. Exercise options are content candidates, not training prescriptions.",
+    "evidence": [
+      {
+        "supports": "Peer-reviewed anatomical study: establishes the conventional anterior, middle, and posterior portions, their origins, and finer intramuscular segmentation; supports using the conventional three selectable planner regions rather than claiming each is a fully isolated muscle.",
+        "title": "Anatomical and functional segments of the deltoid muscle",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042752/"
+      },
+      {
+        "supports": "Peer-reviewed exercise study comparing anterior, medial, and posterior deltoid activation in bench press, dumbbell fly, shoulder press, and lateral raise; its limitations caution against treating activation findings as proof of isolation or universal rankings.",
+        "title": "Different Shoulder Exercises Affect the Activation of Deltoid Portions in Resistance-Trained Individuals",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7706677/"
+      },
+      {
+        "supports": "Provides a standard dumbbell lateral raise, equipment, beginner difficulty, and practical execution guidance; supports a commonly selectable exercise option.",
+        "title": "ACE Exercise Library: Lateral Raise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/"
+      }
+    ],
+    "id": "shoulders",
+    "muscle_name_ar": "العضلات الدالية",
+    "muscle_name_en": "Deltoids",
+    "parts": [
+      {
+        "anatomy_note": "Arises mainly from the lateral clavicle; contributes to shoulder flexion and assists arm elevation, while working synergistically with other deltoid fibers.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع الدمبل أمامًا",
+            "name_en": "Dumbbell front raise"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "رفع البار أمامًا",
+            "name_en": "Barbell front raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "رفع الكابل أمامًا",
+            "name_en": "Cable front raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ضغط الكتف بالدمبل جلوسًا",
+            "name_en": "Seated dumbbell shoulder press"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط البار فوق الرأس وقوفًا",
+            "name_en": "Standing barbell overhead press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الكتف على الجهاز",
+            "name_en": "Machine shoulder press"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ضغط بايك",
+            "name_en": "Pike push-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ضغط أرنولد",
+            "name_en": "Arnold press"
+          }
+        ],
+        "name_ar": "الجزء الأمامي من العضلة الدالية",
+        "name_en": "Anterior deltoid",
+        "slug": "anterior-deltoid"
+      },
+      {
+        "anatomy_note": "Originates chiefly from the lateral acromion and is a major contributor to shoulder abduction; it is not an isolated muscle and cooperates with other shoulder muscles.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع الدمبل جانبًا",
+            "name_en": "Dumbbell lateral raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع الدمبل جانبًا جلوسًا",
+            "name_en": "Seated dumbbell lateral raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "رفع الكابل جانبًا",
+            "name_en": "Cable lateral raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "رفع الكابل جانبًا مع الميل بعيدًا",
+            "name_en": "Lean-away cable lateral raise"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "رفع جانبي على الجهاز",
+            "name_en": "Machine lateral raise"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "سحب قائم بقبضة واسعة",
+            "name_en": "Wide-grip upright row"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ضغط الكتف بالدمبل",
+            "name_en": "Dumbbell shoulder press"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط البار فوق الرأس",
+            "name_en": "Barbell overhead press"
+          }
+        ],
+        "name_ar": "الجزء الجانبي (الأوسط) من العضلة الدالية",
+        "name_en": "Lateral (middle) deltoid",
+        "slug": "lateral-deltoid"
+      },
+      {
+        "anatomy_note": "Arises from the scapular spine and adjacent posterior acromion; assists shoulder extension and horizontal abduction, but also contributes to arm elevation with the other portions.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "تفتيح خلفي بالدمبل مع الانحناء",
+            "name_en": "Bent-over dumbbell reverse fly"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "تفتيح خلفي بالدمبل جلوسًا",
+            "name_en": "Seated dumbbell reverse fly"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "تفتيح خلفي بالكابل",
+            "name_en": "Cable rear-delt fly"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "تفتيح خلفي على جهاز الفراشة العكسي",
+            "name_en": "Reverse pec-deck fly"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الحبل نحو الوجه",
+            "name_en": "Face pull"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "تجديف الكابل جلوسًا بقبضة واسعة نحو الصدر",
+            "name_en": "Wide-grip seated cable row to chest"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تجديف خلفي بالدمبل مع إسناد الصدر",
+            "name_en": "Chest-supported dumbbell rear-delt row"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "تجديف مقلوب بوزن الجسم",
+            "name_en": "Inverted row"
+          }
+        ],
+        "name_ar": "الجزء الخلفي من العضلة الدالية",
+        "name_en": "Posterior deltoid",
+        "slug": "posterior-deltoid"
+      }
+    ]
+  },
+  {
+    "caveat": "Biceps brachii has two anatomical heads, but they merge into one belly and cannot be treated as independently selectable muscles based on ordinary curl variations. This planner therefore lists the whole biceps brachii as one part and the anatomically distinct brachialis as a second part; exercise labels indicate functional emphasis only, not exclusive recruitment. Brachialis can contribute to all elbow-flexion exercises.",
+    "evidence": [
+      {
+        "supports": "The two scapular heads, common distal muscle belly and insertion, elbow flexion and forearm supination, and limited shoulder actions; supports treating the heads as one overall training target rather than promising head isolation.",
+        "title": "Biceps brachii muscle: Origin, insertion, action — Kenhub",
+        "url": "https://www.kenhub.com/en/library/anatomy/biceps-brachii-muscle"
+      },
+      {
+        "supports": "Brachialis location deep to biceps, attachments, and role as a major elbow flexor that works across forearm positions.",
+        "title": "Brachialis muscle — Kenhub",
+        "url": "https://www.kenhub.com/en/library/anatomy/brachialis-muscle"
+      },
+      {
+        "supports": "A peer-reviewed EMG study comparing pronated, neutral, and supinated handgrips; reports greater biceps brachii excitation in supinated versus neutral and pronated curls during the lifting phase, supporting grip variation as relative emphasis rather than isolation.",
+        "title": "Biceps Brachii and Brachioradialis Excitation in Biceps Curl Variations — PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060/"
+      }
+    ],
+    "id": "biceps",
+    "muscle_name_ar": "العضلة ذات الرأسين والعضلة العضدية",
+    "muscle_name_en": "Biceps and brachialis",
+    "parts": [
+      {
+        "anatomy_note": "The long and short heads arise separately from the scapula but unite into one muscle belly and share distal insertion; curls can train the whole muscle, but ordinary gym variations do not reliably isolate either head.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين بالدمبل مع تدوير الكف للأعلى",
+            "name_en": "Standing dumbbell supinated curl"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين بالدمبل بالتناوب",
+            "name_en": "Alternating dumbbell curl"
+          },
+          {
+            "equipment": "barbell",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين بالبار",
+            "name_en": "Barbell curl"
+          },
+          {
+            "equipment": "barbell",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين ببار منحني",
+            "name_en": "EZ-style barbell curl"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين بالكابل",
+            "name_en": "Cable curl"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين على جهاز البنش الواعظ",
+            "name_en": "Preacher curl machine"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ثني الذراعين بالدمبل على مقعد مائل",
+            "name_en": "Incline dumbbell curl"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "عقلة بقبضة سفلية",
+            "name_en": "Chin-up (supinated grip)"
+          }
+        ],
+        "name_ar": "العضلة ذات الرأسين العضدية (كاملة)",
+        "name_en": "Biceps brachii (overall)",
+        "slug": "biceps-brachii"
+      },
+      {
+        "anatomy_note": "The brachialis lies deep to biceps and is a major elbow flexor that acts regardless of forearm rotation; neutral or pronated grips may shift relative contribution, but do not isolate it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني المطرقة بالدمبل",
+            "name_en": "Dumbbell hammer curl"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني المطرقة بالدمبل بالتناوب",
+            "name_en": "Alternating hammer curl"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني المطرقة بالدمبل عبر الجسم",
+            "name_en": "Cross-body hammer curl"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ثني الذراعين بالبار بقبضة علوية",
+            "name_en": "Reverse barbell curl"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ثني الذراعين بالكابل بقبضة علوية",
+            "name_en": "Reverse cable curl"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ثني المطرقة بالكابل والحبل",
+            "name_en": "Rope cable hammer curl"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "عقلة بقبضة محايدة",
+            "name_en": "Neutral-grip pull-up"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "سحب علوي بقبضة محايدة",
+            "name_en": "Neutral-grip lat pulldown"
+          }
+        ],
+        "name_ar": "العضلة العضدية (تركيز وظيفي على ثني المرفق)",
+        "name_en": "Brachialis (elbow-flexor emphasis)",
+        "slug": "brachialis"
+      }
+    ]
+  },
+  {
+    "caveat": "The three heads are legitimate anatomical parts, but common gym exercises extend the elbow using the triceps collectively; they do not isolate a single head. The categories here are practical selectable emphasis labels, not claims of head-exclusive activation. Overhead shoulder positioning offers a defensible relative long-head bias because it lengthens the biarticular long head; for lateral and medial heads, listed options are standard triceps exercises rather than proven selective isolations. Equipment and levels are content categorization only, not training prescription.",
+    "evidence": [
+      {
+        "supports": "Three-head anatomy; origins of each head; common olecranon insertion; long head's shoulder crossing and function; medial head participation in forearm extension.",
+        "title": "Triceps brachii muscle: Attachments, supply and functions — Kenhub",
+        "url": "https://www.kenhub.com/en/library/anatomy/triceps-brachii-muscle"
+      },
+      {
+        "supports": "Describes an EMG comparison of eight common triceps exercises, electrode recordings on long and lateral heads, and measured activity in triangle push-ups, kickbacks, dips, overhead extensions, pushdowns, lying extensions, and close-grip bench press. Findings support options, not isolated-head claims.",
+        "title": "ACE-sponsored Research: Best Triceps Exercises — American Council on Exercise",
+        "url": "https://www.acefitness.org/certifiednewsarticle/1562/ace-sponsored-research-best-triceps-exercises/"
+      },
+      {
+        "supports": "Anatomy reference on triceps muscle and head attachments; URL was consulted, but automated text access returned an access-check page, so detailed claims are supported by the readable Kenhub anatomy source instead.",
+        "title": "Anatomy, Shoulder and Upper Limb, Triceps Muscle — NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK536996/"
+      }
+    ],
+    "id": "triceps",
+    "muscle_name_ar": "العضلة ثلاثية الرؤوس العضدية",
+    "muscle_name_en": "Triceps brachii",
+    "parts": [
+      {
+        "anatomy_note": "The long head originates on the scapula and crosses the shoulder as well as the elbow; raising the upper arm overhead lengthens it, but no elbow-extension exercise isolates it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالدمبل فوق الرأس",
+            "name_en": "Overhead dumbbell triceps extension"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالدمبل جلوسًا فوق الرأس",
+            "name_en": "Seated overhead dumbbell triceps extension"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالحبل والكابل فوق الرأس",
+            "name_en": "Cable rope overhead triceps extension"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بذراع واحدة بالكابل فوق الرأس",
+            "name_en": "Single-arm cable overhead triceps extension"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالدمبل على مقعد مائل",
+            "name_en": "Incline dumbbell triceps extension"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالدمبل مستلقيًا",
+            "name_en": "Lying dumbbell triceps extension"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس ببار EZ فوق الرأس",
+            "name_en": "EZ-bar overhead triceps extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "غطس الترايسبس على المقعد",
+            "name_en": "Bench dip"
+          }
+        ],
+        "name_ar": "الرأس الطويل (خيارات تركيز نسبي)",
+        "name_en": "Long head (emphasis options)",
+        "slug": "long-head"
+      },
+      {
+        "anatomy_note": "The lateral head arises from the posterior humerus above the radial groove. It contributes to resisted elbow extension alongside the other heads; grip or handle variations do not isolate it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع الكابل إلى أسفل للعضلة ثلاثية الرؤوس بقبضة مستقيمة",
+            "name_en": "Cable straight-bar triceps pushdown"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع الحبل بالكابل إلى أسفل للعضلة ثلاثية الرؤوس",
+            "name_en": "Cable rope triceps pushdown"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع مقبض V بالكابل إلى أسفل للعضلة ثلاثية الرؤوس",
+            "name_en": "V-bar cable triceps pushdown"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "ضغط صدر بقبضة ضيقة بالبار",
+            "name_en": "Close-grip barbell bench press"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "تمرين ضغط بقبضة ماسية",
+            "name_en": "Diamond push-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ركلة خلفية للعضلة ثلاثية الرؤوس بالدمبل",
+            "name_en": "Dumbbell triceps kickback"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "غطس العضلة ثلاثية الرؤوس على الجهاز",
+            "name_en": "Machine triceps dip"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "تمديد العضلة ثلاثية الرؤوس بالبار مستلقيًا",
+            "name_en": "Lying barbell triceps extension"
+          }
+        ],
+        "name_ar": "الرأس الوحشي (خيارات تركيز نسبي)",
+        "name_en": "Lateral head (emphasis options)",
+        "slug": "lateral-head"
+      },
+      {
+        "anatomy_note": "The medial head originates on the posterior humerus below the radial groove, lies deep to the other heads, and participates in elbow extension across a broad range of effort; it is not independently isolatable with standard gym exercises.",
+        "exercise_suggestions": [
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع الكابل إلى أسفل للعضلة ثلاثية الرؤوس",
+            "name_en": "Cable triceps pushdown"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع الكابل بقبضة معكوسة إلى أسفل للعضلة ثلاثية الرؤوس",
+            "name_en": "Reverse-grip cable triceps pushdown"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع الكابل بذراع واحدة وقبضة معكوسة",
+            "name_en": "Single-arm reverse-grip cable pushdown"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين ضغط بقبضة ضيقة",
+            "name_en": "Close-grip push-up"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين ضغط بقبضة ضيقة على الركبتين",
+            "name_en": "Knee close-grip push-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ضغط دمبل بقبضة ضيقة من الأرض",
+            "name_en": "Close-grip dumbbell floor press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط صدر بقبضة ضيقة على الجهاز",
+            "name_en": "Close-grip machine chest press"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "دفع البار بالكابل إلى أسفل للعضلة ثلاثية الرؤوس",
+            "name_en": "Barbell triceps pushdown"
+          }
+        ],
+        "name_ar": "الرأس الإنسي (خيارات تركيز نسبي)",
+        "name_en": "Medial head (emphasis options)",
+        "slug": "medial-head"
+      }
+    ]
+  },
+  {
+    "caveat": "The quadriceps has four traditional, anatomically distinct muscles, but standard gym exercises do not practically isolate each one. The eight repeated options are whole-quadriceps candidates for each selectable anatomical label, not claims of selective targeting. A fifth muscle, tensor of vastus intermedius, has also been described, but it is not a practical gym-planner exercise target.",
+    "evidence": [
+      {
+        "supports": "Four traditional parts, shared knee-extension action, rectus femoris crossing the hip as well as knee, and deep location of vastus intermedius.",
+        "title": "Quadriceps femoris muscle: Anatomy, innervation, function — Kenhub",
+        "url": "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle"
+      },
+      {
+        "supports": "Medical overview of quadriceps location and function, the traditional four muscles, and discussion of the additionally described tensor of vastus intermedius.",
+        "title": "Quadriceps (Quads): What Are They, Anatomy & Function — Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/body/22816-quad-muscles"
+      },
+      {
+        "supports": "Research comparing squat and leg press reports similar quadriceps activity in the studied protocol; supports listing both as general quadriceps exercises, not selective head-isolation claims.",
+        "title": "Comparison of Joint and Muscle Biomechanics in Maximal Flywheel Leg Press and Squat — Frontiers in Sports and Active Living (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8374053/"
+      }
+    ],
+    "id": "quadriceps",
+    "muscle_name_ar": "العضلة رباعية الرؤوس الفخذية",
+    "muscle_name_en": "Quadriceps",
+    "parts": [
+      {
+        "anatomy_note": "The only traditional quadriceps muscle crossing both hip and knee joints; it extends the knee and assists hip flexion. Listed exercises train the quadriceps collectively, not this muscle in isolation.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "القرفصاء بوزن الجسم",
+            "name_en": "Bodyweight squat"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "القرفصاء مع حمل الدمبل أمام الصدر",
+            "name_en": "Goblet squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء بالبار خلف الظهر",
+            "name_en": "Barbell back squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء الأمامية بالبار",
+            "name_en": "Barbell front squat"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الأرجل على الجهاز",
+            "name_en": "Leg press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "مدّ الركبة جلوسًا على الجهاز",
+            "name_en": "Seated leg extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود على منصة بوزن الجسم",
+            "name_en": "Bodyweight step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء المنقسمة بالدمبل",
+            "name_en": "Dumbbell split squat"
+          }
+        ],
+        "name_ar": "العضلة المستقيمة الفخذية",
+        "name_en": "Rectus femoris",
+        "slug": "rectus-femoris"
+      },
+      {
+        "anatomy_note": "The lateral quadriceps muscle originates on the femur and contributes to knee extension; ordinary exercise variations do not reliably isolate it from the other quadriceps muscles.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "القرفصاء بوزن الجسم",
+            "name_en": "Bodyweight squat"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "القرفصاء مع حمل الدمبل أمام الصدر",
+            "name_en": "Goblet squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء بالبار خلف الظهر",
+            "name_en": "Barbell back squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء الأمامية بالبار",
+            "name_en": "Barbell front squat"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الأرجل على الجهاز",
+            "name_en": "Leg press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "مدّ الركبة جلوسًا على الجهاز",
+            "name_en": "Seated leg extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود على منصة بوزن الجسم",
+            "name_en": "Bodyweight step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء المنقسمة بالدمبل",
+            "name_en": "Dumbbell split squat"
+          }
+        ],
+        "name_ar": "العضلة المتسعة الوحشية",
+        "name_en": "Vastus lateralis",
+        "slug": "vastus-lateralis"
+      },
+      {
+        "anatomy_note": "The medial quadriceps muscle shares knee-extension work with the other vasti; changing stance or foot angle should not be presented as isolating this muscle.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "القرفصاء بوزن الجسم",
+            "name_en": "Bodyweight squat"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "القرفصاء مع حمل الدمبل أمام الصدر",
+            "name_en": "Goblet squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء بالبار خلف الظهر",
+            "name_en": "Barbell back squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء الأمامية بالبار",
+            "name_en": "Barbell front squat"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الأرجل على الجهاز",
+            "name_en": "Leg press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "مدّ الركبة جلوسًا على الجهاز",
+            "name_en": "Seated leg extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود على منصة بوزن الجسم",
+            "name_en": "Bodyweight step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء المنقسمة بالدمبل",
+            "name_en": "Dumbbell split squat"
+          }
+        ],
+        "name_ar": "العضلة المتسعة الإنسية",
+        "name_en": "Vastus medialis",
+        "slug": "vastus-medialis"
+      },
+      {
+        "anatomy_note": "This deep muscle lies beneath rectus femoris and extends the knee; because it is covered and works synergistically, a standard gym exercise cannot practically isolate it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "القرفصاء بوزن الجسم",
+            "name_en": "Bodyweight squat"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "القرفصاء مع حمل الدمبل أمام الصدر",
+            "name_en": "Goblet squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء بالبار خلف الظهر",
+            "name_en": "Barbell back squat"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء الأمامية بالبار",
+            "name_en": "Barbell front squat"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الأرجل على الجهاز",
+            "name_en": "Leg press"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "مدّ الركبة جلوسًا على الجهاز",
+            "name_en": "Seated leg extension"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود على منصة بوزن الجسم",
+            "name_en": "Bodyweight step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء المنقسمة بالدمبل",
+            "name_en": "Dumbbell split squat"
+          }
+        ],
+        "name_ar": "العضلة المتسعة الوسطى",
+        "name_en": "Vastus intermedius",
+        "slug": "vastus-intermedius"
+      }
+    ]
+  },
+  {
+    "caveat": "Hamstrings are a group of distinct muscles, but a gym planner should not present these functional exercise emphases as selectable isolated heads. The first group emphasizes hip extension by loading the hip-crossing long heads; the second emphasizes knee flexion, which can involve all three long hamstrings plus the short head of biceps femoris. Individual activation varies by exercise, technique and person.",
+    "evidence": [
+      {
+        "supports": "Describes the three hamstring muscles, their locations and shared actions including knee flexion and hip extension; notes biceps femoris is lateral and semitendinosus/semimembranosus are medial.",
+        "title": "Hamstring Muscle: What It Is, Anatomy & Function — Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/body/21904-hamstring-muscles"
+      },
+      {
+        "supports": "Peer-reviewed EMG study discusses hip-extension-oriented deadlifts and knee-flexion-oriented curls, bridges, Nordic, fitball and slide exercises; reports that some exercises show differential activation but most do not support simple muscle isolation claims.",
+        "title": "Muscle and intensity based hamstring exercise classification in professional soccer players",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492645/"
+      }
+    ],
+    "id": "hamstrings",
+    "muscle_name_ar": "أوتار المأبض (عضلات خلف الفخذ)",
+    "muscle_name_en": "Hamstrings",
+    "parts": [
+      {
+        "anatomy_note": "The semitendinosus, semimembranosus and biceps femoris long head cross the hip and can assist hip extension; these movements train a functional emphasis, not an isolated muscle head.",
+        "exercise_suggestions": [
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية",
+            "name_en": "Romanian deadlift"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "الرفعة الميتة الرومانية بالدمبل",
+            "name_en": "Dumbbell Romanian deadlift"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "تمرين صباح الخير بالبار",
+            "name_en": "Barbell good morning"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة بساقين شبه مستقيمتين بالدمبل",
+            "name_en": "Dumbbell stiff-leg deadlift"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل من بين الساقين",
+            "name_en": "Cable pull-through"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "مدّ الورك على مقعد ٤٥ درجة",
+            "name_en": "45-degree hip extension"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية بساق واحدة",
+            "name_en": "Single-leg Romanian deadlift"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "رفع الجذع على جهاز الألوية وأوتار المأبض مع حمل بار",
+            "name_en": "Barbell glute-ham raise"
+          }
+        ],
+        "name_ar": "وظيفة أوتار المأبض المنحازة لمدّ الورك",
+        "name_en": "Hip-extension-biased hamstring function",
+        "slug": "hip-extension-bias"
+      },
+      {
+        "anatomy_note": "All three long hamstring muscles flex the knee; the biceps femoris short head also crosses the knee but not the hip, so knee-flexion work recruits a broader set of hamstring anatomy than hip-extension work.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ثني الساقين جلوسًا على الجهاز",
+            "name_en": "Seated leg curl"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ثني الساقين انبطاحًا على الجهاز",
+            "name_en": "Lying leg curl"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ثني الساق واقفًا بساق واحدة على الجهاز",
+            "name_en": "Standing single-leg curl"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ثني الساق واقفًا بالكابل",
+            "name_en": "Cable standing leg curl"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "ثني الساقين انبطاحًا مع دمبل",
+            "name_en": "Dumbbell lying leg curl"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثني الساقين باستخدام أقراص انزلاق",
+            "name_en": "Slider leg curl"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثني الساقين باستخدام كرة التوازن",
+            "name_en": "Stability-ball leg curl"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثني أوتار المأبض النوردي",
+            "name_en": "Nordic hamstring curl"
+          }
+        ],
+        "name_ar": "وظيفة أوتار المأبض المنحازة لثني الركبة",
+        "name_en": "Knee-flexion-biased hamstring function",
+        "slug": "knee-flexion-bias"
+      }
+    ]
+  },
+  {
+    "caveat": "The three entries are the three distinct gluteal muscles, not invented 'upper/lower glute' heads. Medius and minimus share functions and are difficult to target separately; their exercise lists are functional candidates, not claims of selective isolation or prescription. Exercise choices are ordinary gym movements mapped conservatively to anatomy, and similar options may involve other muscles substantially.",
+    "evidence": [
+      {
+        "supports": "Gluteus medius location, anterior/posterior fiber roles, hip abduction and single-leg pelvic stabilization; the source text was read.",
+        "title": "Anatomy, Bony Pelvis and Lower Limb: Gluteus Medius Muscle (StatPearls, NCBI Bookshelf)",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557509/"
+      },
+      {
+        "supports": "The three principal gluteal muscles, their relative positions, broad individual roles and cooperative stabilization/movement; the medical overview was read.",
+        "title": "Gluteal Muscles (Glutes): What They Are, Anatomy & Function (Cleveland Clinic)",
+        "url": "https://my.clevelandclinic.org/health/body/gluteal-muscles-glutes"
+      },
+      {
+        "supports": "Systematic review identified as evidence context for common strength-exercise activation; the page could not be read through the extraction tool, so no specific activation ranking or isolation claim is inferred from it.",
+        "title": "Gluteus Maximus Activation during Common Strength and Hypertrophy Exercises: A Systematic Review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039033/"
+      }
+    ],
+    "id": "glutes",
+    "muscle_name_ar": "عضلات الألوية",
+    "muscle_name_en": "Gluteal muscles",
+    "parts": [
+      {
+        "anatomy_note": "The largest superficial gluteal muscle; its principal gym-relevant role is hip extension, with contribution to external rotation and pelvic/trunk control. Exercises load it as part of compound hip-extension patterns rather than isolating it completely.",
+        "exercise_suggestions": [
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "دفع الورك بالبار",
+            "name_en": "Barbell hip thrust"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "جسر الألوية بالدمبل",
+            "name_en": "Dumbbell glute bridge"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "القرفصاء الخلفية بالبار",
+            "name_en": "Barbell back squat"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية بالدمبل",
+            "name_en": "Dumbbell Romanian deadlift"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط الأرجل على الجهاز",
+            "name_en": "Machine leg press"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الكابل بين الساقين",
+            "name_en": "Cable pull-through"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود على منصة بوزن الجسم",
+            "name_en": "Bodyweight step-up"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "جسر الألوية بساق واحدة بوزن الجسم",
+            "name_en": "Bodyweight single-leg glute bridge"
+          }
+        ],
+        "name_ar": "العضلة الألوية الكبرى",
+        "name_en": "Gluteus maximus",
+        "slug": "gluteus-maximus"
+      },
+      {
+        "anatomy_note": "A fan-shaped hip abductor with anterior and posterior fiber directions that contribute differently to rotation; it also stabilizes the pelvis in single-leg stance. Gym movements can emphasize abduction or stabilization, but do not cleanly isolate individual fibers.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك على الجهاز",
+            "name_en": "Machine hip abduction"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك بالاستلقاء الجانبي",
+            "name_en": "Side-lying hip abduction"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "إبعاد الورك بالدمبل أثناء الاستلقاء الجانبي",
+            "name_en": "Dumbbell side-lying hip abduction"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك واقفًا بالكابل",
+            "name_en": "Cable standing hip abduction"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود الجانبي على منصة بوزن الجسم",
+            "name_en": "Lateral band-free bodyweight step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الصعود الجانبي على منصة بالدمبل",
+            "name_en": "Dumbbell lateral step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية بساق واحدة",
+            "name_en": "Single-leg Romanian deadlift"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "القرفصاء بساق واحدة إلى صندوق بوزن الجسم",
+            "name_en": "Bodyweight single-leg squat to box"
+          }
+        ],
+        "name_ar": "العضلة الألوية الوسطى",
+        "name_en": "Gluteus medius",
+        "slug": "gluteus-medius"
+      },
+      {
+        "anatomy_note": "The deepest and smallest of the three gluteal muscles, working with gluteus medius in hip abduction, internal rotation, and hip/pelvic stabilization. Because it lies beneath medius and shares actions, ordinary exercises cannot reliably isolate it.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك على الجهاز",
+            "name_en": "Machine hip abduction"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك واقفًا بالكابل",
+            "name_en": "Cable standing hip abduction"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "إبعاد الورك بالاستلقاء الجانبي",
+            "name_en": "Side-lying hip abduction"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "إبعاد الورك بالدمبل أثناء الاستلقاء الجانبي",
+            "name_en": "Dumbbell side-lying hip abduction"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "ثني الورك مع إبعاد بسيط واقفًا بالكابل",
+            "name_en": "Standing cable hip flexion with slight abduction"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الصعود الجانبي على منصة بوزن الجسم",
+            "name_en": "Bodyweight lateral step-up"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "الرفعة الميتة الرومانية بالدمبل بساق واحدة",
+            "name_en": "Dumbbell single-leg Romanian deadlift"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الوقوف على ساق واحدة مع رفع الحوض بوزن الجسم",
+            "name_en": "Bodyweight single-leg stance with hip hike"
+          }
+        ],
+        "name_ar": "العضلة الألوية الصغرى",
+        "name_en": "Gluteus minimus",
+        "slug": "gluteus-minimus"
+      }
+    ]
+  },
+  {
+    "caveat": "These are two useful functional emphases, not anatomically isolated sub-parts: gastrocnemius genuinely has medial and lateral heads, but common calf-raise variations do not reliably isolate one head; soleus has no separate selectable head. Knee position changes relative contribution, while both muscles contribute to plantar flexion. Suggestions are content candidates, not a training prescription.",
+    "evidence": [
+      {
+        "supports": "Soleus position, attachments, plantar-flexion role, shared calcaneal tendon insertion with gastrocnemius, and explanation that knee flexion limits gastrocnemius contribution.",
+        "title": "Soleus muscle: Attachments, innervation and function — Kenhub",
+        "url": "https://www.kenhub.com/en/library/anatomy/soleus-muscle"
+      },
+      {
+        "supports": "Seated calf raise execution and the predominance of soleus contribution with substantially flexed knees, while identifying gastrocnemius as a synergist.",
+        "title": "Lever Seated Calf Raise — ExRx.net",
+        "url": "https://exrx.net/WeightExercises/Soleus/LVSeatedCalfRaise"
+      },
+      {
+        "supports": "Evidence-based exercise-library examples of common calf exercise patterns, including standing, seated, and calf-press variations.",
+        "title": "Calf Exercises — ExRx.net",
+        "url": "https://exrx.net/Lists/ExList/CalfWt"
+      }
+    ],
+    "id": "calves",
+    "muscle_name_ar": "عضلات الربلة (التوأمية والنعلية)",
+    "muscle_name_en": "Calves (gastrocnemius and soleus)",
+    "parts": [
+      {
+        "anatomy_note": "The gastrocnemius has medial and lateral heads and crosses both knee and ankle; keeping the knee more extended preserves its contribution to ankle plantar flexion, but does not isolate it from the soleus.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "رفع السمانة واقفًا على الجهاز",
+            "name_en": "Standing machine calf raise"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "ضغط السمانة على جهاز ضغط الأرجل",
+            "name_en": "Leg-press calf press"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة واقفًا على جهاز سميث",
+            "name_en": "Smith-machine standing calf raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع السمانة واقفًا بالدمبل",
+            "name_en": "Dumbbell standing calf raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة بساق واحدة مع دمبل",
+            "name_en": "Single-leg dumbbell calf raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة واقفًا بالكابل",
+            "name_en": "Cable standing calf raise"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة بساق واحدة بوزن الجسم",
+            "name_en": "Single-leg bodyweight calf raise"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "رفع السمانة بوزن الجسم على درجة",
+            "name_en": "Bodyweight calf raise on a step"
+          }
+        ],
+        "name_ar": "تمارين تُبرز العضلة التوأمية (الركبة شبه ممدودة)",
+        "name_en": "Gastrocnemius-biased calf work (knee relatively extended)",
+        "slug": "gastrocnemius-biased"
+      },
+      {
+        "anatomy_note": "The soleus does not cross the knee; bending the knee reduces the gastrocnemius’s mechanical contribution and biases plantar-flexion work toward the soleus, without making it exclusive.",
+        "exercise_suggestions": [
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "رفع السمانة جلوسًا على الجهاز",
+            "name_en": "Seated machine calf raise"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "رفع السمانة جلوسًا بالدمبل",
+            "name_en": "Dumbbell seated calf raise"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة جلوسًا بالبار",
+            "name_en": "Barbell seated calf raise"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة جلوسًا بالكابل",
+            "name_en": "Cable seated calf raise"
+          },
+          {
+            "equipment": "machine",
+            "level": "intermediate",
+            "name_ar": "ضغط السمانة والركبة مثنية على جهاز الأرجل",
+            "name_en": "Bent-knee leg-press calf press"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "رفع السمانة بوزن الجسم والركبة مثنية",
+            "name_en": "Bent-knee bodyweight calf raise"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة بساق واحدة والركبة مثنية",
+            "name_en": "Single-leg bent-knee calf raise"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "رفع السمانة في وضع الجلوس على الحائط",
+            "name_en": "Wall-sit calf raise"
+          }
+        ],
+        "name_ar": "تمارين تُبرز العضلة النعلية (الركبة مثنية)",
+        "name_en": "Soleus-biased calf work (knee flexed)",
+        "slug": "soleus-biased"
+      }
+    ]
+  },
+  {
+    "caveat": "The abdominal wall has anatomically distinct muscles, but its oblique layers and deep stabilizers participate in overlapping actions and are not reliably isolated by ordinary gym exercises. Planner categories here are practical functional regions, not claims of muscle isolation. The familiar ‘upper abs’ and ‘lower abs’ are not separate selectable anatomical parts; equipment labels indicate the primary implement rather than exclusive activation.",
+    "evidence": [
+      {
+        "supports": "Anatomical basis for identifying rectus abdominis and the lateral abdominal muscles, including the external and internal obliques and transversus abdominis, as distinct muscles in an integrated abdominal wall.",
+        "title": "Anatomy, Abdomen and Pelvis: Abdominal Wall - StatPearls, NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK551649/"
+      },
+      {
+        "supports": "Provides common crunch, dead bug, plank, anti-rotation, and other abdominal/core exercise examples; notes that no single exercise trains all abdominal muscles optimally and that abs function integratively rather than only in isolation.",
+        "title": "Crunch Time: An Evidence-based Approach to Training the Abs - ACE Fitness",
+        "url": "https://www.acefitness.org/resources/pros/expert-articles/8989/crunch-time-an-evidence-based-approach-to-training-the-abs/"
+      },
+      {
+        "supports": "Reviews EMG research on rectus abdominis, internal/external obliques and transversus abdominis during exercise; reports uneven evidence, measurement inconsistency, and limited transversus-abdominis research, cautioning against overconfident claims of selective targeting.",
+        "title": "Core Muscle Activity during Physical Fitness Exercises: A Systematic Review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/"
+      }
+    ],
+    "id": "abs",
+    "muscle_name_ar": "جدار البطن والعضلات المائلة",
+    "muscle_name_en": "Abdominal wall and obliques",
+    "parts": [
+      {
+        "anatomy_note": "The paired rectus abdominis runs vertically on the front of the abdomen and contributes to trunk flexion and abdominal compression; upper/lower ‘abs’ are not separate muscles, though exercise mechanics can shift emphasis.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "كرنش أرضي",
+            "name_en": "Floor crunch"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "كرنش عكسي",
+            "name_en": "Reverse crunch"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين الحشرة الميتة",
+            "name_en": "Dead bug"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "رفع الساقين مع ثني الركبتين",
+            "name_en": "Bent-knee leg raise"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثبات وضعية الجسم المجوف",
+            "name_en": "Hollow-body hold"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثني الجذع على مقعد مائل",
+            "name_en": "Decline bench curl-up"
+          },
+          {
+            "equipment": "cable",
+            "level": "intermediate",
+            "name_ar": "كرنش بالكابل من الركوع",
+            "name_en": "Kneeling cable crunch"
+          },
+          {
+            "equipment": "machine",
+            "level": "beginner",
+            "name_ar": "كرنش على جهاز البطن",
+            "name_en": "Machine abdominal crunch"
+          }
+        ],
+        "name_ar": "العضلة المستقيمة البطنية (ثني الجذع للأمام)",
+        "name_en": "Rectus abdominis (anterior trunk flexion)",
+        "slug": "rectus-abdominis"
+      },
+      {
+        "anatomy_note": "The internal and external obliques form layered muscles on the sides of the abdominal wall and contribute to trunk rotation, lateral flexion, and bracing; exercises load them together rather than isolating one muscle reliably.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "بلانك جانبي",
+            "name_en": "Side plank"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "كرنش الدراجة مع تدوير الجذع",
+            "name_en": "Cross-body bicycle crunch"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "دوران الجذع واقفًا",
+            "name_en": "Standing torso rotation"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "سحب الحطّاب بالكابل",
+            "name_en": "Cable wood chop"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ضغط بالوف المضاد للدوران",
+            "name_en": "Pallof press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "intermediate",
+            "name_ar": "مشي حمل الدمبل بجانب واحد",
+            "name_en": "Dumbbell suitcase carry"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "ثني جانبي بالدمبل",
+            "name_en": "Dumbbell side bend"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "لفّ روسي",
+            "name_en": "Russian twist"
+          }
+        ],
+        "name_ar": "العضلتان المائلتان الداخلية والخارجية (الدوران والثني الجانبي)",
+        "name_en": "Internal and external obliques (rotation and lateral flexion)",
+        "slug": "obliques"
+      },
+      {
+        "anatomy_note": "The transversus abdominis is the deepest broad lateral abdominal layer and helps tension the abdominal wall and support trunk control; bracing drills engage it but do not isolate it from other core muscles.",
+        "exercise_suggestions": [
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تثبيت البطن مستلقيًا",
+            "name_en": "Supine abdominal brace"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "تمرين الكلب والطائر",
+            "name_en": "Bird dog"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "بلانك أمامي",
+            "name_en": "Front plank"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "beginner",
+            "name_ar": "الحشرة الميتة مع لمس الكعب بالتبادل",
+            "name_en": "Dead bug with alternating heel tap"
+          },
+          {
+            "equipment": "bodyweight",
+            "level": "intermediate",
+            "name_ar": "ثبات بلانك الدب",
+            "name_en": "Bear plank hold"
+          },
+          {
+            "equipment": "cable",
+            "level": "beginner",
+            "name_ar": "ضغط كابل واقف لمقاومة الدوران",
+            "name_en": "Standing cable anti-rotation press"
+          },
+          {
+            "equipment": "dumbbell",
+            "level": "beginner",
+            "name_ar": "مشي المزارع بالدمبل",
+            "name_en": "Dumbbell farmer carry"
+          },
+          {
+            "equipment": "barbell",
+            "level": "intermediate",
+            "name_ar": "دحرجة البار",
+            "name_en": "Barbell rollout"
+          }
+        ],
+        "name_ar": "تثبيت البطن العميق (وظيفة تركيزية على المستعرضة البطنية)",
+        "name_en": "Deep abdominal bracing (transversus-focused function)",
+        "slug": "deep-abdominal-bracing"
+      }
+    ]
+  }
+]

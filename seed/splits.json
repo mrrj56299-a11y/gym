@@ -1,0 +1,698 @@
+{
+  "splits": [
+    {
+      "slug": "arnold",
+      "name_ar": "Arnold Split",
+      "name_en": "Arnold Split",
+      "days": [
+        {
+          "name_ar": "الصدر والظهر",
+          "name_en": "Chest and Back",
+          "muscle_slugs": [
+            "chest",
+            "back"
+          ]
+        },
+        {
+          "name_ar": "الأكتاف والذراعان والساعدان",
+          "name_en": "Shoulders, Arms, and Forearms",
+          "muscle_slugs": [
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الساقان وأسفل الظهر",
+          "name_en": "Legs and Lower Back",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves"
+          ]
+        },
+        {
+          "name_ar": "الصدر والظهر",
+          "name_en": "Chest and Back",
+          "muscle_slugs": [
+            "chest",
+            "back"
+          ]
+        },
+        {
+          "name_ar": "الأكتاف والذراعان والساعدان",
+          "name_en": "Shoulders, Arms, and Forearms",
+          "muscle_slugs": [
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الساقان وأسفل الظهر",
+          "name_en": "Legs and Lower Back",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves"
+          ]
+        }
+      ],
+      "description_ar": "تقسيم تدريبي مرتفع الحجم من ست حصص، يجمع الصدر مع الظهر، والأكتاف مع الذراعين والساعدين، ثم الساقين؛ ويتكرر كل نمط مرتين أسبوعيًا. تُدرَّب عضلات البطن أيضًا في كل حصة في إحدى النسخ الموصوفة، كما تشرك التمارين المركبة مجموعات عضلية إضافية.",
+      "description_en": "A high-volume six-session rotation pairing chest with back, shoulders with arms and forearms, and legs; each workout pattern repeats twice weekly. Abs are also trained on each session in a described version, and compound lifts create additional overlap across muscle groups.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "ppl-3",
+      "name_ar": "Push / Pull / Legs (PPL)",
+      "name_en": "Push / Pull / Legs (PPL)",
+      "days": [
+        {
+          "name_ar": "الدفع",
+          "name_en": "Push",
+          "muscle_slugs": [
+            "chest",
+            "shoulders",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "السحب",
+          "name_en": "Pull",
+          "muscle_slugs": [
+            "back",
+            "shoulders",
+            "biceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الساقان",
+          "name_en": "Legs",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "ثلاث حصص تدريبية: تُجمع عضلات الدفع للجزء العلوي، ثم عضلات السحب، ثم تُدرَّب عضلات الجزء السفلي. تشغّل تمارين الضغط أيضًا الدالية الأمامية والعضلة ثلاثية الرؤوس؛ وتُشغّل تمارين السحب العضلة ذات الرأسين والدالية الخلفية. تساعد السواعد في القبض والسحب، ويمكن إدراج البطن مع يوم الساقين. في هذه النسخة ذات الأيام الثلاثة أسبوعيًا، تُدرَّب كل مجموعة مرة واحدة في الأسبوع.",
+      "description_en": "Three training sessions: group upper-body pressing muscles together, pulling muscles together, then train the lower body. Presses also recruit the front delts and triceps; pulling movements recruit the biceps and rear delts. Forearms assist gripping and pulling, while abs may be paired with legs. This three-day weekly version trains each group once per week.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "ppl-6",
+      "name_ar": "Push / Pull / Legs ×2 (6 training days)",
+      "name_en": "Push / Pull / Legs ×2 (6 training days)",
+      "days": [
+        {
+          "name_ar": "دفع أ",
+          "name_en": "Push A",
+          "muscle_slugs": [
+            "chest",
+            "shoulders",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "سحب أ",
+          "name_en": "Pull A",
+          "muscle_slugs": [
+            "back",
+            "shoulders",
+            "biceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "أرجل أ",
+          "name_en": "Legs A",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "دفع ب",
+          "name_en": "Push B",
+          "muscle_slugs": [
+            "chest",
+            "shoulders",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "سحب ب",
+          "name_en": "Pull B",
+          "muscle_slugs": [
+            "back",
+            "shoulders",
+            "biceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "أرجل ب",
+          "name_en": "Legs B",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "تدرّب على التوالي أيام الدفع والسحب والأرجل، ثم كرّر الدورة لستة أيام تدريب أسبوعيًا. تشرك تمارين الضغط أيضًا الدالية الأمامية والترايسبس، بينما تشرك تمارين السحب البايسبس والدالية الخلفية. وقد تستهدف حركات مفصل الورك الخلفية أوتار المأبض والألوية أيضًا في أيام السحب. احرص على ضبط الحجم التدريبي والتعافي مع هذا التكرار.",
+      "description_en": "Train push, pull, and legs in sequence, then repeat the three-session cycle for six training days per week. Presses also involve the front delts and triceps; rows and pulls involve the biceps and rear delts. Hinge variations may also train the hamstrings and glutes on pull days. Manage volume and recovery carefully at this frequency.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "upper-lower",
+      "name_ar": "Upper / Lower (4 training days)",
+      "name_en": "Upper / Lower (4 training days)",
+      "days": [
+        {
+          "name_ar": "الجزء العلوي أ",
+          "name_en": "Upper Body A",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي أ",
+          "name_en": "Lower Body A",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الجزء العلوي ب",
+          "name_en": "Upper Body B",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي ب",
+          "name_en": "Lower Body B",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "درّب عضلات الجزء العلوي في حصتين أسبوعيتين وعضلات الجزء السفلي في حصتين. تشير تسميتا أ وب إلى تكرار الحصص لا إلى تمارين إلزامية؛ وقد تشرك حركات الدفع والسحب عضلات الذراعين والكتفين، كما قد تتداخل تمارين مفصل الورك والرجل المركبة مع الألوية وأوتار الركبة. يمكن إدراج تمارين الجذع في حصة سفلية واحدة أو كلتيهما. رتّب الحصص مع إتاحة التعافي بين الحصص المتشابهة.",
+      "description_en": "Train upper-body muscles on two weekly sessions and lower-body muscles on two sessions. The A/B labels distinguish repeated sessions, not a mandatory exercise prescription; pressing and pulling can also involve arm and shoulder muscles, while hip hinges and compound leg work may overlap glutes and hamstrings. Core work can be included on either or both lower sessions. Schedule sessions with recovery between repeats.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "full-body",
+      "name_ar": "Full Body (3 training days)",
+      "name_en": "Full Body (3 training days)",
+      "days": [
+        {
+          "name_ar": "تمرين كامل الجسم أ — سكوات، ضغط صدر بالبار، تجديف بالبار",
+          "name_en": "Full Body A — Squat, Bench Press, Barbell Row",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "تمرين كامل الجسم ب — سكوات، ضغط كتف فوق الرأس، رفعة ميتة",
+          "name_en": "Full Body B — Squat, Overhead Press, Deadlift",
+          "muscle_slugs": [
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "تمرين كامل الجسم أ/ب (التناوب في كل حصة)",
+          "name_en": "Full Body A/B (alternate each session)",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "نفّذ ثلاث حصص لكامل الجسم أسبوعيًا، مع التناوب بين أ وب في كل حصة (مثلًا أ/ب/أ هذا الأسبوع، ثم ب/أ/ب في الأسبوع التالي). تتضمن أ السكوات وضغط الصدر بالبار والتجديف بالبار؛ وتتضمن ب السكوات وضغط الكتف فوق الرأس والرفعة الميتة. العضلات المدرجة تشمل العضلات الأساسية والمساعدة بوضوح في هذه الحركات المركبة، وليس تمارين العزل.",
+      "description_en": "Train three full-body sessions per week, alternating A and B each workout (for example, A/B/A this week, then B/A/B next week). A uses squat, bench press, and barbell row; B uses squat, overhead press, and deadlift. The listed muscles reflect the main and meaningful assisting muscle involvement of those compound lifts, not isolation work.",
+      "level": "beginner"
+    },
+    {
+      "slug": "bro",
+      "name_ar": "Bro Split / Body-Part Split (5 training days)",
+      "name_en": "Bro Split / Body-Part Split (5 training days)",
+      "days": [
+        {
+          "name_ar": "يوم الصدر",
+          "name_en": "Chest Day",
+          "muscle_slugs": [
+            "chest",
+            "triceps",
+            "shoulders"
+          ]
+        },
+        {
+          "name_ar": "يوم الظهر",
+          "name_en": "Back Day",
+          "muscle_slugs": [
+            "back",
+            "biceps",
+            "shoulders",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "يوم الأرجل",
+          "name_en": "Leg Day",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "يوم الأكتاف",
+          "name_en": "Shoulder Day",
+          "muscle_slugs": [
+            "shoulders",
+            "chest"
+          ]
+        },
+        {
+          "name_ar": "يوم الذراعين",
+          "name_en": "Arm Day",
+          "muscle_slugs": [
+            "biceps",
+            "triceps",
+            "forearms"
+          ]
+        }
+      ],
+      "description_ar": "أسبوع من خمس حصص يركّز كلٌّ منها على جزء رئيسي: الصدر، ثم الظهر، ثم الأرجل، ثم الأكتاف، ثم الذراعان. الجزء المذكور هو محور الحصة، لكن تمارين الضغط والسحب قد تُشرك عضلات أخرى؛ فالضغط يشغّل الترايسبس ومقدمة الكتف، والسحب يشغّل البايسبس والكتف الخلفي. يناسب هذا التقسيم غالبًا المتدرب المتوسط القادر على إدارة حجم تدريبي مركز والتعافي منه.",
+      "description_en": "A five-session, body-part-focused week: chest, back, legs, shoulders, then arms. The named body part is the main emphasis, but compounds and accessory work can involve overlapping muscles—for example, pressing recruits triceps and front delts, while pulling engages biceps and rear delts. This format is better suited to an intermediate trainee who can manage focused, potentially high-volume sessions and recovery.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "phul",
+      "name_ar": "PHUL (Power Hypertrophy Upper Lower)",
+      "name_en": "PHUL (Power Hypertrophy Upper Lower)",
+      "days": [
+        {
+          "name_ar": "الجزء العلوي — قوة",
+          "name_en": "Upper Power",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي — قوة",
+          "name_en": "Lower Power",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "back",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الجزء العلوي — تضخيم عضلي",
+          "name_en": "Upper Hypertrophy",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي — تضخيم عضلي",
+          "name_en": "Lower Hypertrophy",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves"
+          ]
+        }
+      ],
+      "description_ar": "يتكوّن الأسبوع من أربع حصص بنظام علوي/سفلي: حصتان بتركيز أكبر على القوة والأوزان الثقيلة، تليهما حصتان بتكرارات أعلى للتضخيم. تستهدف حصص الجزء العلوي الصدر والظهر والكتفين والذراعين، بينما تستهدف حصص الجزء السفلي الساقين؛ وتتداخل عضلات الفخذ الأمامية والأرداف والخلفية مع حركات القرفصاء والاندفاع والرفعة المميتة وثني الساق. كما تشارك العضلات الخلفية للكتف والساعدين في حركات السحب والقبضة. تمارين البطن اختيارية في القالب المنشور وليست يومًا مستقلًا.",
+      "description_en": "A four-session upper/lower week: two heavier, strength-oriented workouts followed by two higher-repetition hypertrophy workouts. Upper sessions train chest, back, shoulders, and arms; lower sessions train the legs, with squats/lunges and deadlifts/leg curls creating overlap across quadriceps, glutes, and hamstrings. Rows also involve the rear delts and grip/forearms; deadlifts recruit the back and forearms. Abdominal work is optional in the published template, not a dedicated PHUL day.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "phat",
+      "name_ar": "PHAT (Power Hypertrophy Adaptive Training)",
+      "name_en": "PHAT (Power Hypertrophy Adaptive Training)",
+      "days": [
+        {
+          "name_ar": "قوة الجزء العلوي من الجسم",
+          "name_en": "Upper Body Power",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps"
+          ]
+        },
+        {
+          "name_ar": "قوة الجزء السفلي من الجسم",
+          "name_en": "Lower Body Power",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves"
+          ]
+        },
+        {
+          "name_ar": "تضخيم الظهر والأكتاف",
+          "name_en": "Back and Shoulders Hypertrophy",
+          "muscle_slugs": [
+            "back",
+            "shoulders",
+            "biceps"
+          ]
+        },
+        {
+          "name_ar": "تضخيم الجزء السفلي من الجسم",
+          "name_en": "Lower Body Hypertrophy",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves"
+          ]
+        },
+        {
+          "name_ar": "تضخيم الصدر والذراعين",
+          "name_en": "Chest and Arms Hypertrophy",
+          "muscle_slugs": [
+            "chest",
+            "shoulders",
+            "biceps",
+            "triceps"
+          ]
+        }
+      ],
+      "description_ar": "يتناوب البرنامج بين حصتي قوة للجزء العلوي والسفلي وثلاث حصص تضخيم بأسلوب كمال الأجسام. وتُشغّل حركات السحب والدفع الذراعين والأكتاف أيضاً، لذلك تتلقى هذه العضلات عملاً متداخلاً خلال الأسبوع.",
+      "description_en": "Five training sessions alternate upper- and lower-body power work with three bodybuilding-style hypertrophy sessions. Pulling and pressing movements also recruit the arms and shoulders, so these groups receive overlapping work across the week.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "torso-limbs",
+      "name_ar": "Torso / Limbs",
+      "name_en": "Torso / Limbs",
+      "days": [
+        {
+          "name_ar": "الجذع أ",
+          "name_en": "Torso A",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders"
+          ]
+        },
+        {
+          "name_ar": "الأطراف أ",
+          "name_en": "Limbs A",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "biceps",
+            "triceps",
+            "forearms",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الجذع ب",
+          "name_en": "Torso B",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders"
+          ]
+        },
+        {
+          "name_ar": "الأطراف ب",
+          "name_en": "Limbs B",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "biceps",
+            "triceps",
+            "forearms",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "تناوب من أربع حصص بين حصتين تركزان على الجذع وحصتين للأطراف. تستهدف حصص الجذع الصدر والظهر وأقسام الكتف الثلاثة، بينما تجمع حصص الأطراف تدريب الساقين مع تمارين مباشرة للذراعين، ويمكن إدراج السمانة والبطن ضمن التمارين المساعدة. أدرج أيام التعافي بين الحصص حسب الحاجة؛ أيام الراحة ليست أيام تدريب في هذا القالب.",
+      "description_en": "A four-session rotation alternating two torso-focused workouts with two limb-focused workouts. Torso sessions emphasize chest, back, and all three deltoid regions; limb sessions combine legs with direct arm work, with calves and abs included as possible accessory targets. Schedule recovery days between sessions as needed; rest days are not training days in this template.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "chest-back-shoulders-arms-legs",
+      "name_ar": "Chest + Back / Shoulders + Arms / Legs",
+      "name_en": "Chest + Back / Shoulders + Arms / Legs",
+      "days": [
+        {
+          "name_ar": "الصدر + الظهر",
+          "name_en": "Chest + Back",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "abs",
+            "biceps",
+            "shoulders"
+          ]
+        },
+        {
+          "name_ar": "الأكتاف + الذراعان",
+          "name_en": "Shoulders + Arms",
+          "muscle_slugs": [
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الأرجل",
+          "name_en": "Legs",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "دورة كمال أجسام من ثلاثة تمارين: يُدرَّب الصدر مع الظهر، ثم الأكتاف مع الذراعين، وتُخصَّص حصة مستقلة للأرجل. في النسخة الكلاسيكية المستوحاة من أرنولد تتكرر الدورة مرتين أسبوعيًا، لكن هذا القالب يذكر حصص التدريب الثلاث فقط ولا يفرض أيام راحة. التداخل مقصود: تمارين السحب تُشرك العضلة ذات الرأسين والكتف الخلفي، وتمارين الدفع تُشرك الكتف الأمامي والترايسبس، كما تتضمن الخطط الكلاسيكية المذكورة تمارين للبطن في الحصص.",
+      "description_en": "A three-workout bodybuilding rotation: pair chest with back, train shoulders and arms together, and give legs their own session. The classic Arnold-style version repeats this sequence twice weekly, but this template names only the three training sessions; it does not prescribe rest days. Overlap is intentional: pulling trains biceps and rear delts, pressing recruits front delts and triceps, and the cited classic plans include abs across sessions.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "upper-lower-full",
+      "name_ar": "Upper / Lower / Full Body (5-Day Split)",
+      "name_en": "Upper / Lower / Full Body (5-Day Split)",
+      "days": [
+        {
+          "name_ar": "الجزء العلوي ١",
+          "name_en": "Upper Body 1",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي ١",
+          "name_en": "Lower Body 1",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "تمرين الجسم كاملًا",
+          "name_en": "Full Body",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "الجزء العلوي ٢",
+          "name_en": "Upper Body 2",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms"
+          ]
+        },
+        {
+          "name_ar": "الجزء السفلي ٢",
+          "name_en": "Lower Body 2",
+          "muscle_slugs": [
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "درّب الجزء العلوي، ثم السفلي، ثم الجسم كاملًا، وبعدها كرّر حصتي الجزء العلوي والسفلي؛ لخمس حصص تدريبية. تشمل حصص الجزء العلوي الصدر والظهر والكتفين والذراعين، وتشمل حصص الجزء السفلي الساقين ويمكن أن تتضمن البطن. تتداخل حصة الجسم كاملًا مع الجزأين، لذلك تُدرَّب المناطق الرئيسية أكثر من مرة. اضبط حجم التدريب بما يسمح بالتعافي الجيد.",
+      "description_en": "Train upper body, lower body, full body, then repeat upper and lower sessions for five training days. Upper sessions cover the chest, back, shoulders, and arms; lower sessions cover the legs and may include abs. The full-body session overlaps both halves, so each major region is trained more than once. Adjust workload to recover well.",
+      "level": "intermediate"
+    },
+    {
+      "slug": "full-body-ab",
+      "name_ar": "Full Body A/B",
+      "name_en": "Full Body A/B",
+      "days": [
+        {
+          "name_ar": "تمرين الجسم كامل A",
+          "name_en": "Full Body A",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "تمرين الجسم كامل B",
+          "name_en": "Full Body B",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        },
+        {
+          "name_ar": "تناوب A/B للجسم كامل — الحصة الأسبوعية الثالثة",
+          "name_en": "Full Body A/B Alternation — third weekly session",
+          "muscle_slugs": [
+            "chest",
+            "back",
+            "shoulders",
+            "biceps",
+            "triceps",
+            "forearms",
+            "quadriceps",
+            "hamstrings",
+            "glutes",
+            "calves",
+            "abs"
+          ]
+        }
+      ],
+      "description_ar": "تدرّب ثلاثة أيام غير متتالية أسبوعيًا، مع التناوب المتواصل بين A وB: الأسبوع الأول A/B/A، والثاني B/A/B، ثم كرّر. كلا التمرينين لكامل الجسم ويستخدمان تمارين متنوعة لتغطية المجموعات العضلية الرئيسية؛ كما تشغّل الحركات المركبة عضلات متداخلة (مثل تمارين الدفع للصدر والكتفين والترايسبس، والسحب للظهر والبايسبس). في الحصة الثالثة كرّر التمرين التالي في تسلسل التناوب، واضبط حجم التدريب بما يلائم التعافي.",
+      "description_en": "Train three nonconsecutive days per week, alternating A and B continuously: week 1 A/B/A, week 2 B/A/B, then repeat. Both sessions are full-body, using varied exercises to cover the major muscle groups; compound lifts also train overlapping muscles (for example, pressing recruits chest, shoulders and triceps; pulling recruits back and biceps). The third session repeats whichever workout comes next in the sequence. Keep the workload appropriate to recovery.",
+      "level": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+[
+  {
+    "caveat": "The schema has no lower-back slug, so it is omitted from muscle_slugs; lower-back work (including deadlifts/good mornings in published variants) is part of some canonical descriptions. Abs are omitted from day slugs because the detailed cited Legion version includes them every day, not as the defining three-day split; one source's listed exercises also show calf/forearm work can overlap on non-leg/shoulder-arm sessions in a higher-frequency variation. These historical high-volume versions vary and are not beginner prescriptions.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back"
+        ],
+        "name_ar": "الصدر والظهر",
+        "name_en": "Chest and Back"
+      },
+      {
+        "muscle_slugs": [
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms"
+        ],
+        "name_ar": "الأكتاف والذراعان والساعدان",
+        "name_en": "Shoulders, Arms, and Forearms"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves"
+        ],
+        "name_ar": "الساقان وأسفل الظهر",
+        "name_en": "Legs and Lower Back"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back"
+        ],
+        "name_ar": "الصدر والظهر",
+        "name_en": "Chest and Back"
+      },
+      {
+        "muscle_slugs": [
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms"
+        ],
+        "name_ar": "الأكتاف والذراعان والساعدان",
+        "name_en": "Shoulders, Arms, and Forearms"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves"
+        ],
+        "name_ar": "الساقان وأسفل الظهر",
+        "name_en": "Legs and Lower Back"
+      }
+    ],
+    "description_ar": "تقسيم تدريبي مرتفع الحجم من ست حصص، يجمع الصدر مع الظهر، والأكتاف مع الذراعين والساعدين، ثم الساقين؛ ويتكرر كل نمط مرتين أسبوعيًا. تُدرَّب عضلات البطن أيضًا في كل حصة في إحدى النسخ الموصوفة، كما تشرك التمارين المركبة مجموعات عضلية إضافية.",
+    "description_en": "A high-volume six-session rotation pairing chest with back, shoulders with arms and forearms, and legs; each workout pattern repeats twice weekly. Abs are also trained on each session in a described version, and compound lifts create additional overlap across muscle groups.",
+    "evidence": [
+      {
+        "supported_fact": "Defines the six-day pattern (chest/back; shoulders, upper arms and forearms; thighs, calves and lower back, repeated twice), notes abs each workout, and advises that it is for intermediate/advanced rather than beginners.",
+        "title": "Arnold Split: The Complete 6-Day Workout Routine — Legion Athletics",
+        "url": "https://legionathletics.com/arnold-split/"
+      },
+      {
+        "supported_fact": "Presents the two-times-weekly schedule as based on The New Encyclopedia of Modern Bodybuilding, listing chest/back, shoulders/arms, and legs/lower back days; its exercise lists support deltoid-head, arm, forearm, leg, calf, and abs overlap details.",
+        "title": "Arnold Schwarzenegger Volume Workout Routines — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/arnold-schwarzenegger-volume-workout-routines"
+      },
+      {
+        "supported_fact": "Reports Schwarzenegger's own training discussion of pairing chest and back, with examples of antagonistic supersets.",
+        "title": "Arnold's Chest & Back Workout: The Best Pump Of All — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/articles/arnold-schwarzenegger-superset-workout"
+      }
+    ],
+    "id": "arnold",
+    "level": "intermediate",
+    "name": "Arnold Split"
+  },
+  {
+    "caveat": "PPL establishes movement-based day categories, not one mandatory, canonical muscle allocation: sources differ on where to put abs, and forearms are not listed as a primary target in these descriptions (here they are included as assisting grip muscles). The cited university source cautions that three days weekly gives each body part only one session and favors PPL after beginner stage; therefore intermediate is the conservative recommendation for this exact three-day version. The beginner-labelled source shows it can also be adapted for beginners, but does not establish that as the best general choice.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "front_delts",
+          "side_delts",
+          "triceps"
+        ],
+        "name_ar": "الدفع",
+        "name_en": "Push"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "rear_delts",
+          "biceps",
+          "forearms"
+        ],
+        "name_ar": "السحب",
+        "name_en": "Pull"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الساقان",
+        "name_en": "Legs"
+      }
+    ],
+    "description_ar": "ثلاث حصص تدريبية: تُجمع عضلات الدفع للجزء العلوي، ثم عضلات السحب، ثم تُدرَّب عضلات الجزء السفلي. تشغّل تمارين الضغط أيضًا الدالية الأمامية والعضلة ثلاثية الرؤوس؛ وتُشغّل تمارين السحب العضلة ذات الرأسين والدالية الخلفية. تساعد السواعد في القبض والسحب، ويمكن إدراج البطن مع يوم الساقين. في هذه النسخة ذات الأيام الثلاثة أسبوعيًا، تُدرَّب كل مجموعة مرة واحدة في الأسبوع.",
+    "description_en": "Three training sessions: group upper-body pressing muscles together, pulling muscles together, then train the lower body. Presses also recruit the front delts and triceps; pulling movements recruit the biceps and rear delts. Forearms assist gripping and pulling, while abs may be paired with legs. This three-day weekly version trains each group once per week.",
+    "evidence": [
+      {
+        "supported_fact": "Defines push as chest, shoulders and triceps; pull as back and biceps; legs as quads, hamstrings, calves and abdominals. Notes that three weekly sessions can put each body part once weekly and says the split suits trainees past the beginner stage; its example push/pull workouts illustrate overlapping deltoid, triceps and biceps recruitment.",
+        "title": "The Push/Pull/Legs Routine for Muscle Gains — Aston University Sport",
+        "url": "https://www.aston.ac.uk/sport/news/tips/fitness-exercise/push-pull-legs"
+      },
+      {
+        "supported_fact": "Provides a three-day order of Push, Pull, then Legs; lists push chest/shoulders/triceps, pull upper/lower back/rear deltoids/trapezius/biceps, and legs glutes/quadriceps/hamstrings/calves. States abs may be added to a workout, and explicitly labels its example a beginner program.",
+        "title": "3 Day Push/Pull/Legs (PPL) Workout for Beginners — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/3-day-PPL-workout-for-beginners"
+      }
+    ],
+    "id": "ppl-3",
+    "level": "intermediate",
+    "name": "Push / Pull / Legs (PPL)"
+  },
+  {
+    "caveat": "The six-day A/B sequence is a documented template, not a single universally fixed canonical prescription. These sources do not prescribe one definitive muscle-slug list: rear delts and forearms are included where the example program uses reverse-fly work and grip-intensive pulling, while abs are shown in a legs workout. Actual overlap depends on exercise selection; deadlift/hinge-heavy pulling can overlap with hamstrings and glutes. A six-days-per-week routine is high in frequency, so beginners are not the conservative recommendation.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "front_delts",
+          "side_delts",
+          "triceps"
+        ],
+        "name_ar": "دفع أ",
+        "name_en": "Push A"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "rear_delts",
+          "biceps",
+          "forearms"
+        ],
+        "name_ar": "سحب أ",
+        "name_en": "Pull A"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "أرجل أ",
+        "name_en": "Legs A"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "front_delts",
+          "side_delts",
+          "triceps"
+        ],
+        "name_ar": "دفع ب",
+        "name_en": "Push B"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "rear_delts",
+          "biceps",
+          "forearms"
+        ],
+        "name_ar": "سحب ب",
+        "name_en": "Pull B"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "أرجل ب",
+        "name_en": "Legs B"
+      }
+    ],
+    "description_ar": "تدرّب على التوالي أيام الدفع والسحب والأرجل، ثم كرّر الدورة لستة أيام تدريب أسبوعيًا. تشرك تمارين الضغط أيضًا الدالية الأمامية والترايسبس، بينما تشرك تمارين السحب البايسبس والدالية الخلفية. وقد تستهدف حركات مفصل الورك الخلفية أوتار المأبض والألوية أيضًا في أيام السحب. احرص على ضبط الحجم التدريبي والتعافي مع هذا التكرار.",
+    "description_en": "Train push, pull, and legs in sequence, then repeat the three-session cycle for six training days per week. Presses also involve the front delts and triceps; rows and pulls involve the biceps and rear delts. Hinge variations may also train the hamstrings and glutes on pull days. Manage volume and recovery carefully at this frequency.",
+    "evidence": [
+      {
+        "supported_fact": "Gives the canonical six-training-day sequence (Push A, Pull A, Legs A, Push B, Pull B, Legs B) and states muscle groups are trained twice weekly; its push/pull groupings support the principal assignments.",
+        "title": "6 Day Per Week Push/Pull/Legs Hypertrophy Split — Weightology",
+        "url": "https://weightology.net/muscle-gain/6-day-per-week-push-pull-legs-hypertrophy-split/"
+      },
+      {
+        "supported_fact": "Defines push as chest, shoulders, and triceps; pull as back and biceps; legs as lower body including quads, hamstrings, calves, and abs. Notes chest presses recruit anterior delts and triceps, and back training involves biceps.",
+        "title": "The Push/Pull/Legs Routine for Muscle Gains — Aston University Sport",
+        "url": "https://www.aston.ac.uk/sport/news/tips/fitness-exercise/push-pull-legs"
+      },
+      {
+        "supported_fact": "Describes a six-day PPL routine intended for intermediate lifters and offers schedules with differing rest frequency, supporting a conservative intermediate level and caution that six consecutive sessions are not the only schedule variant.",
+        "title": "6 Day Push/Pull/Legs (PPL) Powerbuilding Workout Split & Meal Plan — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/6-day-powerbuilding-split-meal-plan"
+      }
+    ],
+    "id": "ppl-6",
+    "level": "intermediate",
+    "name": "Push / Pull / Legs ×2 (6 training days)"
+  },
+  {
+    "caveat": "The four-day upper/lower arrangement and upper/lower groupings are supported, but sources do not establish a single canonical A/B exercise list or require core work on particular days. Muscle involvement varies with exercise selection; listed groups reflect the conventional broad split, with core shown as optional overlap.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "abs"
+        ],
+        "name_ar": "الجزء العلوي أ",
+        "name_en": "Upper Body A"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الجزء السفلي أ",
+        "name_en": "Lower Body A"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "abs"
+        ],
+        "name_ar": "الجزء العلوي ب",
+        "name_en": "Upper Body B"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الجزء السفلي ب",
+        "name_en": "Lower Body B"
+      }
+    ],
+    "description_ar": "درّب عضلات الجزء العلوي في حصتين أسبوعيتين وعضلات الجزء السفلي في حصتين. تشير تسميتا أ وب إلى تكرار الحصص لا إلى تمارين إلزامية؛ وقد تشرك حركات الدفع والسحب عضلات الذراعين والكتفين، كما قد تتداخل تمارين مفصل الورك والرجل المركبة مع الألوية وأوتار الركبة. يمكن إدراج تمارين الجذع في حصة سفلية واحدة أو كلتيهما. رتّب الحصص مع إتاحة التعافي بين الحصص المتشابهة.",
+    "description_en": "Train upper-body muscles on two weekly sessions and lower-body muscles on two sessions. The A/B labels distinguish repeated sessions, not a mandatory exercise prescription; pressing and pulling can also involve arm and shoulder muscles, while hip hinges and compound leg work may overlap glutes and hamstrings. Core work can be included on either or both lower sessions. Schedule sessions with recovery between repeats.",
+    "evidence": [
+      {
+        "supported_fact": "Identifies a common four-day split for intermediate clients: upper-body sessions Monday/Thursday and lower-body sessions Tuesday/Friday, with recovery between repeat muscle-group sessions.",
+        "title": "Determination of Resistance Training Frequency — NSCA / Essentials of Personal Training excerpt",
+        "url": "https://www.nsca.com/education/articles/kinetic-select/determination-of-resistance-training-frequency/"
+      },
+      {
+        "supported_fact": "Provides a concrete four-session upper/lower example and identifies upper-day groups (chest, shoulders, back, arms, forearms, possible core) and lower-day groups (quads, hamstrings, glutes/lower back, calves, possible core); demonstrates that core placement can vary.",
+        "title": "Upper/Lower 4 Day Gym Bodybuilding Workout — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/upper-lower-4-day-gym-bodybuilding-workout"
+      },
+      {
+        "supported_fact": "Reviews volume-matched research on training frequency and hypertrophy; supports treating frequency as a programming/distribution choice rather than claiming one exact four-day split is uniquely superior.",
+        "title": "Training Frequency for Muscle Growth: What the Data Say — Stronger by Science",
+        "url": "https://www.strongerbyscience.com/frequency-muscle/"
+      }
+    ],
+    "id": "upper-lower",
+    "level": "intermediate",
+    "name": "Upper / Lower (4 training days)"
+  },
+  {
+    "caveat": "The exact A/B exercise prescription is specific to StrongLifts 5×5, not a universal definition of every three-day full-body split. The routine source describes major groups broadly; the finer-grained muscle slugs are mapped from the listed compound lifts, so assistance varies with technique and execution. Day 3 is intentionally an A/B rotation slot: it is A on an A/B/A week and B on the following B/A/B week.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "abs"
+        ],
+        "name_ar": "تمرين كامل الجسم أ — سكوات، ضغط صدر بالبار، تجديف بالبار",
+        "name_en": "Full Body A — Squat, Bench Press, Barbell Row"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "front_delts",
+          "side_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "abs"
+        ],
+        "name_ar": "تمرين كامل الجسم ب — سكوات، ضغط كتف فوق الرأس، رفعة ميتة",
+        "name_en": "Full Body B — Squat, Overhead Press, Deadlift"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "abs"
+        ],
+        "name_ar": "تمرين كامل الجسم أ/ب (التناوب في كل حصة)",
+        "name_en": "Full Body A/B (alternate each session)"
+      }
+    ],
+    "description_ar": "نفّذ ثلاث حصص لكامل الجسم أسبوعيًا، مع التناوب بين أ وب في كل حصة (مثلًا أ/ب/أ هذا الأسبوع، ثم ب/أ/ب في الأسبوع التالي). تتضمن أ السكوات وضغط الصدر بالبار والتجديف بالبار؛ وتتضمن ب السكوات وضغط الكتف فوق الرأس والرفعة الميتة. العضلات المدرجة تشمل العضلات الأساسية والمساعدة بوضوح في هذه الحركات المركبة، وليس تمارين العزل.",
+    "description_en": "Train three full-body sessions per week, alternating A and B each workout (for example, A/B/A this week, then B/A/B next week). A uses squat, bench press, and barbell row; B uses squat, overhead press, and deadlift. The listed muscles reflect the main and meaningful assisting muscle involvement of those compound lifts, not isolation work.",
+    "evidence": [
+      {
+        "supported_fact": "The creator's guide specifies three workouts weekly, alternating A and B: A is squat, bench press, barbell row; B is squat, overhead press, deadlift. It describes each as full-body with push, pull, and leg movements.",
+        "title": "StrongLifts 5×5 Workout Program — official routine description",
+        "url": "https://stronglifts.com/stronglifts-5x5/workout-program/"
+      },
+      {
+        "supported_fact": "Independent overview corroborates the three weekly sessions, the alternating A/B exercise structure, and identifies the program as suitable for beginner and intermediate lifters.",
+        "title": "5×5 Workout: What It Is and How You Can Benefit — Healthline",
+        "url": "https://www.healthline.com/health/fitness/5x5-workout"
+      },
+      {
+        "supported_fact": "ACSM states adults should do muscular-strengthening activities at least two days per week; this supports the general frequency context, not this specific routine's exact template.",
+        "title": "Physical Activity Guidelines — American College of Sports Medicine",
+        "url": "https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/"
+      }
+    ],
+    "id": "full-body",
+    "level": "beginner",
+    "name": "Full Body (3 training days)"
+  },
+  {
+    "caveat": "Day labels are canonical broad categories, but exact placements and overlaps vary by program. The NASM example itself includes triceps on chest day, biceps and reverse-fly/rear-delt work on back day, and chest work on shoulder day; shoulder pressing also commonly involves front delts and triceps. Slugs here represent relevant target/secondary involvement, not exclusive isolation. Evidence does not establish this split as superior; NASM notes that newer lifters may find its concentrated volume excessive, so intermediate is a conservative recommendation, not a strict eligibility rule.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "triceps",
+          "front_delts"
+        ],
+        "name_ar": "يوم الصدر",
+        "name_en": "Chest Day"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "biceps",
+          "rear_delts",
+          "forearms"
+        ],
+        "name_ar": "يوم الظهر",
+        "name_en": "Back Day"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "يوم الأرجل",
+        "name_en": "Leg Day"
+      },
+      {
+        "muscle_slugs": [
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "chest"
+        ],
+        "name_ar": "يوم الأكتاف",
+        "name_en": "Shoulder Day"
+      },
+      {
+        "muscle_slugs": [
+          "biceps",
+          "triceps",
+          "forearms"
+        ],
+        "name_ar": "يوم الذراعين",
+        "name_en": "Arm Day"
+      }
+    ],
+    "description_ar": "أسبوع من خمس حصص يركّز كلٌّ منها على جزء رئيسي: الصدر، ثم الظهر، ثم الأرجل، ثم الأكتاف، ثم الذراعان. الجزء المذكور هو محور الحصة، لكن تمارين الضغط والسحب قد تُشرك عضلات أخرى؛ فالضغط يشغّل الترايسبس ومقدمة الكتف، والسحب يشغّل البايسبس والكتف الخلفي. يناسب هذا التقسيم غالبًا المتدرب المتوسط القادر على إدارة حجم تدريبي مركز والتعافي منه.",
+    "description_en": "A five-session, body-part-focused week: chest, back, legs, shoulders, then arms. The named body part is the main emphasis, but compounds and accessory work can involve overlapping muscles—for example, pressing recruits triceps and front delts, while pulling engages biceps and rear delts. This format is better suited to an intermediate trainee who can manage focused, potentially high-volume sessions and recovery.",
+    "evidence": [
+      {
+        "supported_fact": "Identifies chest, back, legs, shoulders, and arms as the most common five-day bro split, and describes muscle overlap and the potential for substantial weekly volume; supports the day order and primary body-part categories.",
+        "title": "Bro Splits: Do They Actually Work? — National Academy of Sports Medicine",
+        "url": "https://www.nasm.org/resource-center/blog/bro-splits"
+      },
+      {
+        "supported_fact": "Describes stereotypical body-part splits (including chest, back, shoulders, arms, legs), once-weekly frequency, and overlap concerns; supports treating this as a conventional template rather than a uniquely optimal prescription.",
+        "title": "The 5-Day Workout Routine And Split — A Workout Routine",
+        "url": "https://www.aworkoutroutine.com/5-day-workout-routine/"
+      }
+    ],
+    "id": "bro",
+    "level": "intermediate",
+    "name": "Bro Split / Body-Part Split (5 training days)"
+  },
+  {
+    "caveat": "PHUL is the established four-workout power/hypertrophy upper/lower structure. The canonical page lists exercises rather than a formal muscle-by-muscle map, so the slug assignments here follow those exercises and include meaningful secondary overlap (for example, rows with rear delts and deadlifts with back/forearms). Exact exercise substitutions vary. Ab training is optional, so abs are not listed as a scheduled training-day target.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "biceps",
+          "triceps"
+        ],
+        "name_ar": "الجزء العلوي — قوة",
+        "name_en": "Upper Power"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "back",
+          "forearms"
+        ],
+        "name_ar": "الجزء السفلي — قوة",
+        "name_en": "Lower Power"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps"
+        ],
+        "name_ar": "الجزء العلوي — تضخيم عضلي",
+        "name_en": "Upper Hypertrophy"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves"
+        ],
+        "name_ar": "الجزء السفلي — تضخيم عضلي",
+        "name_en": "Lower Hypertrophy"
+      }
+    ],
+    "description_ar": "يتكوّن الأسبوع من أربع حصص بنظام علوي/سفلي: حصتان بتركيز أكبر على القوة والأوزان الثقيلة، تليهما حصتان بتكرارات أعلى للتضخيم. تستهدف حصص الجزء العلوي الصدر والظهر والكتفين والذراعين، بينما تستهدف حصص الجزء السفلي الساقين؛ وتتداخل عضلات الفخذ الأمامية والأرداف والخلفية مع حركات القرفصاء والاندفاع والرفعة المميتة وثني الساق. كما تشارك العضلات الخلفية للكتف والساعدين في حركات السحب والقبضة. تمارين البطن اختيارية في القالب المنشور وليست يومًا مستقلًا.",
+    "description_en": "A four-session upper/lower week: two heavier, strength-oriented workouts followed by two higher-repetition hypertrophy workouts. Upper sessions train chest, back, shoulders, and arms; lower sessions train the legs, with squats/lunges and deadlifts/leg curls creating overlap across quadriceps, glutes, and hamstrings. Rows also involve the rear delts and grip/forearms; deadlifts recruit the back and forearms. Abdominal work is optional in the published template, not a dedicated PHUL day.",
+    "evidence": [
+      {
+        "supported_fact": "Publishes the four training days as Upper Power, Lower Power, Upper Hypertrophy, and Lower Hypertrophy; lists their canonical exercise examples and describes training each muscle group twice weekly. It labels the template intermediate and notes abs as optional.",
+        "title": "Power Hypertrophy Upper Lower (P.H.U.L.) Workout — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/phul-workout"
+      },
+      {
+        "supported_fact": "Attributes PHUL to Brandon Campbell, gives the same four-session schedule and example exercises, and describes it as intended for intermediate lifters with basic compound-lift proficiency.",
+        "title": "PHUL Workout Program — Boostcamp (Brandon Campbell)",
+        "url": "https://www.boostcamp.app/coaches/brandon-campbell/phul-4-day-split"
+      },
+      {
+        "supported_fact": "The position stand is the source for commonly cited frequency guidance distinguishing novice training (2–3 days/week) from intermediate training (3–4 days/week); this is context for a conservative intermediate recommendation, not PHUL validation.",
+        "title": "Progression Models in Resistance Training for Healthy Adults — ACSM position stand, PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+      }
+    ],
+    "id": "phul",
+    "level": "intermediate",
+    "name": "PHUL (Power Hypertrophy Upper Lower)"
+  },
+  {
+    "caveat": "The day layout follows the published example routine rather than an immutable schedule: the source notes multiple PHAT variations. Rest days are intentionally omitted from the training-day list. The example is high-frequency/high-volume and explicitly geared toward lifters already adapted to that workload, so intermediate is the conservative recommendation. Slugs reflect directly trained groups plus clear compound-lift overlap; forearms and abs are not explicitly programmed in the cited template.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps"
+        ],
+        "name_ar": "قوة الجزء العلوي من الجسم",
+        "name_en": "Upper Body Power"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves"
+        ],
+        "name_ar": "قوة الجزء السفلي من الجسم",
+        "name_en": "Lower Body Power"
+      },
+      {
+        "muscle_slugs": [
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps"
+        ],
+        "name_ar": "تضخيم الظهر والأكتاف",
+        "name_en": "Back and Shoulders Hypertrophy"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves"
+        ],
+        "name_ar": "تضخيم الجزء السفلي من الجسم",
+        "name_en": "Lower Body Hypertrophy"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "front_delts",
+          "biceps",
+          "triceps"
+        ],
+        "name_ar": "تضخيم الصدر والذراعين",
+        "name_en": "Chest and Arms Hypertrophy"
+      }
+    ],
+    "description_ar": "يتناوب البرنامج بين حصتي قوة للجزء العلوي والسفلي وثلاث حصص تضخيم بأسلوب كمال الأجسام. وتُشغّل حركات السحب والدفع الذراعين والأكتاف أيضاً، لذلك تتلقى هذه العضلات عملاً متداخلاً خلال الأسبوع.",
+    "description_en": "Five training sessions alternate upper- and lower-body power work with three bodybuilding-style hypertrophy sessions. Pulling and pressing movements also recruit the arms and shoulders, so these groups receive overlapping work across the week.",
+    "evidence": [
+      {
+        "supported_fact": "Gives the example canonical schedule: upper power, lower power, rest, back/shoulders hypertrophy, lower hypertrophy, chest/arms hypertrophy, rest; provides exercise lists confirming muscle-group overlaps and notes suitability for lifters adapted to higher frequency and volume.",
+        "title": "Layne Norton Training Series + Full Power/Hypertrophy Routine (SimplyShredded) ",
+        "url": "https://simplyshredded.com/mega-feature-layne-norton-training-series-full-powerhypertrophy-routine-updated-2011.html"
+      },
+      {
+        "supported_fact": "Corroborates the five-session weekly pattern and the power-versus-hypertrophy focus, including the listed movements for each training day.",
+        "title": "PHAT Workout: Layne Norton's Program for Size & Strength (Legion Athletics)",
+        "url": "https://legionathletics.com/phat-workout/"
+      },
+      {
+        "supported_fact": "Creator-hosted page confirms the expansion Power Hypertrophy Adaptive Training and identifies PHAT as Layne Norton's program; it does not expose the detailed schedule without sign-up.",
+        "title": "Download Layne Norton's Free PHAT Training Program (BioLayne)",
+        "url": "https://biolayne.com/phat/"
+      }
+    ],
+    "id": "phat",
+    "level": "intermediate",
+    "name": "PHAT (Power Hypertrophy Adaptive Training)"
+  },
+  {
+    "caveat": "The exact exercise selection and accessory distribution are not universal. Forearms are not specified as a separate target in these templates, and calves/abs are accessory inclusions supported by ExRx rather than required elements of every version. Biceps and triceps also assist many torso pulling and pressing exercises, and deltoids—especially front/rear delts—can overlap with chest/back compounds; the slugs identify intended focus, not exclusive involvement. Four training sessions weekly and the noted overlap make intermediate the more conservative level label.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts"
+        ],
+        "name_ar": "الجذع أ",
+        "name_en": "Torso A"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "biceps",
+          "triceps",
+          "forearms",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الأطراف أ",
+        "name_en": "Limbs A"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts"
+        ],
+        "name_ar": "الجذع ب",
+        "name_en": "Torso B"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "biceps",
+          "triceps",
+          "forearms",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الأطراف ب",
+        "name_en": "Limbs B"
+      }
+    ],
+    "description_ar": "تناوب من أربع حصص بين حصتين تركزان على الجذع وحصتين للأطراف. تستهدف حصص الجذع الصدر والظهر وأقسام الكتف الثلاثة، بينما تجمع حصص الأطراف تدريب الساقين مع تمارين مباشرة للذراعين، ويمكن إدراج السمانة والبطن ضمن التمارين المساعدة. أدرج أيام التعافي بين الحصص حسب الحاجة؛ أيام الراحة ليست أيام تدريب في هذا القالب.",
+    "description_en": "A four-session rotation alternating two torso-focused workouts with two limb-focused workouts. Torso sessions emphasize chest, back, and all three deltoid regions; limb sessions combine legs with direct arm work, with calves and abs included as possible accessory targets. Schedule recovery days between sessions as needed; rest days are not training days in this template.",
+    "evidence": [
+      {
+        "supported_fact": "Describes the common four-day arrangement: torso (chest, back, shoulders) alternating with limbs (quads, hamstrings, glutes, biceps, triceps), performed twice weekly; notes arm/elbow overlap concerns.",
+        "title": "Torso/Limbs Split — Chris Adams Personal Training",
+        "url": "https://www.chrisadamspersonaltraining.com/torso/limbs-split"
+      },
+      {
+        "supported_fact": "Provides traditional and staggered torso/legs-and-arms templates, explicitly includes front/side/rear delts on torso days and calves/abdominals on legs-and-arms days, and cautions about elbow overuse and recovery.",
+        "title": "Two Day Split Program Templates — ExRx.net",
+        "url": "https://exrx.net/Workouts/Workout2TL"
+      }
+    ],
+    "id": "torso-limbs",
+    "level": "intermediate",
+    "name": "Torso / Limbs"
+  },
+  {
+    "caveat": "The first two sources support the canonical three-session pattern and provide exercise-based overlap details, but their presented classic versions include lower back on leg day and high volume/frequency; this compact template omits lower_back because it is not an allowed slug and retains only the requested normalized categories. They do not establish that every listed overlap muscle must be trained directly on every instance. Intermediate is a conservative recommendation because the classic routine is explicitly described as advanced/high-volume; beginners can make progress with other split structures, and the 2021 trial does not test this exact three-day Arnold-style rotation.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "abs",
+          "biceps",
+          "rear_delts"
+        ],
+        "name_ar": "الصدر + الظهر",
+        "name_en": "Chest + Back"
+      },
+      {
+        "muscle_slugs": [
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "abs"
+        ],
+        "name_ar": "الأكتاف + الذراعان",
+        "name_en": "Shoulders + Arms"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الأرجل",
+        "name_en": "Legs"
+      }
+    ],
+    "description_ar": "دورة كمال أجسام من ثلاثة تمارين: يُدرَّب الصدر مع الظهر، ثم الأكتاف مع الذراعين، وتُخصَّص حصة مستقلة للأرجل. في النسخة الكلاسيكية المستوحاة من أرنولد تتكرر الدورة مرتين أسبوعيًا، لكن هذا القالب يذكر حصص التدريب الثلاث فقط ولا يفرض أيام راحة. التداخل مقصود: تمارين السحب تُشرك العضلة ذات الرأسين والكتف الخلفي، وتمارين الدفع تُشرك الكتف الأمامي والترايسبس، كما تتضمن الخطط الكلاسيكية المذكورة تمارين للبطن في الحصص.",
+    "description_en": "A three-workout bodybuilding rotation: pair chest with back, train shoulders and arms together, and give legs their own session. The classic Arnold-style version repeats this sequence twice weekly, but this template names only the three training sessions; it does not prescribe rest days. Overlap is intentional: pulling trains biceps and rear delts, pressing recruits front delts and triceps, and the cited classic plans include abs across sessions.",
+    "evidence": [
+      {
+        "supported_fact": "Describes a classic variation credited to Schwarzenegger and Bill Dobbins’s book: chest/back, shoulders/arms, legs/lower back in sequence repeated twice weekly. Listed chest/back exercises include chin-ups, rows, deadlifts and crunches; shoulders/arms includes pressing, lateral raises, curls, triceps, wrist curls and reverse wrist curls; leg work includes squats, lunges, curls, stiff-legged deadlifts, calf raises and crunches. The page labels the routine advanced and notes its high volume.",
+        "title": "Arnold Schwarzenegger Volume Workout Routines — Muscle & Strength",
+        "url": "https://www.muscleandstrength.com/workouts/arnold-schwarzenegger-volume-workout-routines"
+      },
+      {
+        "supported_fact": "Confirms the chest-and-back, shoulders-and-arms, legs-and-calves sequence; provides muscle/exercise descriptions that support overlap tags (abs included each session; rear-delt work on shoulders/arms; back work includes deadlifts). Explicitly cautions that this high-volume six-day routine is not for beginners.",
+        "title": "Arnold Split — StrengthLog",
+        "url": "https://www.strengthlog.com/arnold-split/"
+      },
+      {
+        "supported_fact": "In 67 untrained subjects over eight weeks, equal-volume split and full-body approaches produced no significant between-group differences in measured strength or muscle-thickness outcomes; supports that split format itself is not uniquely necessary for beginners, rather than validating this exact Arnold split.",
+        "title": "Split or full-body workout routine: which is best to increase muscle strength and hypertrophy? — einstein (São Paulo), 2021",
+        "url": "https://journal.einstein.br/article/split-or-full-body-workout-routine-which-is-best-to-increase-muscle-strength-and-hypertrophy/"
+      }
+    ],
+    "id": "chest-back-shoulders-arms-legs",
+    "level": "intermediate",
+    "name": "Chest + Back / Shoulders + Arms / Legs"
+  },
+  {
+    "caveat": "Five-day Upper/Lower/Full Body is not one universally standardized template. The five-day sequence here follows TRX Training's specifically named functional-conditioning hybrid; its exact exercise selection and the emphasis of the full-body session can vary. Muscle slugs indicate trained or substantially involved groups, so compound movements create overlap (for example, presses involve front_delts and triceps; pulls involve rear_delts, biceps, and forearms; lower-body compounds involve glutes and often abs).",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms"
+        ],
+        "name_ar": "الجزء العلوي ١",
+        "name_en": "Upper Body 1"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الجزء السفلي ١",
+        "name_en": "Lower Body 1"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "تمرين الجسم كاملًا",
+        "name_en": "Full Body"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms"
+        ],
+        "name_ar": "الجزء العلوي ٢",
+        "name_en": "Upper Body 2"
+      },
+      {
+        "muscle_slugs": [
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "الجزء السفلي ٢",
+        "name_en": "Lower Body 2"
+      }
+    ],
+    "description_ar": "درّب الجزء العلوي، ثم السفلي، ثم الجسم كاملًا، وبعدها كرّر حصتي الجزء العلوي والسفلي؛ لخمس حصص تدريبية. تشمل حصص الجزء العلوي الصدر والظهر والكتفين والذراعين، وتشمل حصص الجزء السفلي الساقين ويمكن أن تتضمن البطن. تتداخل حصة الجسم كاملًا مع الجزأين، لذلك تُدرَّب المناطق الرئيسية أكثر من مرة. اضبط حجم التدريب بما يسمح بالتعافي الجيد.",
+    "description_en": "Train upper body, lower body, full body, then repeat upper and lower sessions for five training days. Upper sessions cover the chest, back, shoulders, and arms; lower sessions cover the legs and may include abs. The full-body session overlaps both halves, so each major region is trained more than once. Adjust workload to recover well.",
+    "evidence": [
+      {
+        "supported_fact": "Explicitly describes the five-day hybrid sequence as Upper, Lower, Functional Full Body, Upper, Lower; the full-body day is conditioning-oriented. Supports this template's day order and repeated upper/lower sessions.",
+        "title": "The 5 Day Workout Split for a Full Strength Training Routine (TRX Training)",
+        "url": "https://www.trxtraining.com/blogs/news/5-day-workout-split"
+      },
+      {
+        "supported_fact": "Defines upper-day coverage as chest, back, shoulders, biceps, and triceps, and lower-day coverage as quads, hamstrings, glutes, calves, typically abs; also cautions that higher-frequency versions are more recovery-intensive.",
+        "title": "The Upper/Lower Split: 2, 3, 4 & 5-Day Routine Included (A Workout Routine)",
+        "url": "https://www.aworkoutroutine.com/upper-lower-split/"
+      },
+      {
+        "supported_fact": "Characterizes five-day upper/lower training as best suited to intermediate and advanced lifters seeking more volume, with recovery and time commitment as important constraints; supports a conservative intermediate recommendation.",
+        "title": "Best Upper Lower Split Workouts: 2-, 3-, 4- & 5-Day Routines (Legion Athletics)",
+        "url": "https://legionathletics.com/upper-lower-split/"
+      }
+    ],
+    "id": "upper-lower-full",
+    "level": "intermediate",
+    "name": "Upper / Lower / Full Body (5-Day Split)"
+  },
+  {
+    "caveat": "The three-day schedule and A/B alternation are supported, but sources do not establish one universally canonical set of exact A and B exercise selections or prescribed muscle coverage. The listed slugs represent plausible major-muscle coverage for a full-body template, including indirect overlap; forearms are included only as possible secondary work and may not be directly targeted. No rest days are listed as training days.",
+    "days": [
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "تمرين الجسم كامل A",
+        "name_en": "Full Body A"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "تمرين الجسم كامل B",
+        "name_en": "Full Body B"
+      },
+      {
+        "muscle_slugs": [
+          "chest",
+          "back",
+          "front_delts",
+          "side_delts",
+          "rear_delts",
+          "biceps",
+          "triceps",
+          "forearms",
+          "quadriceps",
+          "hamstrings",
+          "glutes",
+          "calves",
+          "abs"
+        ],
+        "name_ar": "تناوب A/B للجسم كامل — الحصة الأسبوعية الثالثة",
+        "name_en": "Full Body A/B Alternation — third weekly session"
+      }
+    ],
+    "description_ar": "تدرّب ثلاثة أيام غير متتالية أسبوعيًا، مع التناوب المتواصل بين A وB: الأسبوع الأول A/B/A، والثاني B/A/B، ثم كرّر. كلا التمرينين لكامل الجسم ويستخدمان تمارين متنوعة لتغطية المجموعات العضلية الرئيسية؛ كما تشغّل الحركات المركبة عضلات متداخلة (مثل تمارين الدفع للصدر والكتفين والترايسبس، والسحب للظهر والبايسبس). في الحصة الثالثة كرّر التمرين التالي في تسلسل التناوب، واضبط حجم التدريب بما يلائم التعافي.",
+    "description_en": "Train three nonconsecutive days per week, alternating A and B continuously: week 1 A/B/A, week 2 B/A/B, then repeat. Both sessions are full-body, using varied exercises to cover the major muscle groups; compound lifts also train overlapping muscles (for example, pressing recruits chest, shoulders and triceps; pulling recruits back and biceps). The third session repeats whichever workout comes next in the sequence. Keep the workload appropriate to recovery.",
+    "evidence": [
+      {
+        "supported_fact": "Describes the conventional three-day full-body schedule, recommends alternating A/B sessions as A-B-A then B-A-B, lists primary muscle groups targeted, and identifies the three-day approach as a common beginner option.",
+        "title": "The Full Body Workout Routine: 2, 3 & 4-Day Split Versions",
+        "url": "https://www.aworkoutroutine.com/full-body-split/"
+      },
+      {
+        "supported_fact": "Provides a concrete three-day full-body example with varied session exercises and overlapping chest, back, shoulders, arms, legs, calves and core work; supports full-body coverage, not the specific canonical A/B pattern.",
+        "title": "The Total Package: A Full Body Strength & Hypertrophy Workout",
+        "url": "https://www.muscleandstrength.com/workouts/total-package-workout"
+      }
+    ],
+    "id": "full-body-ab",
+    "level": "beginner",
+    "name": "Full Body A/B"
+  }
+]
