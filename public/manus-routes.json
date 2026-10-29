@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "Gym Workout Planner" },
+    { "path": "/admin", "title": "Admin dashboard" }
+  ]
+}
