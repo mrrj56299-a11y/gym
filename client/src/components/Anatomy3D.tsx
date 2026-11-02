@@ -2,12 +2,27 @@ import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { useReducedMotion } from "framer-motion";
 import { gsap } from "gsap";
+import { Moon, RefreshCw, RotateCcw, RotateCw, Sun, ZoomIn, ZoomOut } from "lucide-react";
 
 type Lang = "ar" | "en";
+type Theme = "dark" | "clinical";
 type Zone = { mesh: THREE.Mesh; slug: string; part: string; material: THREE.MeshStandardMaterial; base: THREE.Color };
+type Controls = { rotate: (steps: number) => void; zoom: (delta: number) => void; reset: () => void };
 
 const HIGHLIGHT = new THREE.Color("#3b9eff");
 const SELECTED = new THREE.Color("#0070f3");
+const DEFAULT_DISTANCE = 8.5;
+const MIN_DISTANCE = 4.5;
+const MAX_DISTANCE = 12;
+const MAX_TILT = 0.6;
+const LIGHTING: Record<Theme, { hemi: number; key: number; exposure: number }> = {
+  dark: { hemi: 0.9, key: 1.8, exposure: 1.0 },
+  clinical: { hemi: 1.7, key: 2.1, exposure: 1.12 },
+};
+const LABELS = {
+  ar: { badge: "مجسّم ثلاثي الأبعاد", hint: "يلف تلقائيًا · اسحب للتدوير · مرّر للتقريب · اضغط لاختيار العضلة", left: "تدوير لليسار", right: "تدوير لليمين", zoomIn: "تقريب", zoomOut: "تبعيد", reset: "إعادة الضبط", toLight: "إضاءة فاتحة", toDark: "إضاءة داكنة", toolbar: "أدوات المجسّم" },
+  en: { badge: "3D MANNEQUIN", hint: "AUTO-ROTATING · DRAG TO ROTATE · SCROLL TO ZOOM · TAP A MUSCLE", left: "Rotate left", right: "Rotate right", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Reset view", toLight: "Clinical light", toDark: "Dark studio", toolbar: "Mannequin controls" },
+};
 const PARTS: Record<string, string[]> = {
   chest: ["chest-upper", "chest-mid", "chest-lower"],
   shoulders: ["front-delts", "side-delts", "rear-delts"],
@@ -26,7 +41,6 @@ const PARTS: Record<string, string[]> = {
 function buildMannequin() {
   const root = new THREE.Group();
   const zones: Zone[] = [];
-  const geometries: THREE.BufferGeometry[] = [];
 
   const skinMat = new THREE.MeshStandardMaterial({ color: new THREE.Color("#c8a085"), roughness: 0.62, metalness: 0.02 });
   const trunkMat = new THREE.MeshStandardMaterial({ color: new THREE.Color("#c29780"), roughness: 0.65, metalness: 0.02 });
@@ -40,11 +54,8 @@ function buildMannequin() {
     mesh.castShadow = true;
     mesh.receiveShadow = true;
     root.add(mesh);
-    geometries.push(geo);
-    return mesh;
   };
 
-  // Head
   addPart(new THREE.SphereGeometry(0.28, 32, 24), skinMat, [0, 4.82, 0]);
   addPart(new THREE.CylinderGeometry(0.13, 0.15, 0.22, 20), trunkMat, [0, 4.46, 0]);
   addPart(new THREE.CylinderGeometry(0.42, 0.36, 1.2, 28), trunkMat, [0, 3.7, 0]);
@@ -55,16 +66,12 @@ function buildMannequin() {
     addPart(new THREE.CylinderGeometry(0.12, 0.1, 0.85, 18), limbMat, [sign * 0.62, 3.85, 0], [1, 1, 1], [0, 0, sign * 0.12]);
     addPart(new THREE.CylinderGeometry(0.1, 0.085, 0.78, 18), limbMat, [sign * 0.72, 3.0, 0], [1, 1, 1], [0, 0, sign * 0.18]);
     addPart(new THREE.SphereGeometry(0.1, 16, 12), limbMat, [sign * 0.76, 2.58, 0]);
-  }
-
-  for (const sign of [-1, 1]) {
     addPart(new THREE.CylinderGeometry(0.16, 0.13, 1.15, 20), limbMat, [sign * 0.2, 2.15, 0]);
     addPart(new THREE.CylinderGeometry(0.13, 0.1, 1.1, 20), limbMat, [sign * 0.2, 1.0, 0]);
     addPart(new THREE.BoxGeometry(0.16, 0.1, 0.32), limbMat, [sign * 0.2, 0.4, 0.07]);
   }
 
   const zoneGeo = new THREE.SphereGeometry(1, 20, 14);
-  geometries.push(zoneGeo);
 
   const addZone = (slug: string, partIndex: number, position: [number, number, number], scale: [number, number, number], rotZ = 0) => {
     const partSlug = PARTS[slug]?.[partIndex] ?? `${slug}-${partIndex + 1}`;
@@ -76,7 +83,6 @@ function buildMannequin() {
     mesh.position.set(...position);
     mesh.rotation.z = rotZ;
     mesh.scale.set(...scale);
-    mesh.castShadow = false;
     mesh.renderOrder = 3;
     mesh.userData.slug = slug;
     mesh.userData.part = partSlug;
@@ -132,24 +138,25 @@ function buildMannequin() {
 
   const shadow = new THREE.Mesh(
     new THREE.CircleGeometry(0.7, 40),
-    new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.25 })
+    new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.25 }),
   );
   shadow.rotation.x = -Math.PI / 2;
   shadow.position.set(0, 0.32, 0);
   shadow.scale.set(0.9, 1.2, 1);
   root.add(shadow);
 
-  return { root, zones, geometries };
+  return { root, zones };
 }
 
-export default function Anatomy3D({ side, selected, activePart, onSelect, onHover, dir, names }: {
+export default function Anatomy3D({ side, selected, activePart, onSelect, dir, names, theme, onThemeToggle }: {
   side: "front" | "back" | "profile";
   selected: string[];
   activePart: string;
-  onSelect: (slug: string) => void;
-  onHover: (slug: string | null) => void;
+  onSelect: (slug: string, part: string) => void;
   dir: Lang;
   names: Record<string, string>;
+  theme: Theme;
+  onThemeToggle: () => void;
 }) {
   const host = useRef<HTMLDivElement>(null);
   const [hoveredSlug, setHoveredSlug] = useState<string | null>(null);
@@ -158,12 +165,17 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
   const renderRef = useRef<() => void>(() => {});
   const modelRef = useRef<THREE.Group | null>(null);
   const zonesRef = useRef<Zone[]>([]);
+  const lightsRef = useRef<{ hemi: THREE.HemisphereLight; key: THREE.DirectionalLight } | null>(null);
+  const controlsRef = useRef<Controls | null>(null);
   const autoRotateRef = useRef(true);
-  const callbacks = useRef({ onSelect, onHover, names, dir });
+  const themeRef = useRef(theme);
+  themeRef.current = theme;
+  const callbacks = useRef({ onSelect, names, dir });
   const reduce = useReducedMotion();
-  callbacks.current = { onSelect, onHover, names, dir };
+  callbacks.current = { onSelect, names, dir };
+  const t = LABELS[dir];
 
-  const requestRender = () => { renderRef.current(); };
+  const requestRender = () => renderRef.current();
 
   useEffect(() => {
     const element = host.current;
@@ -171,7 +183,7 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
-    camera.position.set(0, 2.6, 8.5);
+    camera.position.set(0, 2.6, DEFAULT_DISTANCE);
     camera.lookAt(0, 2.6, 0);
 
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true, powerPreference: "low-power" });
@@ -179,7 +191,6 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     renderer.setSize(element.clientWidth, element.clientHeight);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.0;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.domElement.setAttribute("aria-label", dir === "ar" ? "مجسّم ثلاثي الأبعاد للجسم البشري" : "Interactive 3D human mannequin");
@@ -188,9 +199,11 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     element.appendChild(renderer.domElement);
     rendererRef.current = renderer;
 
-    // Studio lighting
-    scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2a30, 0.9));
-    const key = new THREE.DirectionalLight(0xffffff, 1.8);
+    const lighting = LIGHTING[themeRef.current];
+    renderer.toneMappingExposure = lighting.exposure;
+    const hemi = new THREE.HemisphereLight(0xffffff, 0x2a2a30, lighting.hemi);
+    scene.add(hemi);
+    const key = new THREE.DirectionalLight(0xffffff, lighting.key);
     key.position.set(-3, 6, 4);
     key.castShadow = true;
     key.shadow.mapSize.set(512, 512);
@@ -201,8 +214,10 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     const fill = new THREE.PointLight(0xffffff, 0.4, 12);
     fill.position.set(0, 3, 4);
     scene.add(fill);
+    lightsRef.current = { hemi, key };
 
     const built = buildMannequin();
+    scene.add(built.root);
     modelRef.current = built.root;
     zonesRef.current = built.zones;
 
@@ -215,67 +230,110 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
 
     let raf = 0;
     const animate = () => {
-      if (autoRotateRef.current && modelRef.current) {
-        modelRef.current.rotation.y += 0.004;
-      }
+      if (autoRotateRef.current && modelRef.current) modelRef.current.rotation.y += 0.004;
       render();
       raf = requestAnimationFrame(animate);
     };
     if (!reduce) raf = requestAnimationFrame(animate);
-    else render();
+
+    controlsRef.current = {
+      rotate: steps => {
+        const model = modelRef.current;
+        if (!model) return;
+        autoRotateRef.current = false;
+        gsap.killTweensOf(model.rotation);
+        gsap.to(model.rotation, { y: model.rotation.y + steps * Math.PI / 4, duration: 0.5, ease: "power2.inOut", onUpdate: render });
+      },
+      zoom: delta => {
+        gsap.killTweensOf(camera.position);
+        gsap.to(camera.position, {
+          z: THREE.MathUtils.clamp(camera.position.z + delta, MIN_DISTANCE, MAX_DISTANCE),
+          duration: 0.35,
+          ease: "power2.out",
+          onUpdate: render,
+        });
+      },
+      reset: () => {
+        const model = modelRef.current;
+        if (!model) return;
+        gsap.killTweensOf(camera.position);
+        gsap.to(camera.position, { z: DEFAULT_DISTANCE, duration: 0.5, ease: "power2.out", onUpdate: render });
+        gsap.to(model.rotation, { x: 0, duration: 0.5, ease: "power2.out", onUpdate: render });
+        autoRotateRef.current = true;
+      },
+    };
 
     const raycaster = new THREE.Raycaster();
     const pointer = new THREE.Vector2();
     let down = false;
     let dragged = false;
     let previousX = 0;
+    let previousY = 0;
+
+    const pickZone = (event: PointerEvent) => {
+      const rect = renderer.domElement.getBoundingClientRect();
+      pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
+      raycaster.setFromCamera(pointer, camera);
+      return raycaster.intersectObjects(built.root.children, false).find(item => item.object.userData.role === "muscle-zone")?.object;
+    };
 
     const onDown = (event: PointerEvent) => {
-      down = true; dragged = false; previousX = event.clientX;
+      down = true;
+      dragged = false;
+      previousX = event.clientX;
+      previousY = event.clientY;
       autoRotateRef.current = false;
       renderer.domElement.setPointerCapture(event.pointerId);
     };
 
     const onMove = (event: PointerEvent) => {
-      const rect = renderer.domElement.getBoundingClientRect();
-      pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
       if (down) {
-        const delta = event.clientX - previousX;
-        if (Math.abs(delta) > 1) dragged = true;
-        if (modelRef.current) modelRef.current.rotation.y += delta * 0.012;
-        previousX = event.clientX;
-      } else {
-        raycaster.setFromCamera(pointer, camera);
-        const hit = raycaster.intersectObjects(built.root.children, false).find(item => item.object.userData.role === "muscle-zone");
-        const slug = hit?.object.userData.slug as string | undefined;
-        if (hoveredRef.current !== (slug ?? null)) {
-          hoveredRef.current = slug ?? null;
-          setHoveredSlug(slug ?? null);
-          callbacks.current.onHover(slug ?? null);
+        const dx = event.clientX - previousX;
+        const dy = event.clientY - previousY;
+        if (Math.abs(dx) > 1 || Math.abs(dy) > 1) dragged = true;
+        const model = modelRef.current;
+        if (model) {
+          model.rotation.y += dx * 0.012;
+          model.rotation.x = THREE.MathUtils.clamp(model.rotation.x + dy * 0.006, -MAX_TILT, MAX_TILT);
         }
-        renderer.domElement.style.cursor = slug ? "pointer" : "grab";
+        previousX = event.clientX;
+        previousY = event.clientY;
+        render();
+        return;
       }
+      const zone = pickZone(event);
+      const slug = (zone?.userData.slug as string | undefined) ?? null;
+      if (hoveredRef.current !== slug) {
+        hoveredRef.current = slug;
+        setHoveredSlug(slug);
+      }
+      renderer.domElement.style.cursor = slug ? "pointer" : "grab";
     };
 
     const onUp = (event: PointerEvent) => {
       if (down && !dragged) {
-        const rect = renderer.domElement.getBoundingClientRect();
-        pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
-        raycaster.setFromCamera(pointer, camera);
-        const hit = raycaster.intersectObjects(built.root.children, false).find(item => item.object.userData.role === "muscle-zone");
-        const slug = hit?.object.userData.slug as string | undefined;
-        if (slug) { setHoveredSlug(slug); callbacks.current.onSelect(slug); }
+        const zone = pickZone(event);
+        if (zone) callbacks.current.onSelect(zone.userData.slug as string, zone.userData.part as string);
       }
       down = false;
     };
 
-    const onLeave = () => { hoveredRef.current = null; setHoveredSlug(null); callbacks.current.onHover(null); };
+    const onLeave = () => {
+      hoveredRef.current = null;
+      setHoveredSlug(null);
+    };
+
+    const onWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      controlsRef.current?.zoom(event.deltaY * 0.004);
+    };
 
     const resize = () => {
       if (!host.current) return;
       camera.aspect = host.current.clientWidth / Math.max(1, host.current.clientHeight);
       camera.updateProjectionMatrix();
       renderer.setSize(host.current.clientWidth, host.current.clientHeight);
+      render();
     };
     const observer = new ResizeObserver(resize);
     observer.observe(element);
@@ -285,6 +343,7 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     renderer.domElement.addEventListener("pointerup", onUp);
     renderer.domElement.addEventListener("pointercancel", onUp);
     renderer.domElement.addEventListener("pointerleave", onLeave);
+    renderer.domElement.addEventListener("wheel", onWheel, { passive: false });
 
     return () => {
       cancelAnimationFrame(raf);
@@ -294,8 +353,10 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
       renderer.domElement.removeEventListener("pointerup", onUp);
       renderer.domElement.removeEventListener("pointercancel", onUp);
       renderer.domElement.removeEventListener("pointerleave", onLeave);
+      renderer.domElement.removeEventListener("wheel", onWheel);
       renderRef.current = () => {};
       gsap.killTweensOf(renderer.domElement);
+      gsap.killTweensOf(camera.position);
       scene.traverse(object => {
         if (object instanceof THREE.Mesh) {
           object.geometry.dispose();
@@ -306,10 +367,23 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
       renderer.dispose();
       renderer.domElement.remove();
       rendererRef.current = null;
+      lightsRef.current = null;
+      controlsRef.current = null;
       modelRef.current = null;
       zonesRef.current = [];
     };
   }, [reduce, dir]);
+
+  useEffect(() => {
+    const lights = lightsRef.current;
+    const renderer = rendererRef.current;
+    if (!lights || !renderer) return;
+    const config = LIGHTING[theme];
+    lights.hemi.intensity = config.hemi;
+    lights.key.intensity = config.key;
+    renderer.toneMappingExposure = config.exposure;
+    requestRender();
+  }, [theme]);
 
   useEffect(() => {
     const model = modelRef.current;
@@ -317,8 +391,19 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     autoRotateRef.current = false;
     gsap.killTweensOf(model.rotation);
     const target = side === "front" ? 0 : side === "back" ? Math.PI : Math.PI / 2;
-    if (reduce) { model.rotation.y = target; autoRotateRef.current = true; requestRender(); }
-    else gsap.to(model.rotation, { y: target, duration: 0.7, ease: "power2.inOut", onUpdate: requestRender, onComplete: () => { autoRotateRef.current = true; } });
+    if (reduce) {
+      model.rotation.y = target;
+      autoRotateRef.current = true;
+      requestRender();
+    } else {
+      gsap.to(model.rotation, {
+        y: target,
+        duration: 0.7,
+        ease: "power2.inOut",
+        onUpdate: requestRender,
+        onComplete: () => { autoRotateRef.current = true; },
+      });
+    }
   }, [side, reduce]);
 
   useEffect(() => {
@@ -329,12 +414,13 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
       const opacity = chosen ? (activePart && !active ? 0.4 : 0.7) : hoveredSlug === zone.slug ? 0.3 : 0;
       gsap.killTweensOf(zone.material.color);
       gsap.killTweensOf(zone.material);
-      if (reduce) { zone.material.color.copy(color); zone.material.opacity = opacity; }
-      else {
+      if (reduce) {
+        zone.material.color.copy(color);
+        zone.material.opacity = opacity;
+      } else {
         gsap.to(zone.material.color, { r: color.r, g: color.g, b: color.b, duration: 0.3, ease: "power1.out", onUpdate: requestRender });
         gsap.to(zone.material, { opacity, duration: 0.25, ease: "power1.out", onUpdate: requestRender });
       }
-      zone.material.transparent = true;
     }
   }, [selected, activePart, hoveredSlug, reduce]);
 
@@ -342,10 +428,18 @@ export default function Anatomy3D({ side, selected, activePart, onSelect, onHove
     <div ref={host} className="anatomy3d-root" dir={dir}>
       <div className="anatomy3d-badge">
         <span className="anatomy3d-orb" />
-        <span>{dir === "ar" ? "مجسّم ثلاثي الأبعاد" : "3D MANNEQUIN"}</span>
+        <span>{t.badge}</span>
       </div>
-      <div className="anatomy3d-hint">
-        {dir === "ar" ? "يلف تلقائيًا · اسحب للتحكم · اضغط لاختيار العضلة" : "AUTO-ROTATING · DRAG TO CONTROL · TAP A MUSCLE"}
+      <div className="anatomy3d-hint">{t.hint}</div>
+      <div className="anatomy3d-controls" role="toolbar" aria-label={t.toolbar}>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={t.left} title={t.left} onClick={() => controlsRef.current?.rotate(-1)}><RotateCcw size={15} /></button>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={t.right} title={t.right} onClick={() => controlsRef.current?.rotate(1)}><RotateCw size={15} /></button>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={t.zoomIn} title={t.zoomIn} onClick={() => controlsRef.current?.zoom(-1.5)}><ZoomIn size={15} /></button>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={t.zoomOut} title={t.zoomOut} onClick={() => controlsRef.current?.zoom(1.5)}><ZoomOut size={15} /></button>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={t.reset} title={t.reset} onClick={() => controlsRef.current?.reset()}><RefreshCw size={15} /></button>
+        <button type="button" data-compact="true" className="anatomy3d-control" aria-label={theme === "dark" ? t.toLight : t.toDark} title={theme === "dark" ? t.toLight : t.toDark} onClick={onThemeToggle}>
+          {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
+        </button>
       </div>
       <div className={`anatomy3d-hover${hoveredSlug ? " visible" : ""}`} aria-live="polite">
         {hoveredSlug ? names[hoveredSlug] ?? hoveredSlug : ""}
