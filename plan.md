@@ -36,8 +36,8 @@
 - `server/` مصادقة البريد/Google، bootstrap المشرف، التخزين والتحقق من رفع الملفات، استيراد CSV/JSON.
 - `drizzle/schema.ts`, `drizzle/migrations/` مخطط البيانات والعلاقات والهجرات الإضافية.
 - `seed/` ملفات JSON قابلة للتحرير للعضلات والأجزاء والتمارين والأنظمة.
-- `public/manus-routes.json` بيان مسارات الصفحات الذي يقدمه Vite، محدث مع أي تغيير بالمسارات.
-- هيئة Three.js إجرائية محايدة سابقة من أشكال هندسية ناعمة، مع مناطق العضلات قابلة للتحديد؛ لا يعتمد العرض على ملف نموذج خارجي.
+- `client/public/manus-routes.json` بيان مسارات الصفحات الذي يقدمه Vite، محدث مع أي تغيير بالمسارات.
+- `client/public/models/human-body.obj` سطح الجسم الطبيعي المشتق من نموذج MakeHuman Community المرخص CC0، مع توثيق المصدر والتعديلات في `client/public/models/ASSET_CREDITS.md`.
 
 ## تسلسل التنفيذ داخل المشروع
 
