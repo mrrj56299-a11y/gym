@@ -8,11 +8,15 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 const NotFound = lazy(() => import("@/pages/NotFound"));
 const Home = lazy(() => import("@/pages/Home"));
 const Admin = lazy(() => import("@/pages/Admin"));
+const Routines = lazy(() => import("@/pages/Routines"));
+const RoutineDetail = lazy(() => import("@/pages/RoutineDetail"));
 
 function Router() {
   return <Suspense fallback={<div className="route-loading" role="status">Loading…</div>}><Switch>
     <Route path="/" component={Home} />
     <Route path="/admin" component={Admin} />
+    <Route path="/routines" component={Routines} />
+    <Route path="/routines/:id" component={RoutineDetail} />
     <Route path="/404" component={NotFound} />
     <Route component={NotFound} />
   </Switch></Suspense>;
