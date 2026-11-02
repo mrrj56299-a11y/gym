@@ -2,48 +2,50 @@ export type Hotspot = { slug: string; part: string; cx: number; cy: number; rx: 
 
 export const ANATOMY_IMAGE_SIZE = { width: 1408, height: 768 };
 
+const FRONT_AXIS = 365;
+const BACK_AXIS = 1055;
+
+function pair(slug: string, part: string, cx: number, cy: number, rx: number, ry: number, axis: number): Hotspot[] {
+  return [
+    { slug, part, cx, cy, rx, ry },
+    { slug, part, cx: axis * 2 - cx, cy, rx, ry },
+  ];
+}
+
+function single(slug: string, part: string, cx: number, cy: number, rx: number, ry: number): Hotspot[] {
+  return [{ slug, part, cx, cy, rx, ry }];
+}
+
 export const HOTSPOTS: Record<"front" | "back", Hotspot[]> = {
   front: [
-    { slug: "chest", part: "chest-upper", cx: 330, cy: 188, rx: 36, ry: 15 },
-    { slug: "chest", part: "chest-upper", cx: 400, cy: 188, rx: 36, ry: 15 },
-    { slug: "chest", part: "chest-mid", cx: 330, cy: 215, rx: 36, ry: 16 },
-    { slug: "chest", part: "chest-mid", cx: 400, cy: 215, rx: 36, ry: 16 },
-    { slug: "chest", part: "chest-lower", cx: 335, cy: 242, rx: 32, ry: 13 },
-    { slug: "chest", part: "chest-lower", cx: 395, cy: 242, rx: 32, ry: 13 },
-    { slug: "shoulders", part: "front-delts", cx: 290, cy: 178, rx: 20, ry: 22 },
-    { slug: "shoulders", part: "front-delts", cx: 440, cy: 178, rx: 20, ry: 22 },
-    { slug: "shoulders", part: "side-delts", cx: 262, cy: 192, rx: 13, ry: 20 },
-    { slug: "shoulders", part: "side-delts", cx: 468, cy: 192, rx: 13, ry: 20 },
-    { slug: "biceps", part: "biceps-long", cx: 283, cy: 252, rx: 13, ry: 30 },
-    { slug: "biceps", part: "biceps-long", cx: 447, cy: 252, rx: 13, ry: 30 },
-    { slug: "forearms", part: "forearm-flexors", cx: 272, cy: 325, rx: 14, ry: 40 },
-    { slug: "forearms", part: "forearm-flexors", cx: 458, cy: 325, rx: 14, ry: 40 },
-    { slug: "abs", part: "abs-rectus", cx: 365, cy: 288, rx: 28, ry: 52 },
-    { slug: "abs", part: "abs-obliques", cx: 325, cy: 292, rx: 17, ry: 46 },
-    { slug: "abs", part: "abs-obliques", cx: 405, cy: 292, rx: 17, ry: 46 },
-    { slug: "quadriceps", part: "quads-rectus-femoris", cx: 332, cy: 430, rx: 24, ry: 70 },
-    { slug: "quadriceps", part: "quads-rectus-femoris", cx: 398, cy: 430, rx: 24, ry: 70 },
-    { slug: "adductors", part: "adductors-middle", cx: 352, cy: 442, rx: 9, ry: 45 },
-    { slug: "adductors", part: "adductors-middle", cx: 378, cy: 442, rx: 9, ry: 45 },
+    ...pair("chest", "chest-upper", 340, 190, 32, 12, FRONT_AXIS),
+    ...pair("chest", "chest-mid", 340, 212, 34, 13, FRONT_AXIS),
+    ...pair("chest", "chest-lower", 345, 235, 28, 10, FRONT_AXIS),
+    ...pair("shoulders", "front-delts", 288, 182, 15, 18, FRONT_AXIS),
+    ...pair("shoulders", "side-delts", 268, 192, 10, 20, FRONT_AXIS),
+    ...pair("biceps", "biceps-long", 283, 240, 12, 30, FRONT_AXIS),
+    ...pair("forearms", "forearm-flexors", 248, 320, 14, 42, FRONT_AXIS),
+    ...single("abs", "abs-rectus", 365, 268, 22, 50),
+    ...pair("abs", "abs-obliques", 324, 272, 14, 40, FRONT_AXIS),
+    ...pair("quadriceps", "quads-vastus-lateralis", 307, 470, 14, 60, FRONT_AXIS),
+    ...pair("quadriceps", "quads-rectus-femoris", 330, 460, 16, 60, FRONT_AXIS),
+    ...pair("quadriceps", "quads-vastus-medialis", 350, 510, 12, 24, FRONT_AXIS),
+    ...pair("adductors", "adductors-middle", 355, 455, 9, 45, FRONT_AXIS),
   ],
   back: [
-    { slug: "shoulders", part: "rear-delts", cx: 975, cy: 182, rx: 18, ry: 22 },
-    { slug: "shoulders", part: "rear-delts", cx: 1135, cy: 182, rx: 18, ry: 22 },
-    { slug: "back", part: "back-traps", cx: 1055, cy: 200, rx: 46, ry: 22 },
-    { slug: "back", part: "back-upper", cx: 1055, cy: 245, rx: 30, ry: 15 },
-    { slug: "back", part: "back-mid", cx: 1055, cy: 280, rx: 30, ry: 18 },
-    { slug: "back", part: "back-lower", cx: 1055, cy: 330, rx: 34, ry: 22 },
-    { slug: "back", part: "back-lats", cx: 1000, cy: 290, rx: 22, ry: 50 },
-    { slug: "back", part: "back-lats", cx: 1110, cy: 290, rx: 22, ry: 50 },
-    { slug: "triceps", part: "triceps-long", cx: 940, cy: 250, rx: 14, ry: 36 },
-    { slug: "triceps", part: "triceps-long", cx: 1170, cy: 250, rx: 14, ry: 36 },
-    { slug: "forearms", part: "forearm-extensors", cx: 928, cy: 330, rx: 14, ry: 40 },
-    { slug: "forearms", part: "forearm-extensors", cx: 1182, cy: 330, rx: 14, ry: 40 },
-    { slug: "glutes", part: "glute-maximus", cx: 1030, cy: 385, rx: 30, ry: 32 },
-    { slug: "glutes", part: "glute-maximus", cx: 1080, cy: 385, rx: 30, ry: 32 },
-    { slug: "hamstrings", part: "hamstrings-biceps-femoris", cx: 1005, cy: 480, rx: 20, ry: 62 },
-    { slug: "hamstrings", part: "hamstrings-biceps-femoris", cx: 1105, cy: 480, rx: 20, ry: 62 },
-    { slug: "calves", part: "calves-gastrocnemius", cx: 1010, cy: 610, rx: 22, ry: 50 },
-    { slug: "calves", part: "calves-gastrocnemius", cx: 1100, cy: 610, rx: 22, ry: 50 },
+    ...pair("shoulders", "rear-delts", 972, 185, 16, 20, BACK_AXIS),
+    ...single("back", "back-traps", 1055, 180, 50, 20),
+    ...single("back", "back-upper", 1055, 228, 26, 20),
+    ...single("back", "back-mid", 1055, 265, 24, 18),
+    ...single("back", "back-lower", 1055, 312, 22, 24),
+    ...pair("back", "back-lats", 1005, 258, 24, 55, BACK_AXIS),
+    ...pair("triceps", "triceps-long", 950, 245, 14, 40, BACK_AXIS),
+    ...pair("forearms", "forearm-extensors", 925, 325, 16, 42, BACK_AXIS),
+    ...pair("glutes", "glute-medius", 985, 352, 20, 22, BACK_AXIS),
+    ...pair("glutes", "glute-maximus", 1027, 398, 28, 36, BACK_AXIS),
+    ...pair("hamstrings", "hamstrings-biceps-femoris", 997, 488, 15, 58, BACK_AXIS),
+    ...pair("hamstrings", "hamstrings-semitendinosus", 1027, 488, 10, 55, BACK_AXIS),
+    ...pair("calves", "calves-gastrocnemius", 1010, 590, 22, 32, BACK_AXIS),
+    ...pair("calves", "calves-soleus", 1010, 640, 18, 26, BACK_AXIS),
   ],
 };

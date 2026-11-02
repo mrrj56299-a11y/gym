@@ -1,3 +1,4 @@
+import { Plus } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { muscleGuide } from "@/lib/muscleGuide";
 
@@ -13,6 +14,7 @@ const copy = {
     stretches: "تمارين إطالة",
     loading: "جارٍ تحميل التمارين…",
     error: "تعذّر تحميل التمارين",
+    add: "أضف إلى اليوم",
     none: "لا توجد تمارين لهذه المنطقة بعد.",
   },
   en: {
@@ -23,15 +25,17 @@ const copy = {
     stretches: "Stretches",
     loading: "Loading exercises…",
     error: "Exercises could not be loaded",
+    add: "Add to today",
     none: "No exercises are available for this region yet.",
   },
 } as const;
 
-export default function MuscleDetailPanel({ slug, groupName, subMuscle, lang }: {
+export default function MuscleDetailPanel({ slug, groupName, subMuscle, lang, onAddExercise }: {
   slug: string;
   groupName: string;
   subMuscle: Region | null;
   lang: Lang;
+  onAddExercise: (exercise: { id: number; name: string; equipment: string; level: string }) => void;
 }) {
   const exercisesQuery = trpc.planner.exercises.useQuery(
     { subMuscleId: subMuscle?.id ?? 1 },
@@ -78,12 +82,20 @@ export default function MuscleDetailPanel({ slug, groupName, subMuscle, lang }: 
         {exercisesQuery.isSuccess && rows.length === 0 && <p>{c.none}</p>}
         {rows.length > 0 && (
           <ul className="muscle-detail-exercises">
-            {rows.map(row => (
-              <li key={row.id}>
-                <b>{lang === "ar" ? row.nameAr : row.nameEn}</b>
-                <small>{row.equipment} · {row.level}</small>
-              </li>
-            ))}
+            {rows.map(row => {
+              const name = lang === "ar" ? row.nameAr : row.nameEn;
+              return (
+                <li key={row.id}>
+                  <div>
+                    <b>{name}</b>
+                    <small>{row.equipment} · {row.level}</small>
+                  </div>
+                  <button type="button" className="add-exercise" aria-label={`${c.add}: ${name}`} title={c.add} onClick={() => onAddExercise({ id: row.id, name, equipment: row.equipment, level: row.level })}>
+                    <Plus size={16} />
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
