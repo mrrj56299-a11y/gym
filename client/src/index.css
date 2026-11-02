@@ -129,32 +129,41 @@ a { color: inherit; text-decoration: none; }
 .legend-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
 .body-caption { position: absolute; bottom: 13px; inset-inline: 16px; display: flex; justify-content: space-between; color: #5a5f70; font-size: 8px; letter-spacing: .13em; z-index: 3; pointer-events: none; }
 
-/* === 3D Mannequin === */
-.anatomy3d-root { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; touch-action: none; }
-.anatomy3d-root canvas { display: block; width: 100%; height: 100%; outline: none; cursor: grab; }
-.anatomy3d-root canvas:active { cursor: grabbing; }
-.anatomy3d-loading { position: absolute; z-index: 3; inset: 0; display: grid; place-items: center; background: radial-gradient(ellipse at 50% 48%, #1a1e2a 0%, #0d0f14 67%); color: var(--muted); font-size: 10px; letter-spacing: .08em; pointer-events: none; }
-.anatomy3d-loading.error { color: var(--error); }
-.anatomy3d-badge { position: absolute; z-index: 2; top: 16px; inset-inline-end: 16px; display: flex; align-items: center; gap: 8px; color: #c8ccd8; font-size: 8px; letter-spacing: .14em; pointer-events: none; }
-.anatomy3d-orb { height: 7px; width: 7px; border: 1px solid var(--accent); border-radius: 50%; box-shadow: 0 0 10px var(--accent-glow); animation: pulse 2.5s ease-in-out infinite; }
-@keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
-.anatomy3d-hint { position: absolute; z-index: 2; top: 36px; inset-inline-end: 16px; color: #6a6f7e; font-size: 7px; letter-spacing: .09em; pointer-events: none; }
-.anatomy3d-hover { position: absolute; z-index: 2; bottom: 40px; inset-inline: 0; text-align: center; color: #c9ccd8; font: 600 13px 'Barlow Condensed', Cairo, sans-serif; letter-spacing: .04em; pointer-events: none; opacity: 0; transition: opacity .16s ease; }
-.anatomy3d-hover.visible { opacity: 1; }
+/* === Anatomy map === */
 .body-stage { isolation: isolate; }
+.anatomy-map-loading { position: absolute; z-index: 3; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 10px; letter-spacing: .08em; pointer-events: none; }
+.anatomy-map-root { position: relative; z-index: 1; width: 100%; box-sizing: border-box; padding: 56px 16px; display: grid; justify-items: center; }
+.anatomy-map-viewport { position: relative; width: min(100%, 540px); aspect-ratio: 704 / 768; overflow: hidden; touch-action: none; cursor: grab; user-select: none; }
+.anatomy-map-viewport:active { cursor: grabbing; }
+.anatomy-map-scene { position: absolute; top: 0; left: 0; width: 200%; height: 100%; transform-origin: 25% 50%; transition: transform .35s ease; }
+.anatomy-map-scene.back { left: -100%; transform-origin: 75% 50%; }
+.anatomy-map-scene.dragging { transition: none; }
+.anatomy-map-scene img { display: block; width: 100%; height: 100%; -webkit-user-drag: none; user-select: none; }
+.anatomy-map-scene.dark img { filter: invert(1) brightness(1.5); }
+.anatomy-map-scene svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.anatomy-map-zone { fill: transparent; cursor: pointer; transition: fill .2s ease; }
+.anatomy-map-zone.is-hover { fill: rgba(59, 158, 255, .28); }
+.anatomy-map-zone.is-dimmed { fill: rgba(0, 112, 243, .18); }
+.anatomy-map-zone.is-selected { fill: rgba(0, 112, 243, .5); }
+.anatomy-map-badge { position: absolute; z-index: 2; top: 16px; inset-inline-end: 16px; display: flex; align-items: center; gap: 8px; color: #c8ccd8; font-size: 8px; letter-spacing: .14em; pointer-events: none; }
+.anatomy-map-orb { height: 7px; width: 7px; border: 1px solid var(--accent); border-radius: 50%; box-shadow: 0 0 10px var(--accent-glow); animation: pulse 2.5s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+.anatomy-map-hint { position: absolute; z-index: 2; top: 36px; inset-inline-end: 16px; color: #6a6f7e; font-size: 7px; letter-spacing: .09em; pointer-events: none; }
+.anatomy-map-hover { position: absolute; z-index: 2; bottom: 40px; inset-inline: 0; text-align: center; color: #c9ccd8; font: 600 13px 'Barlow Condensed', Cairo, sans-serif; letter-spacing: .04em; pointer-events: none; opacity: 0; transition: opacity .16s ease; }
+.anatomy-map-hover.visible { opacity: 1; }
+.anatomy-map-controls { position: absolute; z-index: 3; inset-inline-end: 12px; top: 50%; transform: translateY(-50%); display: grid; gap: 6px; }
+.anatomy-map-control { width: 36px; height: 36px; min-height: 36px; min-width: 36px; padding: 0; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 8px; background: rgba(18, 20, 26, .85); color: #d6d9e3; cursor: pointer; transition: border-color .2s ease, color .2s ease, transform .15s ease; }
+.anatomy-map-control:hover { border-color: var(--accent); color: #fff; }
+.anatomy-map-control:active { transform: scale(.94); }
+.anatomy-map-control:focus-visible { outline: 2px solid #0070f3; outline-offset: 2px; }
 .body-stage.clinical { background: radial-gradient(ellipse at 50% 45%, #ffffff 0%, #e6edf5 70%); }
 .body-stage.clinical .body-legend,
 .body-stage.clinical .body-caption,
-.body-stage.clinical .anatomy3d-badge,
-.body-stage.clinical .anatomy3d-hint { color: #3d4a5c; }
-.body-stage.clinical .anatomy3d-hover { color: #0b3d7a; }
-.body-stage.clinical .anatomy3d-control { background: #ffffff; border-color: #c5d0de; color: #2b3646; }
-.body-stage.clinical .anatomy3d-control:hover { border-color: #0070f3; color: #0070f3; }
-.anatomy3d-controls { position: absolute; z-index: 3; inset-inline-end: 12px; top: 50%; transform: translateY(-50%); display: grid; gap: 6px; }
-.anatomy3d-control { width: 36px; height: 36px; min-height: 36px; min-width: 36px; padding: 0; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 8px; background: rgba(18, 20, 26, .85); color: #d6d9e3; cursor: pointer; transition: border-color .2s ease, color .2s ease, transform .15s ease; }
-.anatomy3d-control:hover { border-color: var(--accent); color: #fff; }
-.anatomy3d-control:active { transform: scale(.94); }
-.anatomy3d-control:focus-visible { outline: 2px solid #0070f3; outline-offset: 2px; }
+.body-stage.clinical .anatomy-map-badge,
+.body-stage.clinical .anatomy-map-hint { color: #3d4a5c; }
+.body-stage.clinical .anatomy-map-hover { color: #0b3d7a; }
+.body-stage.clinical .anatomy-map-control { background: #ffffff; border-color: #c5d0de; color: #2b3646; }
+.body-stage.clinical .anatomy-map-control:hover { border-color: #0070f3; color: #0070f3; }
 .muscle-detail { display: grid; gap: 16px; padding: 16px; border-top: 1px solid var(--line); }
 .muscle-detail-head { display: grid; gap: 4px; }
 .muscle-detail-head h3 { margin: 0; font: 600 18px/1.2 'Barlow Condensed', Cairo, sans-serif; color: #e6e8ef; }
@@ -415,8 +424,8 @@ a { color: inherit; text-decoration: none; }
 /* === Accessibility / motion === */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
-  .anatomy3d-hover { transition: none; }
-  .anatomy3d-orb { animation: none; }
+  .anatomy-map-hover { transition: none; }
+  .anatomy-map-orb { animation: none; }
   .spin { animation: none; }
 }
 button:not([data-compact="true"]), [role="button"]:not([data-compact="true"]) { min-height: 44px; min-width: 44px; }
